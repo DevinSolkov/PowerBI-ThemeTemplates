@@ -1,0 +1,155 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.114.json",
+	"name": "Virginia Forest",
+    "dataColors": ["#28A746", "#64783B", "#226030", "#1B1819", "#8D8C8C", "#9F9595", "#9E492F", "#613A3A"],
+    "firstLevelElements": "#000000",
+    "secondLevelElements": "#FFFFFF",
+    "thirdLevelElements": "#F3F2F1",
+    "fourthLevelElements": "#B3B0AD",
+    "background": "#FFFFFF",
+    "secondaryBackground": "#C8C6C4",
+    "tableAccent": "#118DFF",
+    "good": "#A9DCB5",
+    "neutral": "#D9B300",
+    "bad": "#E66B77",
+    "maximum": "#A9DCB5",
+    "center": "#D9B300",
+    "minimum": "#E66B77",
+    "null": "#FF7F48",
+    "textClasses": {
+        "callout": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI Semibold",
+            "color": "#000000"
+        },
+        "title": {
+            "fontSize": 12,
+            "fontFace": "Lucida Sans Unicode",
+            "color": "#000000"
+        },
+        "header": {
+            "fontSize": 12,
+            "fontFace": "Lucida Sans Unicode",
+            "color": "#000000"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#000000"
+        }
+    },
+	"visualStyles": {
+        "*": {
+            "*": {
+                "general": [{
+					"keepLayerOrder": true
+				}],
+                "legend": [{
+					"show": false,
+					"position": "Top Center",
+					"showTitle": false,
+					"titleText": "",
+					"labelColor": { "solid": { "color": "#000000"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"legendMarkerRendering": "markerOnly",
+					"matchLineColor": false,
+					"defaultToCircle": false
+				}],
+                "title": [{
+                    "show": true,
+                    "fontColor": { "solid": { "color": "#000000" } },
+                    "alignment": "left",
+                    "fontSize": 10,
+                    "fontFamily": "Lucida Sans Unicode"
+                }],
+                "background": [{
+                    "show": false,
+                    "color": { "solid": { "color": "#ffffff" } },
+                    "transparency": 100
+                }],
+                "lockAspect": [{
+                    "show": true
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#000000" } },
+                    "radius": 4
+                }],
+                "visualTooltip": [{
+                    "type": "Default"
+                }],
+                "stylePreset": [{
+                    "name": "VTA Standard"
+                }],
+                "dropShadow": [{
+                    "show": false,
+                    "angle": 100,
+                    "color" : { "solid": { "color": "#002a5b" } },
+                    "position": "Outer",
+                    "preset": "Custom",
+                    "shadowBlur": 20,
+                    "shadowDistance": 10,
+                    "shadowSpread": 7,
+                    "transparency": 25
+				}]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": "#FFFFFF" } },
+		    "image": {
+                            "name": "background",
+                            "scaling": "Fit",
+                            "url": "<Base64 Encode>"
+                            },	
+                    "transparency": 50
+                }],
+                "outspace": [{
+                    "color": { "solid": { "color": "#FFFFFF" } },
+                     "image": {
+                            "name": "outspace",
+                            "scaling": "Fit",
+                            "url": "<Base64 Encode>"
+                            },	
+                    "transparency": 50
+                }],
+                "outspacePane": [{
+                    "backgroundColor": { "solid": { "color": "#ededed" } },
+                    "foregroundColor": { "solid": { "color": "#3e3e3e" } },
+                    "borderColor": { "solid": { "color": "#3e3e3e" } },
+                    "transparency": 0,
+                    "titleSize": 18,
+                    "headerSize": 8,
+                    "fontFamily": "Segoe UI",
+                    "border": true
+                }],
+                "filterCard": [
+		    {
+                        "$id": "Applied",
+                        "backgroundColor": { "solid": { "color": "#0c62fb" } },
+                        "foregroundColor": { "solid": { "color": "#ffffff" } },
+                        "borderColor": { "solid": { "color": "#c2d8fe" } },
+                        "inputBoxColor": { "solid": { "color": "#ffffff" } },
+                        "transparency": 0,
+                        "textSize": 11,
+                        "fontFamily": "Segoe UI",
+                        "border": true
+                    },
+                    {
+                        "$id": "Available",
+                        "backgroundColor": { "solid": { "color": "#c2d8fe" } },
+                        "foregroundColor": { "solid": { "color": "#3e3e3e" } },
+                        "borderColor": { "solid": { "color": "#c2d8fe" } },
+                        "inputBoxColor": { "solid": { "color": "#c2d8fe" } },
+                        "transparency": 0,
+                        "textSize": 10,
+                        "fontFamily": "Segoe UI",
+                        "border": true
+                    }
+		]
+            }
+        }
+    }
+}
