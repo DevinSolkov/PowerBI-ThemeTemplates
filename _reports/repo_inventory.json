@@ -1,0 +1,580 @@
+{
+  "root": "C:\\Users\\dsolk\\OneDrive - radiantdata.solutions\\PowerBI-Themes",
+  "missing_required_dirs": [],
+  "inventory": {
+    "/": {
+      "path": "/",
+      "total_files": 1,
+      "counts_by_extension": {
+        ".json": 1
+      },
+      "json_files": []
+    },
+    ".git": {
+      "path": ".git",
+      "total_files": 8,
+      "counts_by_extension": {
+        "<noext>": 8
+      },
+      "json_files": []
+    },
+    ".git/hooks": {
+      "path": ".git/hooks",
+      "total_files": 14,
+      "counts_by_extension": {
+        ".sample": 14
+      },
+      "json_files": []
+    },
+    ".git/info": {
+      "path": ".git/info",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/logs": {
+      "path": ".git/logs",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/logs/refs": {
+      "path": ".git/logs/refs",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    ".git/logs/refs/heads": {
+      "path": ".git/logs/refs/heads",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/logs/refs/remotes": {
+      "path": ".git/logs/refs/remotes",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    ".git/logs/refs/remotes/origin": {
+      "path": ".git/logs/refs/remotes/origin",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/logs/refs/remotes/upstream": {
+      "path": ".git/logs/refs/remotes/upstream",
+      "total_files": 2,
+      "counts_by_extension": {
+        "<noext>": 2
+      },
+      "json_files": []
+    },
+    ".git/objects": {
+      "path": ".git/objects",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    ".git/objects/08": {
+      "path": ".git/objects/08",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/09": {
+      "path": ".git/objects/09",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/18": {
+      "path": ".git/objects/18",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/26": {
+      "path": ".git/objects/26",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/27": {
+      "path": ".git/objects/27",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/38": {
+      "path": ".git/objects/38",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/3c": {
+      "path": ".git/objects/3c",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/40": {
+      "path": ".git/objects/40",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/4a": {
+      "path": ".git/objects/4a",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/4c": {
+      "path": ".git/objects/4c",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/51": {
+      "path": ".git/objects/51",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/53": {
+      "path": ".git/objects/53",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/57": {
+      "path": ".git/objects/57",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/5e": {
+      "path": ".git/objects/5e",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/66": {
+      "path": ".git/objects/66",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/6b": {
+      "path": ".git/objects/6b",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/6f": {
+      "path": ".git/objects/6f",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/72": {
+      "path": ".git/objects/72",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/74": {
+      "path": ".git/objects/74",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/7a": {
+      "path": ".git/objects/7a",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/81": {
+      "path": ".git/objects/81",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/8e": {
+      "path": ".git/objects/8e",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/99": {
+      "path": ".git/objects/99",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/9b": {
+      "path": ".git/objects/9b",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/9c": {
+      "path": ".git/objects/9c",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/9d": {
+      "path": ".git/objects/9d",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/a7": {
+      "path": ".git/objects/a7",
+      "total_files": 2,
+      "counts_by_extension": {
+        "<noext>": 2
+      },
+      "json_files": []
+    },
+    ".git/objects/bf": {
+      "path": ".git/objects/bf",
+      "total_files": 2,
+      "counts_by_extension": {
+        "<noext>": 2
+      },
+      "json_files": []
+    },
+    ".git/objects/c2": {
+      "path": ".git/objects/c2",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/c5": {
+      "path": ".git/objects/c5",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/cb": {
+      "path": ".git/objects/cb",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/d2": {
+      "path": ".git/objects/d2",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/d3": {
+      "path": ".git/objects/d3",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/d5": {
+      "path": ".git/objects/d5",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/db": {
+      "path": ".git/objects/db",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/dc": {
+      "path": ".git/objects/dc",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/de": {
+      "path": ".git/objects/de",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/e5": {
+      "path": ".git/objects/e5",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/e7": {
+      "path": ".git/objects/e7",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/ed": {
+      "path": ".git/objects/ed",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/f1": {
+      "path": ".git/objects/f1",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/f2": {
+      "path": ".git/objects/f2",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/f3": {
+      "path": ".git/objects/f3",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/f5": {
+      "path": ".git/objects/f5",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/f6": {
+      "path": ".git/objects/f6",
+      "total_files": 2,
+      "counts_by_extension": {
+        "<noext>": 2
+      },
+      "json_files": []
+    },
+    ".git/objects/f8": {
+      "path": ".git/objects/f8",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/objects/info": {
+      "path": ".git/objects/info",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    ".git/objects/pack": {
+      "path": ".git/objects/pack",
+      "total_files": 3,
+      "counts_by_extension": {
+        ".idx": 1,
+        ".pack": 1,
+        ".rev": 1
+      },
+      "json_files": []
+    },
+    ".git/refs": {
+      "path": ".git/refs",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    ".git/refs/heads": {
+      "path": ".git/refs/heads",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/refs/remotes": {
+      "path": ".git/refs/remotes",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    ".git/refs/remotes/origin": {
+      "path": ".git/refs/remotes/origin",
+      "total_files": 1,
+      "counts_by_extension": {
+        "<noext>": 1
+      },
+      "json_files": []
+    },
+    ".git/refs/remotes/upstream": {
+      "path": ".git/refs/remotes/upstream",
+      "total_files": 2,
+      "counts_by_extension": {
+        "<noext>": 2
+      },
+      "json_files": []
+    },
+    ".git/refs/tags": {
+      "path": ".git/refs/tags",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    ".github": {
+      "path": ".github",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    ".github/workflows": {
+      "path": ".github/workflows",
+      "total_files": 5,
+      "counts_by_extension": {
+        ".yml": 5
+      },
+      "json_files": []
+    },
+    "1.Visual Templates": {
+      "path": "1.Visual Templates",
+      "total_files": 38,
+      "counts_by_extension": {
+        ".json": 38
+      },
+      "json_files": []
+    },
+    "2.Custom Themes": {
+      "path": "2.Custom Themes",
+      "total_files": 2,
+      "counts_by_extension": {
+        ".json": 2
+      },
+      "json_files": []
+    },
+    "3.Sample Files": {
+      "path": "3.Sample Files",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    "4.Documentation": {
+      "path": "4.Documentation",
+      "total_files": 8,
+      "counts_by_extension": {
+        ".md": 5,
+        "<noext>": 2,
+        ".txt": 1
+      },
+      "json_files": []
+    },
+    "tests": {
+      "path": "tests",
+      "total_files": 1,
+      "counts_by_extension": {
+        ".json": 1
+      },
+      "json_files": []
+    },
+    "_reports": {
+      "path": "_reports",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    },
+    "_reports/scorecards": {
+      "path": "_reports/scorecards",
+      "total_files": 0,
+      "counts_by_extension": {},
+      "json_files": []
+    }
+  }
+}
