@@ -1,0 +1,67 @@
+{
+  "name": "Spend Cube Line",
+  "visualType": "lineChart",
+  "defaultStyle": "Style 1",
+  "styles": [
+    {
+      "name": "Style 1",
+      "visualStyles": {
+        "lineChart": {
+          "*": {
+            "legend": [
+              {
+                "position": "LeftCenter",
+                "showTitle": false
+              }
+            ],
+            "categoryAxis": [
+              {
+                "axisType": "Categorical",
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 12,
+                "labelColor": {
+                  "solid": {
+                    "color": "#4B4C4A"
+                  }
+                },
+                "maxMarginFactor": 35,
+                "preferredCategoryWidth": 40,
+                "show": true,
+                "showAxisTitle": false
+              }
+            ],
+            "valueAxis": [
+              {
+                "show": false,
+                "showAxisTitle": false
+              }
+            ],
+            "labels": [
+              {
+                "color": {
+                  "solid": {
+                    "color": "#4B4C4A"
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 12,
+                "labelPrecision": 1,
+                "show": true
+              }
+            ],
+            "lineStyles": [
+              {
+                "markerSize": 4,
+                "showMarker": true
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json"
+      ],
+      "visualCount": 1
+    }
+  ]
+}

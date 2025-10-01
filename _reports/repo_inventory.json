@@ -783,9 +783,9 @@
                                                                    },
                       "2.Custom Themes/Spend Cube/03_templates":  {
                                                                       "path":  "2.Custom Themes/Spend Cube/03_templates",
-                                                                      "total_files":  0,
+                                                                      "total_files":  14,
                                                                       "counts_by_extension":  {
-
+                                                                                                  ".json":  14
                                                                                               },
                                                                       "json_files":  [
 

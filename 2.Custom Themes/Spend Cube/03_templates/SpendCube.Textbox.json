@@ -1,0 +1,62 @@
+{
+  "name": "Spend Cube Text Box",
+  "visualType": "textbox",
+  "defaultStyle": "Style 1",
+  "styles": [
+    {
+      "name": "Style 1",
+      "visualStyles": {
+        "textbox": {
+          "*": {
+            "background": [
+              {
+                "show": false
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/13cc83f2159925777c2d/visual.json",
+        "3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/347c924ebafa4a53291b/visual.json",
+        "3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/49613eed3143132d945b/visual.json"
+      ],
+      "visualCount": 12
+    },
+    {
+      "name": "Style 2",
+      "visualStyles": {
+        "textbox": {
+          "*": {
+            "title": [
+              {
+                "fontColor": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "show": false
+              }
+            ],
+            "background": [
+              {
+                "show": false,
+                "transparency": 0
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/2e5c011167fbf0d1b008/visual.json",
+        "3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/d9be8b250cb722567678/visual.json"
+      ],
+      "visualCount": 2
+    }
+  ]
+}

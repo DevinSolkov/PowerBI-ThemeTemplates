@@ -1,0 +1,61 @@
+{
+  "name": "Spend Cube Waterfall",
+  "visualType": "waterfallChart",
+  "defaultStyle": "Style 1",
+  "styles": [
+    {
+      "name": "Style 1",
+      "visualStyles": {
+        "waterfallChart": {
+          "*": {
+            "legend": [
+              {
+                "show": false
+              }
+            ],
+            "categoryAxis": [
+              {
+                "fontFamily": "Calibri",
+                "fontSize": 14,
+                "innerPadding": 15,
+                "labelColor": {
+                  "solid": {
+                    "color": "#4B4C4A"
+                  }
+                },
+                "maxMarginFactor": 35,
+                "preferredCategoryWidth": 40,
+                "showAxisTitle": false
+              }
+            ],
+            "valueAxis": [
+              {
+                "show": false,
+                "showAxisTitle": false
+              }
+            ],
+            "labels": [
+              {
+                "color": {
+                  "solid": {
+                    "color": "#4B4C4A"
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 12,
+                "labelDisplayUnits": 1000000,
+                "labelPosition": "Auto",
+                "labelPrecision": 1,
+                "show": true
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json"
+      ],
+      "visualCount": 1
+    }
+  ]
+}
