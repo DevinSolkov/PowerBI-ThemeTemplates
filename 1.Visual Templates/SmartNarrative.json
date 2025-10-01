@@ -1,0 +1,57 @@
+﻿{
+  "name": "SmartNarrativeTemplate",
+  "visualStyles": {
+    "aiNarratives": {
+      "*": {
+        "text": [
+          {
+            "fontColor": { "solid": { "color": "#000000" } },
+            "fontSize": 12,
+            "textAlignment": "Left"
+          }
+        ],
+        "userPrompt": [
+          {
+            "text": "",
+            "useAllVisuals": true,
+            "selectedVisualsJson": "[]"
+          }
+        ],
+        "narrativeSelection": [
+          {
+            "dismissSelectionScreen": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true
+          }
+        ],
+        "background": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#000000" } },
+            "radius": 0
+          }
+        ],
+        "visualTooltip": [
+          {
+            "show": true
+          }
+        ]
+      }
+    }
+  }
+}

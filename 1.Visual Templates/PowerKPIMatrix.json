@@ -1,0 +1,158 @@
+﻿{
+  "name": "PowerKPIMatrixTemplate",
+  "visualStyles": {
+    "powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6": {
+      "*": {
+        "header": [
+          {
+            "show": true
+          }
+        ],
+        "asOfDate": [
+          {
+            "show": true
+          }
+        ],
+        "currentValue": [
+          {
+            "show": true
+          }
+        ],
+        "kpiIndicatorValue": [
+          {
+            "show": true
+          }
+        ],
+        "comparisonValue": [
+          {
+            "show": true
+          }
+        ],
+        "verticalGrid": [
+          {
+            "show": true
+          }
+        ],
+        "horizontalGrid": [
+          {
+            "show": true
+          }
+        ],
+        "metricName": [
+          {
+            "shouldShowLabel": true,
+            "color": { "solid": { "color": "#000000" } },
+            "fontSize": 12,
+            "order": 0
+          }
+        ],
+        "sparklineSettings": [
+          {
+            "actualColor": { "solid": { "color": "#000000" } },
+            "actualThickness": 1,
+            "label": "",
+            "order": 0,
+            "shouldUseCommonScale": false,
+            "verticalReferenceLineThickness": 1
+          }
+        ],
+        "integratedPowerKPI_kpiIndicator": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_kpiIndicatorValue": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_secondKPIIndicatorValue": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_actualValueKPI": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_actualLabelKPI": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_dateValueKPI": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_dateLabelKPI": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_legend": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_xAxis": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_yAxis": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_referenceLineOfYAxis": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_tooltipLabel": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_tooltipVariance": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_secondTooltipVariance": [
+          {
+            "show": true
+          }
+        ],
+        "integratedPowerKPI_tooltipValues": [
+          {
+            "show": true
+          }
+        ],
+        "table": [
+          {
+            "type": "Standard"
+          }
+        ],
+        "title": [
+          {
+            "show": false,
+            "text": ""
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ]
+      }
+    }
+  }
+}

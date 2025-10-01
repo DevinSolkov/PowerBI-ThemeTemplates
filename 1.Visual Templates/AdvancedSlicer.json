@@ -1,0 +1,105 @@
+﻿{
+  "name": "AdvancedSlicerTemplate",
+  "visualStyles": {
+    "advancedSlicerVisual": {
+      "*": {
+        "selection": [
+          {
+            "singleSelect": false,
+            "strictSingleSelect": false,
+            "selectAllCheckboxEnabled": false,
+            "restrictToLeafNodes": false
+          }
+        ],
+        "layout": [
+          {
+            "rowCount": 1,
+            "columnCount": 1,
+            "orientation": "Horizontal",
+            "maxTiles": 0,
+            "cellPadding": 0
+          }
+        ],
+        "value": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 11,
+            "fontColor": { "solid": { "color": "#000000" } },
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "horizontalAlignment": "Center",
+            "transparency": 0
+          }
+        ],
+        "fillCustom": [
+          {
+            "show": true,
+            "fillColor": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "accentBar": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#000000" } },
+            "width": 1,
+            "transparency": 0,
+            "position": "Top"
+          }
+        ],
+        "selectionIcon": [
+          {
+            "show": true
+          }
+        ],
+        "outline": [
+          {
+            "show": false
+          }
+        ],
+        "shapeCustomRectangle": [
+          {
+            "tileShape": "Rectangle",
+            "rectangleRoundedCurveCustomStyle": 0
+          }
+        ],
+        "overFlow": [
+          {
+            "overFlowDirection": "Horizontal",
+            "overFlowStyle": "Wrap"
+          }
+        ],
+        "shadowCustom": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "text": "",
+            "titleWrap": true
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true
+          }
+        ],
+        "background": [
+          {
+            "show": false,
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "width": 1
+          }
+        ]
+      }
+    }
+  }
+}

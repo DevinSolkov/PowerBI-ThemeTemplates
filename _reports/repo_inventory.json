@@ -676,16 +676,6 @@
 
                                                                ]
                                             },
-                      "1.Visual Templates":  {
-                                                 "path":  "1.Visual Templates",
-                                                 "total_files":  38,
-                                                 "counts_by_extension":  {
-                                                                             ".json":  38
-                                                                         },
-                                                 "json_files":  [
-
-                                                                ]
-                                             },
                       "2.Custom Themes":  {
                                               "path":  "2.Custom Themes",
                                               "total_files":  2,
@@ -748,6 +738,16 @@
 
                                                                  ]
                                               },
+                      "1.Visual Templates":  {
+                                                 "path":  "1.Visual Templates",
+                                                 "total_files":  41,
+                                                 "counts_by_extension":  {
+                                                                             ".json":  41
+                                                                         },
+                                                 "json_files":  [
+
+                                                                ]
+                                             },
                       "2.Custom Themes/Spend Cube":  {
                                                          "path":  "2.Custom Themes/Spend Cube",
                                                          "total_files":  0,
@@ -783,9 +783,9 @@
                                                                    },
                       "2.Custom Themes/Spend Cube/03_templates":  {
                                                                       "path":  "2.Custom Themes/Spend Cube/03_templates",
-                                                                      "total_files":  14,
+                                                                      "total_files":  19,
                                                                       "counts_by_extension":  {
-                                                                                                  ".json":  14
+                                                                                                  ".json":  19
                                                                                               },
                                                                       "json_files":  [
 

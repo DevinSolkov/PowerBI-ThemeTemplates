@@ -1,25 +1,58 @@
 Overview
 --------
-Processed visual types: 11
+Processed visual types: 14
 Visual type coverage:
 - actionButton: 11 visuals, 2 style variant(s)
+- advancedSlicerVisual: 13 visuals, 6 style variant(s)
+- aiNarratives: 7 visuals, 7 style variant(s)
 - card: 7 visuals, 3 style variant(s)
 - clusteredColumnChart: 4 visuals, 3 style variant(s)
 - image: 7 visuals, 1 style variant(s)
 - lineChart: 1 visuals, 1 style variant(s)
 - pivotTable: 6 visuals, 6 style variant(s)
+- powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6: 3 visuals, 1 style variant(s)
 - shape: 18 visuals, 3 style variant(s)
 - slicer: 39 visuals, 3 style variant(s)
 - tableEx: 7 visuals, 4 style variant(s)
 - textbox: 14 visuals, 2 style variant(s)
 - waterfallChart: 1 visuals, 1 style variant(s)
-Unsupported types skipped: Unknown (36), advancedSlicerVisual (13), aiNarratives (7), powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6 (3)
+Unsupported types skipped: Unknown (36)
 
 Type: actionButton
 - Style 1 (7 visuals): icon.show=true
   Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/b5b20f69f7e6ad8bf950/visual.json
 - Style 2 (4 visuals): fill.show=true; fill[id=default].fillColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); fill[id=default].transparency=0; icon.show=false; outline.show=false; outline[id=default].weight=1; text.show=true
   Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json
+
+Type: advancedSlicerVisual
+- Style 1 (7 visuals): accentBar[id=default].color.solid.color=ThemeDataColor(ColorId=2,Percent=0); accentBar[id=default].position=Bottom; accentBar[id=default].show=true; accentBar[id=interaction:press].width=3; accentBar[id=selection:selected].transparency=0; fillCustom[id=default].show=false; fillCustom[id=interaction:hover].fillColor.solid.color=ThemeDataColor(ColorId=3,Percent=-0.25); fillCustom[id=interaction:hover].transparency=25
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json
+- Style 2 (2 visuals): accentBar[id=default].position=Bottom; accentBar[id=interaction:hover].color.solid.color=ThemeDataColor(ColorId=2,Percent=0); accentBar[id=interaction:hover].width=3; accentBar[id=interaction:rest].show=true; accentBar[id=interaction:rest].transparency=100; background[id=interaction:hover].show=false; border.show=false; border.width=1
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/61308f61c133dccad754/visual.json
+- Style 3 (1 visuals): accentBar[id=default].color.solid.color=ThemeDataColor(ColorId=2,Percent=0); accentBar[id=default].position=Bottom; accentBar[id=default].show=true; accentBar[id=interaction:hover].width=3; accentBar[id=interaction:rest].transparency=100; background[id=interaction:hover].show=false; border.width=1; fillCustom[id=default].show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/9b5ec1cb10fd9624e712/visual.json
+- Style 4 (1 visuals): accentBar[id=default].color.solid.color=ThemeDataColor(ColorId=2,Percent=0); accentBar[id=default].position=Bottom; accentBar[id=default].show=true; accentBar[id=interaction:hover].width=3; accentBar[id=interaction:rest].transparency=100; background[id=interaction:hover].show=false; border.width=1; fillCustom[id=default].show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json
+- Style 5 (1 visuals): accentBar[id=default].color.solid.color=ThemeDataColor(ColorId=2,Percent=0); accentBar[id=default].position=Bottom; accentBar[id=default].show=true; accentBar[id=interaction:press].width=3; accentBar[id=selection:selected].transparency=0; fillCustom[id=default].show=false; fillCustom[id=interaction:hover].fillColor.solid.color=ThemeDataColor(ColorId=3,Percent=-0.25); fillCustom[id=interaction:hover].transparency=25
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/b28df6dc2b9351da7f68/visual.json
+- Style 6 (1 visuals): accentBar[id=default].position=Bottom; accentBar[id=interaction:hover].color.solid.color=ThemeDataColor(ColorId=2,Percent=0); accentBar[id=interaction:hover].width=3; accentBar[id=interaction:rest].show=true; accentBar[id=interaction:rest].transparency=100; background[id=interaction:hover].show=false; border.show=false; border.width=1
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json
+
+Type: aiNarratives
+- Style 1 (1 visuals): background.color.solid.color=ThemeDataColor(ColorId=6,Percent=0); background.show=true; background.transparency=5; border.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); border.radius=6; border.show=false; narrativeSelection.dismissSelectionScreen=true; text.fontColor.solid.color=ThemeDataColor(ColorId=1,Percent=0)
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json
+- Style 2 (1 visuals): background.color.solid.color=ThemeDataColor(ColorId=6,Percent=0); background.show=true; background.transparency=5; border.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); border.radius=6; border.show=false; narrativeSelection.dismissSelectionScreen=true; text.fontColor.solid.color=ThemeDataColor(ColorId=1,Percent=0)
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/74658089aaa29503c387/visual.json
+- Style 3 (1 visuals): background.color.solid.color=ThemeDataColor(ColorId=6,Percent=0); background.show=true; background.transparency=5; border.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); border.radius=6; border.show=false; narrativeSelection.dismissSelectionScreen=true; text.fontColor.solid.color=ThemeDataColor(ColorId=1,Percent=0)
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1fcf82ba299c5692a2b4/visuals/c43c728610e7c1cccf48/visual.json
+- Style 4 (1 visuals): background.color.solid.color=ThemeDataColor(ColorId=6,Percent=0); background.show=true; background.transparency=5; border.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); border.radius=6; border.show=false; narrativeSelection.dismissSelectionScreen=true; text.fontColor.solid.color=ThemeDataColor(ColorId=1,Percent=0)
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/23d10e40206341b517f6/visuals/a4ecf650f650e9bee7ec/visual.json
+- Style 5 (1 visuals): background.color.solid.color=ThemeDataColor(ColorId=6,Percent=0); background.show=true; background.transparency=5; border.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); border.radius=6; border.show=false; narrativeSelection.dismissSelectionScreen=true; text.fontColor.solid.color=ThemeDataColor(ColorId=1,Percent=0)
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c9a3d9efa179b4a82324/visual.json
+- Style 6 (1 visuals): background.color.solid.color=ThemeDataColor(ColorId=6,Percent=0); background.show=true; background.transparency=5; border.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); border.radius=6; border.show=false; narrativeSelection.dismissSelectionScreen=true; text.fontColor.solid.color=ThemeDataColor(ColorId=1,Percent=0)
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/e3f3044a3d39d4ba663d/visuals/41b5b34818bcdb508103/visual.json
+- Style 7 (1 visuals): background.color.solid.color=ThemeDataColor(ColorId=6,Percent=0); background.show=true; background.transparency=9; border.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); border.radius=6; border.show=false; narrativeSelection.dismissSelectionScreen=true; text.fontColor.solid.color=ThemeDataColor(ColorId=1,Percent=0)
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/2bd1af277c374e657511/visual.json
 
 Type: card
 - Style 1 (3 visuals): background.show=false; categoryLabels.show=false; labels.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); labels.fontFamily=Calibri; labels.fontSize=24; labels.labelDisplayUnits=1000000; title.alignment=center; title.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif
@@ -58,6 +91,10 @@ Type: pivotTable
   Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json
 - Style 6 (1 visuals): background.show=false; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=2,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=Calibri; columnHeaders.fontSize=14; columnHeaders.titleAlignment=Center
   Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/91df5e4b466836c60284/visual.json
+
+Type: powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6
+- Style 1 (3 visuals): asOfDate.show=false; background.show=false; comparisonValue.show=false; currentValue.show=false; header.show=false; horizontalGrid.show=false; integratedPowerKPI_actualLabelKPI.show=false; integratedPowerKPI_actualValueKPI.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json
 
 Type: shape
 - Style 1 (7 visuals): fill.fillColor.solid.color=ThemeDataColor(ColorId=6,Percent=0); fill.show=false; visualHeader.show=false
