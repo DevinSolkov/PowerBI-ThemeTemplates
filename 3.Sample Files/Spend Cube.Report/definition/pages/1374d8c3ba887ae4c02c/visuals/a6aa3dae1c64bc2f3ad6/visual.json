@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "a6aa3dae1c64bc2f3ad6",
+  "position": {
+    "x": 317.35175343019807,
+    "y": 0,
+    "z": 1000,
+    "height": 190.2151622522513,
+    "width": 360.93197973539435
+  },
+  "visualGroup": {
+    "displayName": "INDIRECT CARD",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "beb016abe42865b6b9f0"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "5fbb3e61aa13ccd9133d",
+  "position": {
+    "x": 0,
+    "y": 92.51864105322727,
+    "z": 1000,
+    "height": 807.57599617074766,
+    "width": 1600
+  },
+  "visualGroup": {
+    "displayName": "ALUM Open POs",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

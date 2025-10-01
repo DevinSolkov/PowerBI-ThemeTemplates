@@ -1,0 +1,1079 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/1.4.0/schema.json",
+  "displayName": "Details - AI Close",
+  "name": "bb497790f5a95ca45d3f",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "94b0ae91d03f8908e0fa",
+      "1c82c4abdbd40f3a214a",
+      "a4ecf650f650e9bee7ec"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "23d10e40206341b517f6",
+    "sections": {
+      "23d10e40206341b517f6": {
+        "filters": {
+          "byName": {
+            "68283f6cab2960d660ee": {
+              "name": "68283f6cab2960d660ee",
+              "type": "Categorical",
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "a",
+                    "Entity": "AP Checks",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "Not": {
+                        "Expression": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "a"
+                                    }
+                                  },
+                                  "Property": "Direct Indirect"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "null"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Direct Indirect"
+                }
+              },
+              "howCreated": 1
+            }
+          }
+        },
+        "visualContainers": {
+          "1c82c4abdbd40f3a214a": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "2cfb01ccedc5100dbe59": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "325b62c58eea9e026863": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "196d15e27f6bfb4a1238",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Vendor Name"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Vendor Name"
+                    }
+                  }
+                ]
+              },
+              "expansionStates": [
+                {
+                  "roles": [
+                    "Values"
+                  ],
+                  "levels": [
+                    {
+                      "queryRefs": [
+                        "AP Checks.Vendor Name"
+                      ],
+                      "isCollapsed": true,
+                      "isPinned": true
+                    }
+                  ],
+                  "root": {
+                    "identityValues": []
+                  }
+                }
+              ]
+            }
+          },
+          "487b2916def4b15fd2be": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "94d04b3e52faba5a8f32",
+                  "type": "Advanced",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "c",
+                        "Entity": "Calendar",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Comparison": {
+                            "ComparisonKind": 1,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "c"
+                                  }
+                                },
+                                "Property": "Fiscal Year"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "2023L"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Year"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "advancedSlicerVisual",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "c",
+                                "Entity": "Calendar",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "c"
+                                            }
+                                          },
+                                          "Property": "Fiscal Year"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "2025L"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "5a82f2f249afa1d5a61b": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1f6505cd658c3e21201d",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl2"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl2"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "7c9164b49f795af27ec0": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "8f9b31d41e09758a6115": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "dda51af10757c5170078",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl1"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl1"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "a4ecf650f650e9bee7ec": {
+            "singleVisual": {
+              "visualType": "aiNarratives",
+              "objects": {}
+            }
+          },
+          "ace87607236317a3df16": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "6e90874d703c56669769",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Year"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "298180855adde04900c4",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Period"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "7397b3f359b20482b791",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Source"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "5b5eb7c4f9e97d605cc4",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Direct Indirect"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "4324661366cf4ee79f92",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Vendor Name"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "1eab2124637760edab61",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Vendor Number"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a003bd7350e441bc7faf",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Co Div Combo"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "2c55cbca4d5331bf0954",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Inventory Family"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e5ab41367d041338da07",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Inventory Class"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "5cc18a0562a36df2e762",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Gl Account Code"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "1da0a10841779cab9a8f",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Natural Account Description"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "7addb5b1432c02f47e19",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Invoice Description"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "1b5092aa335aee241fb9",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Po Number"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "639f3dcfcda7e4c4347a",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Invoice Number"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "66ec0adc187c6ebf5818",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Item Number"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e479f4b50a71678c3cb5",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Item Description"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "8da8d5ab08aa0e34a080",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Terms Desc"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "08c7b2bc5ecb6bf14ae3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Po Uom"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "50fd9d5f150cf8f9d00f",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Unit Price Usd"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "094b6031a940dac53036",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Payment Amount Usd"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "d16265af9bc5bcf7a06d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "ADTP - AP Checks"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "37516d7e978637ff7446",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Quantity Billed - AP Checks"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "7c7b2ddecf16b29096be",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Quantity Invoiced - AP Checks"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "fdf43654a8156c37622b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl1"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "8da307c4c119403d6ac0",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl2"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "bae0c491ae21fbd4d0a6",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl3"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Natural Account Description"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "afd8c1132f8cb35deed1": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "5954737abd87adfa89b9",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl2"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Lvl2"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "b2e501df70a0306fc7b7": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "395f7c58c473de15cc0f",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Period"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Period"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d0c30de74198e1e33a8c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a5fbe2be56df2443559f",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Direct Indirect"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Direct Indirect"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d1974b7453d79b49fc06": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "de359dc26e8a73889f38",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Description"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AP Checks"
+                        }
+                      },
+                      "Property": "Account Description"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "e2fb0f3c9418283ef596": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "94b0ae91d03f8908e0fa": {
+            "isHidden": true
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "02604e232e37ce8027cd",
+  "displayName": "Receipt Line Item Detail",
+  "displayOption": "FitToPage",
+  "height": 900,
+  "width": 1600,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "0785adb7f84d3ce98a7a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "PO Receipts"
+              }
+            },
+            "Property": "Operating Unit Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "2663e312ab153e5ac53d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "PO Receipts"
+              }
+            },
+            "Property": "Receiving Branch Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "eae736ff02d06e7eb728",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Inventory Family"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "de188d5a0e39f1606af3",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "PO Receipts"
+              }
+            },
+            "Property": "Purchase Family"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "3eaa59d18763a8d12f3f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Item Number"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "6830b001e4d30688de58",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "Amt Paid - AP Checks"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "80381e217c4f84e1a713",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "de9e95c8dfbb3b61f7ab",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "PO Receipts"
+              }
+            },
+            "Property": "Vendor Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "6cc9fa9198df6bb8b70a",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "f8f335055444d655bad5",
+        "boundFilter": "0785adb7f84d3ce98a7a",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "PO Receipts"
+              }
+            },
+            "Property": "Operating Unit Name"
+          }
+        }
+      },
+      {
+        "name": "4d683672745d349314b8",
+        "boundFilter": "2663e312ab153e5ac53d",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "PO Receipts"
+              }
+            },
+            "Property": "Receiving Branch Name"
+          }
+        }
+      },
+      {
+        "name": "7b3c6d0d9ada36291f57",
+        "boundFilter": "eae736ff02d06e7eb728",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Inventory Family"
+          }
+        }
+      },
+      {
+        "name": "12d8c958547df50aec9c",
+        "boundFilter": "de188d5a0e39f1606af3",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "PO Receipts"
+              }
+            },
+            "Property": "Purchase Family"
+          }
+        }
+      },
+      {
+        "name": "f86d35a54c138efa3e23",
+        "boundFilter": "3eaa59d18763a8d12f3f",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Item Number"
+          }
+        }
+      },
+      {
+        "name": "c6fa1f1dde2d4b13e1e8",
+        "boundFilter": "6830b001e4d30688de58",
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "Amt Paid - AP Checks"
+          }
+        }
+      },
+      {
+        "name": "070c975965c063b320fe",
+        "boundFilter": "80381e217c4f84e1a713",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        }
+      },
+      {
+        "name": "4e81aa999cc5f765df1b",
+        "boundFilter": "de9e95c8dfbb3b61f7ab",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "PO Receipts"
+              }
+            },
+            "Property": "Vendor Name"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F2F2F2'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "0a85bca3e40364b2d41a",
+      "target": "a2439f2fd4313bf805f7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0a85bca3e40364b2d41a",
+      "target": "7b35aeb99bd1cf6aabbe",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0a85bca3e40364b2d41a",
+      "target": "2fc236f7d460d541ff95",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0a85bca3e40364b2d41a",
+      "target": "111e917238e703a0c373",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0a85bca3e40364b2d41a",
+      "target": "fae5420ad7d038d03e90",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0a85bca3e40364b2d41a",
+      "target": "08c60e9651021e4efedd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c69bd4869d47aeed5b3c",
+      "target": "a2439f2fd4313bf805f7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a2439f2fd4313bf805f7",
+      "target": "c69bd4869d47aeed5b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d94e6436b3e8bb0c71b7",
+      "target": "7b35aeb99bd1cf6aabbe",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b35aeb99bd1cf6aabbe",
+      "target": "d94e6436b3e8bb0c71b7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c3f255057918d562dfd8",
+      "target": "2fc236f7d460d541ff95",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2fc236f7d460d541ff95",
+      "target": "c3f255057918d562dfd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bf3f83c564bfb2b6d3ee",
+      "target": "111e917238e703a0c373",
+      "type": "NoFilter"
+    },
+    {
+      "source": "111e917238e703a0c373",
+      "target": "bf3f83c564bfb2b6d3ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d631b92360fbb2586a62",
+      "target": "fae5420ad7d038d03e90",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fae5420ad7d038d03e90",
+      "target": "d631b92360fbb2586a62",
+      "type": "NoFilter"
+    },
+    {
+      "source": "911103ba7ead89f2fb04",
+      "target": "08c60e9651021e4efedd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "08c60e9651021e4efedd",
+      "target": "911103ba7ead89f2fb04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a2439f2fd4313bf805f7",
+      "target": "0a85bca3e40364b2d41a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b35aeb99bd1cf6aabbe",
+      "target": "0a85bca3e40364b2d41a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2fc236f7d460d541ff95",
+      "target": "0a85bca3e40364b2d41a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "111e917238e703a0c373",
+      "target": "0a85bca3e40364b2d41a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fae5420ad7d038d03e90",
+      "target": "0a85bca3e40364b2d41a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "08c60e9651021e4efedd",
+      "target": "0a85bca3e40364b2d41a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "08c60e9651021e4efedd",
+      "target": "d631b92360fbb2586a62",
+      "type": "NoFilter"
+    },
+    {
+      "source": "08c60e9651021e4efedd",
+      "target": "bf3f83c564bfb2b6d3ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "08c60e9651021e4efedd",
+      "target": "c3f255057918d562dfd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "08c60e9651021e4efedd",
+      "target": "d94e6436b3e8bb0c71b7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "08c60e9651021e4efedd",
+      "target": "c69bd4869d47aeed5b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fae5420ad7d038d03e90",
+      "target": "911103ba7ead89f2fb04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fae5420ad7d038d03e90",
+      "target": "bf3f83c564bfb2b6d3ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fae5420ad7d038d03e90",
+      "target": "c3f255057918d562dfd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fae5420ad7d038d03e90",
+      "target": "d94e6436b3e8bb0c71b7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fae5420ad7d038d03e90",
+      "target": "c69bd4869d47aeed5b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "111e917238e703a0c373",
+      "target": "911103ba7ead89f2fb04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "111e917238e703a0c373",
+      "target": "d631b92360fbb2586a62",
+      "type": "NoFilter"
+    },
+    {
+      "source": "111e917238e703a0c373",
+      "target": "c3f255057918d562dfd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "111e917238e703a0c373",
+      "target": "d94e6436b3e8bb0c71b7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "111e917238e703a0c373",
+      "target": "c69bd4869d47aeed5b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2fc236f7d460d541ff95",
+      "target": "c69bd4869d47aeed5b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2fc236f7d460d541ff95",
+      "target": "d94e6436b3e8bb0c71b7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2fc236f7d460d541ff95",
+      "target": "bf3f83c564bfb2b6d3ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2fc236f7d460d541ff95",
+      "target": "d631b92360fbb2586a62",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2fc236f7d460d541ff95",
+      "target": "911103ba7ead89f2fb04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b35aeb99bd1cf6aabbe",
+      "target": "c69bd4869d47aeed5b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b35aeb99bd1cf6aabbe",
+      "target": "c3f255057918d562dfd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b35aeb99bd1cf6aabbe",
+      "target": "bf3f83c564bfb2b6d3ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b35aeb99bd1cf6aabbe",
+      "target": "d631b92360fbb2586a62",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b35aeb99bd1cf6aabbe",
+      "target": "911103ba7ead89f2fb04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a2439f2fd4313bf805f7",
+      "target": "d94e6436b3e8bb0c71b7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a2439f2fd4313bf805f7",
+      "target": "c3f255057918d562dfd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a2439f2fd4313bf805f7",
+      "target": "bf3f83c564bfb2b6d3ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a2439f2fd4313bf805f7",
+      "target": "d631b92360fbb2586a62",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a2439f2fd4313bf805f7",
+      "target": "911103ba7ead89f2fb04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c69bd4869d47aeed5b3c",
+      "target": "7b35aeb99bd1cf6aabbe",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c69bd4869d47aeed5b3c",
+      "target": "2fc236f7d460d541ff95",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c69bd4869d47aeed5b3c",
+      "target": "111e917238e703a0c373",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c69bd4869d47aeed5b3c",
+      "target": "fae5420ad7d038d03e90",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c69bd4869d47aeed5b3c",
+      "target": "08c60e9651021e4efedd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d94e6436b3e8bb0c71b7",
+      "target": "a2439f2fd4313bf805f7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d94e6436b3e8bb0c71b7",
+      "target": "2fc236f7d460d541ff95",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d94e6436b3e8bb0c71b7",
+      "target": "111e917238e703a0c373",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d94e6436b3e8bb0c71b7",
+      "target": "fae5420ad7d038d03e90",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d94e6436b3e8bb0c71b7",
+      "target": "08c60e9651021e4efedd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c3f255057918d562dfd8",
+      "target": "a2439f2fd4313bf805f7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c3f255057918d562dfd8",
+      "target": "7b35aeb99bd1cf6aabbe",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c3f255057918d562dfd8",
+      "target": "111e917238e703a0c373",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c3f255057918d562dfd8",
+      "target": "fae5420ad7d038d03e90",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c3f255057918d562dfd8",
+      "target": "08c60e9651021e4efedd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bf3f83c564bfb2b6d3ee",
+      "target": "a2439f2fd4313bf805f7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bf3f83c564bfb2b6d3ee",
+      "target": "7b35aeb99bd1cf6aabbe",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bf3f83c564bfb2b6d3ee",
+      "target": "2fc236f7d460d541ff95",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bf3f83c564bfb2b6d3ee",
+      "target": "fae5420ad7d038d03e90",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bf3f83c564bfb2b6d3ee",
+      "target": "08c60e9651021e4efedd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d631b92360fbb2586a62",
+      "target": "a2439f2fd4313bf805f7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d631b92360fbb2586a62",
+      "target": "7b35aeb99bd1cf6aabbe",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d631b92360fbb2586a62",
+      "target": "2fc236f7d460d541ff95",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d631b92360fbb2586a62",
+      "target": "111e917238e703a0c373",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d631b92360fbb2586a62",
+      "target": "08c60e9651021e4efedd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "911103ba7ead89f2fb04",
+      "target": "a2439f2fd4313bf805f7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "911103ba7ead89f2fb04",
+      "target": "7b35aeb99bd1cf6aabbe",
+      "type": "NoFilter"
+    },
+    {
+      "source": "911103ba7ead89f2fb04",
+      "target": "2fc236f7d460d541ff95",
+      "type": "NoFilter"
+    },
+    {
+      "source": "911103ba7ead89f2fb04",
+      "target": "111e917238e703a0c373",
+      "type": "NoFilter"
+    },
+    {
+      "source": "911103ba7ead89f2fb04",
+      "target": "fae5420ad7d038d03e90",
+      "type": "NoFilter"
+    },
+    {
+      "source": "12f8292beb7997d79c2b",
+      "target": "c69bd4869d47aeed5b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "12f8292beb7997d79c2b",
+      "target": "d94e6436b3e8bb0c71b7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "12f8292beb7997d79c2b",
+      "target": "c3f255057918d562dfd8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "12f8292beb7997d79c2b",
+      "target": "bf3f83c564bfb2b6d3ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "12f8292beb7997d79c2b",
+      "target": "d631b92360fbb2586a62",
+      "type": "NoFilter"
+    },
+    {
+      "source": "12f8292beb7997d79c2b",
+      "target": "911103ba7ead89f2fb04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c69bd4869d47aeed5b3c",
+      "target": "12f8292beb7997d79c2b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d94e6436b3e8bb0c71b7",
+      "target": "12f8292beb7997d79c2b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c3f255057918d562dfd8",
+      "target": "12f8292beb7997d79c2b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bf3f83c564bfb2b6d3ee",
+      "target": "12f8292beb7997d79c2b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d631b92360fbb2586a62",
+      "target": "12f8292beb7997d79c2b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "911103ba7ead89f2fb04",
+      "target": "12f8292beb7997d79c2b",
+      "type": "NoFilter"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "c6c944f6f8cefed2eb4d",
+  "displayName": "AP Direct Overview",
+  "displayOption": "FitToPage",
+  "height": 900,
+  "width": 1600,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "68283f6cab2960d660ee",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "a",
+              "Entity": "AP Checks",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "a"
+                              }
+                            },
+                            "Property": "Direct Indirect"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Indirect'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "isLockedInViewMode": true,
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "869834c89cf746d6ea9c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "4a52ea11f3fba35f0b00",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "Amount Paid - AP Checks"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "a24f2a16f404774d7143",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Account Lvl1"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "4bc1eb868bbc6b94e8f0",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "ADTP - AP Checks"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "58185a8272785ce1cee6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Vendor Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "d8fcc6f3f77722aaf51f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Inventory Family"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "48ea2018c3ecaa94773b",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "f42faad862be18da7432",
+        "boundFilter": "869834c89cf746d6ea9c",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        }
+      },
+      {
+        "name": "fea0db44fea8e8cc840f",
+        "boundFilter": "4a52ea11f3fba35f0b00",
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "Amount Paid - AP Checks"
+          }
+        }
+      },
+      {
+        "name": "fe138796328f9a25483c",
+        "boundFilter": "a24f2a16f404774d7143",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Account Lvl1"
+          }
+        }
+      },
+      {
+        "name": "a58507d45582710694cd",
+        "boundFilter": "4bc1eb868bbc6b94e8f0",
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "ADTP - AP Checks"
+          }
+        }
+      },
+      {
+        "name": "fde0e73e30410d5b171e",
+        "boundFilter": "58185a8272785ce1cee6",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Vendor Name"
+          }
+        }
+      },
+      {
+        "name": "8e38a4b3ebde252f7ae7",
+        "boundFilter": "d8fcc6f3f77722aaf51f",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Inventory Family"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F2F2F2'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "557ab93bcfedbfe6ee59",
+      "target": "c596ef67544ee9cf09f8",
+      "type": "HighlightFilter"
+    },
+    {
+      "source": "557ab93bcfedbfe6ee59",
+      "target": "3e50486e0c488a40e894",
+      "type": "HighlightFilter"
+    },
+    {
+      "source": "557ab93bcfedbfe6ee59",
+      "target": "d51d4ed5dc123e8dd1f2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "d51d4ed5dc123e8dd1f2",
+      "target": "557ab93bcfedbfe6ee59",
+      "type": "DataFilter"
+    },
+    {
+      "source": "aebf6f41349a836b67fc",
+      "target": "557ab93bcfedbfe6ee59",
+      "type": "NoFilter"
+    }
+  ]
+}

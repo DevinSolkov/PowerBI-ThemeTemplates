@@ -1,0 +1,975 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "9b7d3377d87a29578137",
+  "position": {
+    "x": 0,
+    "y": 163.84039900249377,
+    "z": 3000,
+    "height": 736.15960099750623,
+    "width": 1591.2718204488779,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Vendor Name"
+                }
+              },
+              "queryRef": "AP Checks.Vendor Name",
+              "nativeQueryRef": "Vendor Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Check Date"
+                }
+              },
+              "queryRef": "AP Checks.Check Date",
+              "nativeQueryRef": "Check Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "ABC Code"
+                }
+              },
+              "queryRef": "AP Checks.ABC Code",
+              "nativeQueryRef": "ABC Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Account Description"
+                }
+              },
+              "queryRef": "AP Checks.Account Description",
+              "nativeQueryRef": "Account Description"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Account Lvl1"
+                }
+              },
+              "queryRef": "AP Checks.Account Lvl1",
+              "nativeQueryRef": "Account Lvl1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Account Lvl2"
+                }
+              },
+              "queryRef": "AP Checks.Account Lvl2",
+              "nativeQueryRef": "Account Lvl2"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Account Lvl3"
+                }
+              },
+              "queryRef": "AP Checks.Account Lvl3",
+              "nativeQueryRef": "Account Lvl3"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Branch Id"
+                }
+              },
+              "queryRef": "AP Checks.Branch Id",
+              "nativeQueryRef": "Branch Id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "CF Supplier Flag"
+                }
+              },
+              "queryRef": "AP Checks.CF Supplier Flag",
+              "nativeQueryRef": "CF Supplier Flag"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Check Number"
+                }
+              },
+              "queryRef": "AP Checks.Check Number",
+              "nativeQueryRef": "Check Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Check Status"
+                }
+              },
+              "queryRef": "AP Checks.Check Status",
+              "nativeQueryRef": "Check Status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Co-Div Combo"
+                }
+              },
+              "queryRef": "AP Checks.Co-Div Combo",
+              "nativeQueryRef": "Co-Div Combo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Commodity Name"
+                }
+              },
+              "queryRef": "AP Checks.Commodity Name",
+              "nativeQueryRef": "Commodity Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Cost Center Name"
+                }
+              },
+              "queryRef": "AP Checks.Cost Center Name",
+              "nativeQueryRef": "Cost Center Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Days To Pay"
+                }
+              },
+              "queryRef": "AP Checks.Days To Pay",
+              "nativeQueryRef": "Days To Pay"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Direct Indirect"
+                }
+              },
+              "queryRef": "AP Checks.Direct Indirect",
+              "nativeQueryRef": "Direct Indirect"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Dist Code Combination ID"
+                }
+              },
+              "queryRef": "AP Checks.Dist Code Combination ID",
+              "nativeQueryRef": "Dist Code Combination ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Distribution Line Number"
+                }
+              },
+              "queryRef": "AP Checks.Distribution Line Number",
+              "nativeQueryRef": "Distribution Line Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Distribution Number"
+                }
+              },
+              "queryRef": "AP Checks.Distribution Number",
+              "nativeQueryRef": "Distribution Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Inv Acctng Date"
+                }
+              },
+              "queryRef": "AP Checks.Inv Acctng Date",
+              "nativeQueryRef": "Inv Acctng Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Inv Payment Date"
+                }
+              },
+              "queryRef": "AP Checks.Inv Payment Date",
+              "nativeQueryRef": "Inv Payment Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Inventory Family"
+                }
+              },
+              "queryRef": "Items.Inventory Family",
+              "nativeQueryRef": "InvFamily",
+              "displayName": "InvFamily"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Inventory Class"
+                }
+              },
+              "queryRef": "Items.Inventory Class",
+              "nativeQueryRef": "Inv Class",
+              "displayName": "Inv Class"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Invoice Amount USD"
+                }
+              },
+              "queryRef": "AP Checks.Invoice Amount USD",
+              "nativeQueryRef": "Invoice Amount USD"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Invoice Date"
+                }
+              },
+              "queryRef": "AP Checks.Invoice Date",
+              "nativeQueryRef": "Invoice Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Invoice Description"
+                }
+              },
+              "queryRef": "AP Checks.Invoice Description",
+              "nativeQueryRef": "Invoice Description"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Invoice Number"
+                }
+              },
+              "queryRef": "AP Checks.Invoice Number",
+              "nativeQueryRef": "Invoice Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Invoice Type"
+                }
+              },
+              "queryRef": "AP Checks.Invoice Type",
+              "nativeQueryRef": "Invoice Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Item Description"
+                }
+              },
+              "queryRef": "AP Checks.Item Description",
+              "nativeQueryRef": "Item Description"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Item ID"
+                }
+              },
+              "queryRef": "Items.Item ID",
+              "nativeQueryRef": "Item ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Item Key"
+                }
+              },
+              "queryRef": "AP Checks.Item Key",
+              "nativeQueryRef": "Item Key"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Item Number"
+                }
+              },
+              "queryRef": "AP Checks.Item Number",
+              "nativeQueryRef": "Item Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Line Type Lookup Code"
+                }
+              },
+              "queryRef": "AP Checks.Line Type Lookup Code",
+              "nativeQueryRef": "Line Type Lookup Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Market Name"
+                }
+              },
+              "queryRef": "AP Checks.Market Name",
+              "nativeQueryRef": "Market Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Natural Account Description"
+                }
+              },
+              "queryRef": "AP Checks.Natural Account Description",
+              "nativeQueryRef": "Natural Account Description"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Branches"
+                    }
+                  },
+                  "Property": "Operating Unit Name"
+                }
+              },
+              "queryRef": "Branches.Operating Unit Name",
+              "nativeQueryRef": "Operating Unit Name1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Orig Currency Code"
+                }
+              },
+              "queryRef": "AP Checks.Orig Currency Code",
+              "nativeQueryRef": "Orig Currency Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Payment Amount USD"
+                }
+              },
+              "queryRef": "AP Checks.Payment Amount USD",
+              "nativeQueryRef": "Payment Amount USD"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "PO Line Number"
+                }
+              },
+              "queryRef": "AP Checks.PO Line Number",
+              "nativeQueryRef": "PO Line Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "PO Number"
+                }
+              },
+              "queryRef": "AP Checks.PO Number",
+              "nativeQueryRef": "PO Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "PO UOM"
+                }
+              },
+              "queryRef": "AP Checks.PO UOM",
+              "nativeQueryRef": "PO UOM"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "PO Type"
+                }
+              },
+              "queryRef": "AP Checks.PO Type",
+              "nativeQueryRef": "PO Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Quantity Billed"
+                }
+              },
+              "queryRef": "AP Checks.Quantity Billed",
+              "nativeQueryRef": "Qty Billed",
+              "displayName": "Qty Billed"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Quantity Invoiced"
+                }
+              },
+              "queryRef": "AP Checks.Quantity Invoiced",
+              "nativeQueryRef": "Qty Invoiced",
+              "displayName": "Qty Invoiced"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Quantity Received"
+                }
+              },
+              "queryRef": "AP Checks.Quantity Received",
+              "nativeQueryRef": "Qty Rec'd",
+              "displayName": "Qty Rec'd"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Quantity Variance"
+                }
+              },
+              "queryRef": "AP Checks.Quantity Variance",
+              "nativeQueryRef": "Qty Variance",
+              "displayName": "Qty Variance"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Shipment Number"
+                }
+              },
+              "queryRef": "AP Checks.Shipment Number",
+              "nativeQueryRef": "Shipment Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Source"
+                }
+              },
+              "queryRef": "AP Checks.Source",
+              "nativeQueryRef": "Source"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Terms Desc"
+                }
+              },
+              "queryRef": "AP Checks.Terms Desc",
+              "nativeQueryRef": "Terms Desc"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Terms Id"
+                }
+              },
+              "queryRef": "AP Checks.Terms Id",
+              "nativeQueryRef": "Terms Id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Unit Price USD"
+                }
+              },
+              "queryRef": "AP Checks.Unit Price USD",
+              "nativeQueryRef": "Unit Price USD"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "USD To CAD Conv"
+                }
+              },
+              "queryRef": "AP Checks.USD To CAD Conv",
+              "nativeQueryRef": "USD To CAD Conv"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Vendor Group Name"
+                }
+              },
+              "queryRef": "AP Checks.Vendor Group Name",
+              "nativeQueryRef": "Vendor Group Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Vendor ID"
+                }
+              },
+              "queryRef": "AP Checks.Vendor ID",
+              "nativeQueryRef": "Vendor ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AP Checks"
+                    }
+                  },
+                  "Property": "Vendor Number"
+                }
+              },
+              "queryRef": "AP Checks.Vendor Number",
+              "nativeQueryRef": "Vendor Number"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "AP Checks"
+                  }
+                },
+                "Property": "Vendor Name"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "218.86362759534902D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Invoice Description"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "154.45456823349264D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Item Description"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "230.49999427318437D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Account Lvl3"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

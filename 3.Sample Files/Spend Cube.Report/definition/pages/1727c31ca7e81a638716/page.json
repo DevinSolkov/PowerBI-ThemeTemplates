@@ -1,0 +1,287 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "1727c31ca7e81a638716",
+  "displayName": "AP Indirect - Level Analysis",
+  "displayOption": "FitToPage",
+  "height": 900,
+  "width": 1600,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "68283f6cab2960d660ee",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "a",
+              "Entity": "AP Checks",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "a"
+                              }
+                            },
+                            "Property": "Direct Indirect"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Direct'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "isLockedInViewMode": true,
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "b18ff01920d4c410b18d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Account Lvl1"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "44463cdf0652a69b736d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Account Lvl2"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "64a5a5e119f01c39169a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Account Lvl3"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "6156a0044ac5e5b7a838",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Vendor Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "c96bc0c0eb17462bac65",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "ce8616eedc57dc96c6e6",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "f9f00968f6a0b3beeac3",
+        "boundFilter": "b18ff01920d4c410b18d",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Account Lvl1"
+          }
+        }
+      },
+      {
+        "name": "21e3470c70c340177868",
+        "boundFilter": "44463cdf0652a69b736d",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Account Lvl2"
+          }
+        }
+      },
+      {
+        "name": "b034e1011009ebdfb1ee",
+        "boundFilter": "64a5a5e119f01c39169a",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Account Lvl3"
+          }
+        }
+      },
+      {
+        "name": "c976616fb7e3f1d5ae5d",
+        "boundFilter": "6156a0044ac5e5b7a838",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Vendor Name"
+          }
+        }
+      },
+      {
+        "name": "7959e3d8e0a8068e1e44",
+        "boundFilter": "c96bc0c0eb17462bac65",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F2F2F2'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "eee22707705d70d18888",
+      "target": "f84517e0c4bfbcf6e83b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "f84517e0c4bfbcf6e83b",
+      "target": "eee22707705d70d18888",
+      "type": "NoFilter"
+    },
+    {
+      "source": "40814e49acb0638d2425",
+      "target": "eee22707705d70d18888",
+      "type": "NoFilter"
+    }
+  ]
+}

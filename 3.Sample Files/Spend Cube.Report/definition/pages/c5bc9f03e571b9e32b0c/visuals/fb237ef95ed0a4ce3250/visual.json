@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "fb237ef95ed0a4ce3250",
+  "position": {
+    "x": 35.365239294710328,
+    "y": 47.1536523929471,
+    "z": 0,
+    "height": 280.20151133501258,
+    "width": 280.20151133501258
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Inventory Family"
+                }
+              },
+              "queryRef": "Items.Inventory Family",
+              "nativeQueryRef": "Inventory Family"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Item Family Sort"
+                }
+              },
+              "queryRef": "Items.Item Family Sort",
+              "nativeQueryRef": "Item Family Sort"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

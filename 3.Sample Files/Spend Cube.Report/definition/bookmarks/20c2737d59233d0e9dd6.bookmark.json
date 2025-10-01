@@ -1,0 +1,913 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/1.4.0/schema.json",
+  "displayName": "Receipt - AI Close",
+  "name": "20c2737d59233d0e9dd6",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "d92cdaf1a670afce6056",
+      "8b7d2fbe96b61532e888",
+      "b5b20f69f7e6ad8bf950"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "02604e232e37ce8027cd",
+    "sections": {
+      "02604e232e37ce8027cd": {
+        "visualContainers": {
+          "0a85bca3e40364b2d41a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "aadb102463039a4b268c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Year"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "5f4f7e5fe0f280218555",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Period"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "8135bd3d2811a1181aff",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Supplier Name"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "966334228f5baea1fe60",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Items"
+                        }
+                      },
+                      "Property": "Inventory Family"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "063e682b07091b3a2ff4",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Items"
+                        }
+                      },
+                      "Property": "Inventory Class"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e2e541483156ac8d1047",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Purchase Family"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "8b8aaff9f4fee181096f",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Purchase Class"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "83009cd54f7ce19fb437",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Items"
+                        }
+                      },
+                      "Property": "Item Number"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "f38034f1bc9a41751bd3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Items"
+                        }
+                      },
+                      "Property": "Item Description"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "2536066afbd76d852430",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Number"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a5d229f639077a9d56cd",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Line Number"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "0a50e40a6b826a66a350",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Creation Date"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "6b3702ba4a79c374cd79",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Need By Date"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "f7bbceddb1d8e96de11f",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Promise Date"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "08fe9d2726bfa6980ca9",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Receipt Date"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "4e7870aa506ebc8b3f1b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Status"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "35a78f6e890500e19f78",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Type"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "9838911dee1729648a24",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Operating Unit Name"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "323f87be5c5e6f916c56",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Receiving Branch Code"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "b1814bb7dd6a689c17fb",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Uom"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "36a37f7aa9aa28c17494",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Items"
+                        }
+                      },
+                      "Property": "Quantity Per Box"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "614ad0103f75d424e2d0",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Po Unit Price"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "6089cf57835eba7fde4c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Received Amount Usd"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "02c0ba633b0b25948aaf",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Quantity (Estimated) - PO Receipts"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Year"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "3138098e572e451e35f2": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "39f30bda89ed23307ac0": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "59cc9da5c4d0f55695a5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "94d04b3e52faba5a8f32",
+                  "type": "Advanced",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "c",
+                        "Entity": "Calendar",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Comparison": {
+                            "ComparisonKind": 1,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "c"
+                                  }
+                                },
+                                "Property": "Fiscal Year"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "2023L"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Fiscal Year"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "advancedSlicerVisual",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "c",
+                                "Entity": "Calendar",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "c"
+                                            }
+                                          },
+                                          "Property": "Fiscal Year"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "2025L"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "8b7d2fbe96b61532e888": {
+            "singleVisual": {
+              "visualType": "aiNarratives",
+              "objects": {}
+            }
+          },
+          "b5b20f69f7e6ad8bf950": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "be616747c638d1fb17ae": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "bf3f83c564bfb2b6d3ee": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a7d163d9ccac344c0584",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Items"
+                        }
+                      },
+                      "Property": "Inventory Family"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Items"
+                        }
+                      },
+                      "Property": "Inventory Family"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c3f255057918d562dfd8": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "641418adb1ce82ad5a5f",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Receiving Branch Name"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Receiving Branch Name"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c69bd4869d47aeed5b3c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "aab9b0c7ede640c9ddb2",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Supplier Name"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Supplier Name"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d631b92360fbb2586a62": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4ad08bc571a2819abaa0",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Purchase Family"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Purchase Family"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d94e6436b3e8bb0c71b7": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e153c14332f2d8f7e2a1",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Operating Unit Name"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Operating Unit Name"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "911103ba7ead89f2fb04": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a9ee99c289583d5fea91",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Purchase Family"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "PO Receipts"
+                        }
+                      },
+                      "Property": "Purchase Family"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "d92cdaf1a670afce6056": {
+            "isHidden": true
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

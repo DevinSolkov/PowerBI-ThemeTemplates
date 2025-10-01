@@ -1,0 +1,213 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1261.7921916747484,
+            "y": 0
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "bf079559-c575-4690-a065-c7bf7fc4d9e2",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 417.79219167474821,
+            "y": 803.48088426140237
+          },
+          "nodeIndex": "AP Checks",
+          "nodeLineageTag": "4226979a-e3d7-4f65-996f-eec9571e4b2e",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 773.62205635095142,
+            "y": 0
+          },
+          "nodeIndex": "Branches",
+          "nodeLineageTag": "b8e8c05b-54e8-4c1e-a7b5-6fd3ee9dc59f",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 288.32861579495346,
+            "y": 0
+          },
+          "nodeIndex": "Calendar",
+          "nodeLineageTag": "3bd57244-1502-44db-8f95-1812920a02b0",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Items",
+          "nodeLineageTag": "5d827f67-653a-4bcd-b5d7-346e29bbdb74",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 420.82998840708944,
+            "y": 433.49853893012636
+          },
+          "nodeIndex": "Open PO",
+          "nodeLineageTag": "4f1c5e2d-7d68-4f1f-ad31-f94c69793a7c",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 423.54655323775239,
+            "y": 623.33333333333326
+          },
+          "nodeIndex": "PO Receipts",
+          "nodeLineageTag": "806664d2-b7c3-4d3f-bb97-b82dad07e5fc",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1545.7921916747484,
+            "y": 389.74044213070118
+          },
+          "nodeIndex": "PAR AP Checks Account Levels",
+          "nodeLineageTag": "359888f7-7c86-443a-8826-8e6ce6f49d91",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1829.7921916747484,
+            "y": 401.74044213070118
+          },
+          "nodeIndex": "Time Periods",
+          "nodeLineageTag": "beeab2fa-a7d1-4e0c-8430-ce40f2df00c5",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 60,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 0,
+        "y": 386
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 673.36163941535983,
+            "y": 0
+          },
+          "nodeIndex": "Branches",
+          "nodeLineageTag": "b8e8c05b-54e8-4c1e-a7b5-6fd3ee9dc59f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": -49.999999999999972
+          },
+          "nodeIndex": "Calendar",
+          "nodeLineageTag": "3bd57244-1502-44db-8f95-1812920a02b0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 371,
+            "y": 0
+          },
+          "nodeIndex": "Items",
+          "nodeLineageTag": "5d827f67-653a-4bcd-b5d7-346e29bbdb74",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 414,
+            "y": 467
+          },
+          "nodeIndex": "PO Receipts",
+          "nodeLineageTag": "806664d2-b7c3-4d3f-bb97-b82dad07e5fc",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Layout 1",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

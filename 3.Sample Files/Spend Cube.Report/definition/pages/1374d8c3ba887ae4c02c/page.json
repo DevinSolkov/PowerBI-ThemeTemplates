@@ -1,0 +1,171 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "1374d8c3ba887ae4c02c",
+  "displayName": "AP Summary",
+  "displayOption": "FitToPage",
+  "height": 900,
+  "width": 1600,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "1c6897bf2ddf3b3e9b55",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "2ce920c30daaf5f70579",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Vendor Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "f9f1746345fa5df28dad",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Inventory Family"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "85ddf4cf292d735d5c48",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "d5ead6b5fd19c44bf1ac",
+        "boundFilter": "1c6897bf2ddf3b3e9b55",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Direct Indirect"
+          }
+        }
+      },
+      {
+        "name": "0cd6da175ec428867afa",
+        "boundFilter": "2ce920c30daaf5f70579",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AP Checks"
+              }
+            },
+            "Property": "Vendor Name"
+          }
+        }
+      },
+      {
+        "name": "b97a4995424e6d4b0455",
+        "boundFilter": "f9f1746345fa5df28dad",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Inventory Family"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F2F2F2'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "width": {
+            "expr": {
+              "Literal": {
+                "Value": "228L"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "91df5e4b466836c60284",
+      "target": "46ac09d20b0a1a2ad983",
+      "type": "NoFilter"
+    },
+    {
+      "source": "91df5e4b466836c60284",
+      "target": "ae9ccbfdcd1ebcebc0ea",
+      "type": "HighlightFilter"
+    },
+    {
+      "source": "91df5e4b466836c60284",
+      "target": "71d959c3ce900bc1c773",
+      "type": "NoFilter"
+    },
+    {
+      "source": "71d959c3ce900bc1c773",
+      "target": "91df5e4b466836c60284",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4e4504de597ec3a11d4a",
+      "target": "91df5e4b466836c60284",
+      "type": "NoFilter"
+    }
+  ]
+}

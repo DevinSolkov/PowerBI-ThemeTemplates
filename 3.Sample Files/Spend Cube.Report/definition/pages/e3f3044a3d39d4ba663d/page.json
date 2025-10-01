@@ -1,0 +1,637 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "e3f3044a3d39d4ba663d",
+  "displayName": "Open PO's (Qty Due > 0)",
+  "displayOption": "FitToPage",
+  "height": 900,
+  "width": 1600,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "334470c7c76c0bf74538",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Open PO"
+              }
+            },
+            "Property": "Release Status"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "o",
+              "Entity": "Open PO",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "o"
+                              }
+                            },
+                            "Property": "Release Status"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'FINALLY CLOSED'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "isLockedInViewMode": true,
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "eba129ba4beba31f2eaf",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Open PO"
+              }
+            },
+            "Property": "Quantity Due"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "o",
+              "Entity": "Open PO",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 1,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "o"
+                        }
+                      },
+                      "Property": "Quantity Due"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "0L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {}
+            }
+          ]
+        }
+      },
+      {
+        "name": "a9d963d7a34f1859dc84",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Open PO"
+              }
+            },
+            "Property": "Supplier Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "21a7853d49e8b0440033",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Open PO"
+              }
+            },
+            "Property": "Receiving Branch Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "e571a131f0e19730e83d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Inventory Family"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "bd4e156d366333ceb923",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Item Number"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "60c3e0dc96ad4542eb4f",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "ccf705617d89246d3d74",
+        "boundFilter": "a9d963d7a34f1859dc84",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Open PO"
+              }
+            },
+            "Property": "Supplier Name"
+          }
+        }
+      },
+      {
+        "name": "4962b85542703077ac65",
+        "boundFilter": "21a7853d49e8b0440033",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Open PO"
+              }
+            },
+            "Property": "Receiving Branch Name"
+          }
+        }
+      },
+      {
+        "name": "303ef75057702cfd26c8",
+        "boundFilter": "e571a131f0e19730e83d",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Inventory Family"
+          }
+        }
+      },
+      {
+        "name": "af9f1be134d9bf374ed6",
+        "boundFilter": "bd4e156d366333ceb923",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Items"
+              }
+            },
+            "Property": "Item Number"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F2F2F2'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "4ba72d0de47cc7d61b1c",
+      "target": "faba5b602452810aa672",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4ba72d0de47cc7d61b1c",
+      "target": "cde02cadb87f4dc883d0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4ba72d0de47cc7d61b1c",
+      "target": "775eb801030cc719d4a4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4ba72d0de47cc7d61b1c",
+      "target": "d8eae0f998e392da0a41",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4ba72d0de47cc7d61b1c",
+      "target": "35c92ea553139e671b07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "35c92ea553139e671b07",
+      "target": "4ba72d0de47cc7d61b1c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d8eae0f998e392da0a41",
+      "target": "4ba72d0de47cc7d61b1c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "775eb801030cc719d4a4",
+      "target": "4ba72d0de47cc7d61b1c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cde02cadb87f4dc883d0",
+      "target": "4ba72d0de47cc7d61b1c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "faba5b602452810aa672",
+      "target": "4ba72d0de47cc7d61b1c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5500d0ed830b7ddb2945",
+      "target": "fd8bc2c0c2d2f315351d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5500d0ed830b7ddb2945",
+      "target": "5579139deca5a050127b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5500d0ed830b7ddb2945",
+      "target": "5c96de949b02a8f291e7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5500d0ed830b7ddb2945",
+      "target": "ee433e1d190b0e30bacb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5500d0ed830b7ddb2945",
+      "target": "5f22085f3f4ffacc7f66",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5f22085f3f4ffacc7f66",
+      "target": "5500d0ed830b7ddb2945",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ee433e1d190b0e30bacb",
+      "target": "5500d0ed830b7ddb2945",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5c96de949b02a8f291e7",
+      "target": "5500d0ed830b7ddb2945",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5579139deca5a050127b",
+      "target": "5500d0ed830b7ddb2945",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fd8bc2c0c2d2f315351d",
+      "target": "5500d0ed830b7ddb2945",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5f22085f3f4ffacc7f66",
+      "target": "35c92ea553139e671b07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5f22085f3f4ffacc7f66",
+      "target": "d8eae0f998e392da0a41",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5f22085f3f4ffacc7f66",
+      "target": "775eb801030cc719d4a4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5f22085f3f4ffacc7f66",
+      "target": "cde02cadb87f4dc883d0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5f22085f3f4ffacc7f66",
+      "target": "faba5b602452810aa672",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ee433e1d190b0e30bacb",
+      "target": "35c92ea553139e671b07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ee433e1d190b0e30bacb",
+      "target": "d8eae0f998e392da0a41",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ee433e1d190b0e30bacb",
+      "target": "775eb801030cc719d4a4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ee433e1d190b0e30bacb",
+      "target": "cde02cadb87f4dc883d0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ee433e1d190b0e30bacb",
+      "target": "faba5b602452810aa672",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5c96de949b02a8f291e7",
+      "target": "35c92ea553139e671b07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5c96de949b02a8f291e7",
+      "target": "d8eae0f998e392da0a41",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5c96de949b02a8f291e7",
+      "target": "775eb801030cc719d4a4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5c96de949b02a8f291e7",
+      "target": "cde02cadb87f4dc883d0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5c96de949b02a8f291e7",
+      "target": "faba5b602452810aa672",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5579139deca5a050127b",
+      "target": "35c92ea553139e671b07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5579139deca5a050127b",
+      "target": "d8eae0f998e392da0a41",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5579139deca5a050127b",
+      "target": "775eb801030cc719d4a4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5579139deca5a050127b",
+      "target": "cde02cadb87f4dc883d0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5579139deca5a050127b",
+      "target": "faba5b602452810aa672",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fd8bc2c0c2d2f315351d",
+      "target": "35c92ea553139e671b07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fd8bc2c0c2d2f315351d",
+      "target": "d8eae0f998e392da0a41",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fd8bc2c0c2d2f315351d",
+      "target": "775eb801030cc719d4a4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fd8bc2c0c2d2f315351d",
+      "target": "cde02cadb87f4dc883d0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fd8bc2c0c2d2f315351d",
+      "target": "faba5b602452810aa672",
+      "type": "NoFilter"
+    },
+    {
+      "source": "35c92ea553139e671b07",
+      "target": "5f22085f3f4ffacc7f66",
+      "type": "NoFilter"
+    },
+    {
+      "source": "35c92ea553139e671b07",
+      "target": "ee433e1d190b0e30bacb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "35c92ea553139e671b07",
+      "target": "5c96de949b02a8f291e7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "35c92ea553139e671b07",
+      "target": "5579139deca5a050127b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "35c92ea553139e671b07",
+      "target": "fd8bc2c0c2d2f315351d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d8eae0f998e392da0a41",
+      "target": "5f22085f3f4ffacc7f66",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d8eae0f998e392da0a41",
+      "target": "ee433e1d190b0e30bacb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d8eae0f998e392da0a41",
+      "target": "5c96de949b02a8f291e7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d8eae0f998e392da0a41",
+      "target": "5579139deca5a050127b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d8eae0f998e392da0a41",
+      "target": "fd8bc2c0c2d2f315351d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "775eb801030cc719d4a4",
+      "target": "5f22085f3f4ffacc7f66",
+      "type": "NoFilter"
+    },
+    {
+      "source": "775eb801030cc719d4a4",
+      "target": "ee433e1d190b0e30bacb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "775eb801030cc719d4a4",
+      "target": "5c96de949b02a8f291e7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "775eb801030cc719d4a4",
+      "target": "5579139deca5a050127b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "775eb801030cc719d4a4",
+      "target": "fd8bc2c0c2d2f315351d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cde02cadb87f4dc883d0",
+      "target": "5f22085f3f4ffacc7f66",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cde02cadb87f4dc883d0",
+      "target": "ee433e1d190b0e30bacb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cde02cadb87f4dc883d0",
+      "target": "5c96de949b02a8f291e7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cde02cadb87f4dc883d0",
+      "target": "5579139deca5a050127b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cde02cadb87f4dc883d0",
+      "target": "fd8bc2c0c2d2f315351d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "faba5b602452810aa672",
+      "target": "5f22085f3f4ffacc7f66",
+      "type": "NoFilter"
+    },
+    {
+      "source": "faba5b602452810aa672",
+      "target": "ee433e1d190b0e30bacb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "faba5b602452810aa672",
+      "target": "5579139deca5a050127b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "faba5b602452810aa672",
+      "target": "fd8bc2c0c2d2f315351d",
+      "type": "NoFilter"
+    }
+  ]
+}

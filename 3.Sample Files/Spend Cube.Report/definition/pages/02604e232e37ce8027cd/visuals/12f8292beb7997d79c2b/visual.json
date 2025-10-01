@@ -1,0 +1,688 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "12f8292beb7997d79c2b",
+  "position": {
+    "x": 0,
+    "y": 77.966328873713877,
+    "z": 0,
+    "height": 730.54862842892771,
+    "width": 1599.1271820448878,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Fiscal Year"
+                }
+              },
+              "queryRef": "Calendar.Fiscal Year",
+              "nativeQueryRef": "Fiscal Year"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Fiscal Period"
+                }
+              },
+              "queryRef": "Calendar.Fiscal Period",
+              "nativeQueryRef": "Fiscal Period"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Vendor Name"
+                }
+              },
+              "queryRef": "PO Receipts.Vendor Name",
+              "nativeQueryRef": "Vendor Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Inventory Family"
+                }
+              },
+              "queryRef": "Items.Inventory Family",
+              "nativeQueryRef": "Inv Family",
+              "displayName": "Inv Family"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Inventory Class"
+                }
+              },
+              "queryRef": "Items.Inventory Class",
+              "nativeQueryRef": "Inv Class",
+              "displayName": "Inv Class"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Purchase Family"
+                }
+              },
+              "queryRef": "PO Receipts.Purchase Family",
+              "nativeQueryRef": "Purchase Family"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Purchase Class"
+                }
+              },
+              "queryRef": "PO Receipts.Purchase Class",
+              "nativeQueryRef": "Purchase Class"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Item Number"
+                }
+              },
+              "queryRef": "Items.Item Number",
+              "nativeQueryRef": "Item Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Item Description"
+                }
+              },
+              "queryRef": "Items.Item Description",
+              "nativeQueryRef": "Item Description"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Number"
+                }
+              },
+              "queryRef": "PO Receipts.PO Number",
+              "nativeQueryRef": "PO Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Line Number"
+                }
+              },
+              "queryRef": "PO Receipts.PO Line Number",
+              "nativeQueryRef": "PO Line Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Creation Date"
+                }
+              },
+              "queryRef": "PO Receipts.PO Creation Date",
+              "nativeQueryRef": "PO Creation Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Need By Date"
+                }
+              },
+              "queryRef": "PO Receipts.PO Need By Date",
+              "nativeQueryRef": "PO Need By Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Promise Date"
+                }
+              },
+              "queryRef": "PO Receipts.PO Promise Date",
+              "nativeQueryRef": "PO Promise Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Receipt Date"
+                }
+              },
+              "queryRef": "PO Receipts.PO Receipt Date",
+              "nativeQueryRef": "PO Receipt Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Status"
+                }
+              },
+              "queryRef": "PO Receipts.PO Status",
+              "nativeQueryRef": "PO Status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Type"
+                }
+              },
+              "queryRef": "PO Receipts.PO Type",
+              "nativeQueryRef": "PO Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Branches"
+                    }
+                  },
+                  "Property": "Operating Unit Code"
+                }
+              },
+              "queryRef": "Branches.Operating Unit Code",
+              "nativeQueryRef": "Co",
+              "displayName": "Co"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Receiving Branch Code"
+                }
+              },
+              "queryRef": "PO Receipts.Receiving Branch Code",
+              "nativeQueryRef": "Receiving Branch Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO UOM"
+                }
+              },
+              "queryRef": "PO Receipts.PO UOM",
+              "nativeQueryRef": "PO UOM"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Quantity Per Box"
+                }
+              },
+              "queryRef": "Items.Quantity Per Box",
+              "nativeQueryRef": "Qty Per Box",
+              "displayName": "Qty Per Box"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Conversion Price"
+                }
+              },
+              "queryRef": "PO Receipts.Conversion Price",
+              "nativeQueryRef": "Conversion Price"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "LME"
+                }
+              },
+              "queryRef": "PO Receipts.LME",
+              "nativeQueryRef": "LME"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Midwest Transaction"
+                }
+              },
+              "queryRef": "PO Receipts.Midwest Transaction",
+              "nativeQueryRef": "Midwest Transaction"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Conversion Price Adder"
+                }
+              },
+              "queryRef": "PO Receipts.Conversion Price Adder",
+              "nativeQueryRef": "Conversion Price Adder"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Finishing Charges"
+                }
+              },
+              "queryRef": "PO Receipts.Finishing Charges",
+              "nativeQueryRef": "Finishing Charges"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Transport Charges"
+                }
+              },
+              "queryRef": "PO Receipts.Transport Charges",
+              "nativeQueryRef": "Transport Charges"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Other Charges"
+                }
+              },
+              "queryRef": "PO Receipts.Other Charges",
+              "nativeQueryRef": "Other Charges"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Estimation"
+                }
+              },
+              "queryRef": "PO Receipts.Estimation",
+              "nativeQueryRef": "Estimation"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Total Sum"
+                }
+              },
+              "queryRef": "PO Receipts.Total Sum",
+              "nativeQueryRef": "Total Sum"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "PO Unit Price"
+                }
+              },
+              "queryRef": "PO Receipts.PO Unit Price",
+              "nativeQueryRef": "PO Unit Price"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "Received Amount USD"
+                }
+              },
+              "queryRef": "PO Receipts.Received Amount USD",
+              "nativeQueryRef": "Received Amount USD"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Qty (Est) - PO Receipts"
+                }
+              },
+              "queryRef": "_Measures.Qty (Est) - PO Receipts",
+              "nativeQueryRef": "Qty Estimated",
+              "displayName": "Qty Estimated"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Calendar"
+                  }
+                },
+                "Property": "Fiscal Period"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Calibri'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "130.00000770645795D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Inventory Class"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "218.86362759534902D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Invoice Description"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "154.45456823349264D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Item Description"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "230.49999427318437D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Account Lvl3"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "1a89019ff0d027b6a027"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "OMX Template"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "de03f0b5-4fe3-49e2-b428-be452b2bd6a7"
+  }
+}

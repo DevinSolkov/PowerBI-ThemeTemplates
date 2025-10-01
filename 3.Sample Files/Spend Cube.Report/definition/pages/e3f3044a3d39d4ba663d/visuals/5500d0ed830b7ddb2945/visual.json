@@ -1,0 +1,641 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "5500d0ed830b7ddb2945",
+  "position": {
+    "x": 0,
+    "y": 79.500286391567684,
+    "z": 1000,
+    "height": 728.07570977917987,
+    "width": 1600,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO Creation Date"
+                }
+              },
+              "queryRef": "Open PO.PO Creation Date",
+              "nativeQueryRef": "PO Creation Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO Promise Date"
+                }
+              },
+              "queryRef": "Open PO.PO Promise Date",
+              "nativeQueryRef": "PO Promise Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO Need By Date"
+                }
+              },
+              "queryRef": "Open PO.PO Need By Date",
+              "nativeQueryRef": "PO Need By Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Supplier Name"
+                }
+              },
+              "queryRef": "Open PO.Supplier Name",
+              "nativeQueryRef": "Supplier Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Branches"
+                    }
+                  },
+                  "Property": "Operating Unit Code"
+                }
+              },
+              "queryRef": "Branches.Operating Unit Code",
+              "nativeQueryRef": "Operating Unit Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Item Number"
+                }
+              },
+              "queryRef": "Items.Item Number",
+              "nativeQueryRef": "Item Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Item Description"
+                }
+              },
+              "queryRef": "Items.Item Description",
+              "nativeQueryRef": "Item Description"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Inventory Family"
+                }
+              },
+              "queryRef": "Items.Inventory Family",
+              "nativeQueryRef": "Inv Family",
+              "displayName": "Inv Family"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Items"
+                    }
+                  },
+                  "Property": "Inventory Class"
+                }
+              },
+              "queryRef": "Items.Inventory Class",
+              "nativeQueryRef": "Inv Class",
+              "displayName": "Inv Class"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO Number"
+                }
+              },
+              "queryRef": "Open PO.PO Number",
+              "nativeQueryRef": "PO Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO Line Number"
+                }
+              },
+              "queryRef": "Open PO.PO Line Number",
+              "nativeQueryRef": "PO Line Number"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Release Number"
+                }
+              },
+              "queryRef": "Open PO.Release Number",
+              "nativeQueryRef": "Release #",
+              "displayName": "Release #"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO Status"
+                }
+              },
+              "queryRef": "Open PO.PO Status",
+              "nativeQueryRef": "PO Status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO Type"
+                }
+              },
+              "queryRef": "Open PO.PO Type",
+              "nativeQueryRef": "PO Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO UOM"
+                }
+              },
+              "queryRef": "Open PO.PO UOM",
+              "nativeQueryRef": "PO UOM"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Conversion Price"
+                }
+              },
+              "queryRef": "Open PO.Conversion Price",
+              "nativeQueryRef": "Conversion Price"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PO Receipts"
+                    }
+                  },
+                  "Property": "LME"
+                }
+              },
+              "queryRef": "PO Receipts.LME",
+              "nativeQueryRef": "LME"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Midwest Transaction"
+                }
+              },
+              "queryRef": "Open PO.Midwest Transaction",
+              "nativeQueryRef": "Midwest Transaction"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Conversion Price Adders"
+                }
+              },
+              "queryRef": "Open PO.Conversion Price Adders",
+              "nativeQueryRef": "Conversion Price Adders"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Finishing Charges"
+                }
+              },
+              "queryRef": "Open PO.Finishing Charges",
+              "nativeQueryRef": "Finishing Charges"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Transport Charges"
+                }
+              },
+              "queryRef": "Open PO.Transport Charges",
+              "nativeQueryRef": "Transport Charges"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Other Charges"
+                }
+              },
+              "queryRef": "Open PO.Other Charges",
+              "nativeQueryRef": "Other Charges"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Estimation"
+                }
+              },
+              "queryRef": "Open PO.Estimation",
+              "nativeQueryRef": "Estimation"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "Total Sum"
+                }
+              },
+              "queryRef": "Open PO.Total Sum",
+              "nativeQueryRef": "Total Sum"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Open PO"
+                    }
+                  },
+                  "Property": "PO Unit Price USD"
+                }
+              },
+              "queryRef": "Open PO.PO Unit Price USD",
+              "nativeQueryRef": "PO Unit Price USD"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "PO Qty - Open PO"
+                }
+              },
+              "queryRef": "_Measures.PO Qty - Open PO",
+              "nativeQueryRef": "PO Qty",
+              "displayName": "PO Qty"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Qty Rec'd - Open PO"
+                }
+              },
+              "queryRef": "_Measures.Qty Rec'd - Open PO",
+              "nativeQueryRef": "Qty Rec'd",
+              "displayName": "Qty Rec'd"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Qty Due - Open PO"
+                }
+              },
+              "queryRef": "_Measures.Qty Due - Open PO",
+              "nativeQueryRef": "Qty Due",
+              "displayName": "Qty Due"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "$ Due - Open PO"
+                }
+              },
+              "queryRef": "_Measures.$ Due - Open PO",
+              "nativeQueryRef": "$ Due",
+              "displayName": "$ Due"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Open PO"
+                  }
+                },
+                "Property": "PO Creation Date"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Calibri'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "130.00000770645795D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Inventory Class"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "218.86362759534902D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Invoice Description"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "154.45456823349264D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Item Description"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "230.49999427318437D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "AP Checks.Account Lvl3"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'ALUM Table'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "5fbb3e61aa13ccd9133d"
+}

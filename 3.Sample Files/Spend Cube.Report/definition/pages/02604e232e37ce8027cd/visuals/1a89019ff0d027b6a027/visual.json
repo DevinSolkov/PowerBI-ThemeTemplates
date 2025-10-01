@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "1a89019ff0d027b6a027",
+  "position": {
+    "x": 0,
+    "y": 90.523338048090523,
+    "z": 1000,
+    "height": 808.51495730264162,
+    "width": 1599.1271820448878,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "ALUM Detail",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

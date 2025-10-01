@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "3860f04b804d1c0e3234",
+  "position": {
+    "x": 0,
+    "y": 92.019950124688279,
+    "z": 2000,
+    "height": 807.98004987531181,
+    "width": 1599.1271820448878,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "ALL Open POs",
+    "groupMode": "ScaleMode"
+  }
+}

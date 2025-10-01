@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "2d1766021abe0f7a6dde",
+  "position": {
+    "x": 674.02101256863637,
+    "y": 0,
+    "z": 0,
+    "height": 190.2151622522513,
+    "width": 319.43510365526026,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "ADTP CARD",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "beb016abe42865b6b9f0"
+}

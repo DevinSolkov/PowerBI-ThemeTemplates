@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "1d5943309d6570e89473",
+  "position": {
+    "x": 121.19700748129677,
+    "y": 95.264116202451874,
+    "z": 2000,
+    "height": 189.65087281795513,
+    "width": 354.61346633416463,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "DIRECT CARD",
+    "groupMode": "ScaleMode"
+  }
+}

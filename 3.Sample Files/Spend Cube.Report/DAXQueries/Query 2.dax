@@ -1,0 +1,24 @@
+EVALUATE
+	SELECTCOLUMNS(
+		TOPN(
+			100,
+			'Branches',
+			'Branches'[Source],
+			ASC
+		),
+		'Branches'[Source],
+		'Branches'[Branch Id],
+		'Branches'[Branch Code],
+		'Branches'[Branch Name],
+		'Branches'[Operating Unit Id],
+		'Branches'[Operating Unit Name],
+		'Branches'[Address1],
+		'Branches'[Address2],
+		'Branches'[City],
+		'Branches'[State],
+		'Branches'[Country],
+		'Branches'[Zip],
+		'Branches'[Operating Unit Code],
+		'Branches'[Branch Name Short]
+	)
+	ORDER BY 'Branches'[Source] ASC

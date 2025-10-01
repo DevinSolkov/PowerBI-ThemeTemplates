@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "f70690f864a48df2c27d",
+  "position": {
+    "x": 23,
+    "y": 95,
+    "z": 5000,
+    "height": 802.52365930599376,
+    "width": 1539,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "AI Narrative",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}
