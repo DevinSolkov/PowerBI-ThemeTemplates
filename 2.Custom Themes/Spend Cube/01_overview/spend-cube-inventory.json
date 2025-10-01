@@ -1,0 +1,281 @@
+﻿{
+    "report_name":  "Spend Cube",
+    "report_id":  null,
+    "page_count":  8,
+    "total_visuals":  191,
+    "visual_counts_by_type":  {
+                                  "powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6":  3,
+                                  "advancedSlicerVisual":  13,
+                                  "visualGroup":  36,
+                                  "waterfallChart":  1,
+                                  "slicer":  39,
+                                  "image":  15,
+                                  "card":  7,
+                                  "clusteredColumnChart":  4,
+                                  "aiNarratives":  7,
+                                  "pivotTable":  6,
+                                  "tableEx":  8,
+                                  "shape":  18,
+                                  "textbox":  21,
+                                  "lineChart":  1,
+                                  "actionButton":  12
+                              },
+    "pages":  [
+                  {
+                      "page_id":  "02604e232e37ce8027cd",
+                      "displayName":  "Receipt Line Item Detail",
+                      "visual_count":  29,
+                      "visuals_by_type":  {
+                                              "image":  2,
+                                              "visualGroup":  6,
+                                              "textbox":  1,
+                                              "advancedSlicerVisual":  1,
+                                              "tableEx":  2,
+                                              "slicer":  12,
+                                              "actionButton":  3,
+                                              "shape":  1,
+                                              "aiNarratives":  1
+                                          }
+                  },
+                  {
+                      "page_id":  "1374d8c3ba887ae4c02c",
+                      "displayName":  "AP Summary",
+                      "visual_count":  42,
+                      "visuals_by_type":  {
+                                              "powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6":  2,
+                                              "advancedSlicerVisual":  3,
+                                              "visualGroup":  8,
+                                              "slicer":  1,
+                                              "image":  2,
+                                              "card":  5,
+                                              "clusteredColumnChart":  2,
+                                              "aiNarratives":  1,
+                                              "pivotTable":  2,
+                                              "shape":  6,
+                                              "textbox":  9,
+                                              "actionButton":  1
+                                          }
+                  },
+                  {
+                      "page_id":  "1727c31ca7e81a638716",
+                      "displayName":  "AP Indirect - Level Analysis",
+                      "visual_count":  27,
+                      "visuals_by_type":  {
+                                              "visualGroup":  5,
+                                              "pivotTable":  3,
+                                              "shape":  4,
+                                              "textbox":  4,
+                                              "lineChart":  1,
+                                              "image":  3,
+                                              "slicer":  1,
+                                              "advancedSlicerVisual":  3,
+                                              "actionButton":  2,
+                                              "aiNarratives":  1
+                                          }
+                  },
+                  {
+                      "page_id":  "1fcf82ba299c5692a2b4",
+                      "displayName":  "AP Checks",
+                      "visual_count":  17,
+                      "visuals_by_type":  {
+                                              "tableEx":  1,
+                                              "shape":  1,
+                                              "advancedSlicerVisual":  1,
+                                              "image":  2,
+                                              "slicer":  7,
+                                              "actionButton":  1,
+                                              "visualGroup":  3,
+                                              "aiNarratives":  1
+                                          }
+                  },
+                  {
+                      "page_id":  "23d10e40206341b517f6",
+                      "displayName":  "AP Details",
+                      "visual_count":  18,
+                      "visuals_by_type":  {
+                                              "image":  2,
+                                              "visualGroup":  3,
+                                              "textbox":  1,
+                                              "advancedSlicerVisual":  1,
+                                              "tableEx":  1,
+                                              "slicer":  7,
+                                              "actionButton":  1,
+                                              "shape":  1,
+                                              "aiNarratives":  1
+                                          }
+                  },
+                  {
+                      "page_id":  "c5bc9f03e571b9e32b0c",
+                      "displayName":  "Page 1",
+                      "visual_count":  2,
+                      "visuals_by_type":  {
+                                              "tableEx":  1,
+                                              "clusteredColumnChart":  1
+                                          }
+                  },
+                  {
+                      "page_id":  "c6c944f6f8cefed2eb4d",
+                      "displayName":  "AP Direct Overview",
+                      "visual_count":  29,
+                      "visuals_by_type":  {
+                                              "powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6":  1,
+                                              "advancedSlicerVisual":  3,
+                                              "visualGroup":  5,
+                                              "waterfallChart":  1,
+                                              "slicer":  1,
+                                              "image":  2,
+                                              "card":  2,
+                                              "clusteredColumnChart":  1,
+                                              "aiNarratives":  1,
+                                              "pivotTable":  1,
+                                              "tableEx":  1,
+                                              "shape":  4,
+                                              "textbox":  5,
+                                              "actionButton":  1
+                                          }
+                  },
+                  {
+                      "page_id":  "e3f3044a3d39d4ba663d",
+                      "displayName":  "Open PO\u0027s (Qty Due \u003e 0)",
+                      "visual_count":  27,
+                      "visuals_by_type":  {
+                                              "image":  2,
+                                              "visualGroup":  6,
+                                              "advancedSlicerVisual":  1,
+                                              "textbox":  1,
+                                              "tableEx":  2,
+                                              "slicer":  10,
+                                              "actionButton":  3,
+                                              "shape":  1,
+                                              "aiNarratives":  1
+                                          }
+                  }
+              ],
+    "bookmarks":  [
+                      {
+                          "name":  "Receipt Alum - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\200a6b7e990cefa0e303.bookmark.json"
+                      },
+                      {
+                          "name":  "Open PO - ALUM Detail",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\2026341a61744de98039.bookmark.json"
+                      },
+                      {
+                          "name":  "Receipt - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\20c2737d59233d0e9dd6.bookmark.json"
+                      },
+                      {
+                          "name":  "Open PO Alum - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\252e8b9f3fed8dabed13.bookmark.json"
+                      },
+                      {
+                          "name":  "Indirect - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\3fc8da20e5327278f8d2.bookmark.json"
+                      },
+                      {
+                          "name":  "Direct - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\45c9e52d7f93f6b62969.bookmark.json"
+                      },
+                      {
+                          "name":  "Open PO - ALL Detail",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\6bc43fd26a9cb7432fa4.bookmark.json"
+                      },
+                      {
+                          "name":  "Checks - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\7375b62a50a9b5cf8a76.bookmark.json"
+                      },
+                      {
+                          "name":  "Receipt - ALL Detail",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\806b0eff4aa0e30b1a87.bookmark.json"
+                      },
+                      {
+                          "name":  "Receipt - ALUM Detail",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\8160c566b9dce055538b.bookmark.json"
+                      },
+                      {
+                          "name":  "Receipt - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\86473fba169a58938e0e.bookmark.json"
+                      },
+                      {
+                          "name":  "Indirect - Line Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\8bd07dee497ae5ad863c.bookmark.json"
+                      },
+                      {
+                          "name":  "Summary - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\96d1498e7366db700dc7.bookmark.json"
+                      },
+                      {
+                          "name":  "Indirect - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\9797d12e6183a30274a9.bookmark.json"
+                      },
+                      {
+                          "name":  "Open PO - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\9ea8cef112dd1ba58bc3.bookmark.json"
+                      },
+                      {
+                          "name":  "Details - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\a4f75a1326d1ff90d44c.bookmark.json"
+                      },
+                      {
+                          "name":  "Summary - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\ab951bde9ad9b9e90132.bookmark.json"
+                      },
+                      {
+                          "name":  "Direct - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\b1bbf16eff2d3fabb62f.bookmark.json"
+                      },
+                      {
+                          "name":  "Indirect - Line Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\b1d04bcf3f443c6aaf20.bookmark.json"
+                      },
+                      {
+                          "name":  "Open PO - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\b6580d65474257f45aeb.bookmark.json"
+                      },
+                      {
+                          "name":  "Details - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\bb497790f5a95ca45d3f.bookmark.json"
+                      },
+                      {
+                          "name":  null,
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\bookmarks.json"
+                      },
+                      {
+                          "name":  "Checks - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\dda1b76a3afc5b7b813f.bookmark.json"
+                      },
+                      {
+                          "name":  "Open PO Alum - AI Open",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\e63990938b5e48c24c3b.bookmark.json"
+                      },
+                      {
+                          "name":  "Receipt Alum - AI Close",
+                          "type":  null,
+                          "path":  "3.Sample Files\\Spend Cube.Report\\definition\\bookmarks\\fbaa56e57c1e0db2fb20.bookmark.json"
+                      }
+                  ]
+}
