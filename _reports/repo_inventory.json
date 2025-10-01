@@ -749,7 +749,7 @@
                                                                  ]
                                               },
                       "2.Custom Themes/Spend Cube":  {
-                                                         "path":  "2.Custom Themes\\Spend Cube",
+                                                         "path":  "2.Custom Themes/Spend Cube",
                                                          "total_files":  0,
                                                          "counts_by_extension":  {
 
@@ -759,7 +759,7 @@
                                                                         ]
                                                      },
                       "2.Custom Themes/Spend Cube/01_overview":  {
-                                                                     "path":  "2.Custom Themes\\Spend Cube\\01_overview",
+                                                                     "path":  "2.Custom Themes/Spend Cube/01_overview",
                                                                      "total_files":  3,
                                                                      "counts_by_extension":  {
                                                                                                  ".txt":  1,
@@ -771,17 +771,18 @@
                                                                                     ]
                                                                  },
                       "2.Custom Themes/Spend Cube/02_properties":  {
-                                                                       "path":  "2.Custom Themes\\Spend Cube\\02_properties",
-                                                                       "total_files":  0,
+                                                                       "path":  "2.Custom Themes/Spend Cube/02_properties",
+                                                                       "total_files":  2,
                                                                        "counts_by_extension":  {
-
+                                                                                                   ".csv":  1,
+                                                                                                   ".txt":  1
                                                                                                },
                                                                        "json_files":  [
 
                                                                                       ]
                                                                    },
                       "2.Custom Themes/Spend Cube/03_templates":  {
-                                                                      "path":  "2.Custom Themes\\Spend Cube\\03_templates",
+                                                                      "path":  "2.Custom Themes/Spend Cube/03_templates",
                                                                       "total_files":  0,
                                                                       "counts_by_extension":  {
 
@@ -791,7 +792,7 @@
                                                                                      ]
                                                                   },
                       "2.Custom Themes/Spend Cube/04_theme_integration":  {
-                                                                              "path":  "2.Custom Themes\\Spend Cube\\04_theme_integration",
+                                                                              "path":  "2.Custom Themes/Spend Cube/04_theme_integration",
                                                                               "total_files":  0,
                                                                               "counts_by_extension":  {
 

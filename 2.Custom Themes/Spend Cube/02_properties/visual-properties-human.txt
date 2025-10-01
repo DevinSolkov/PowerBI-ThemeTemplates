@@ -1,0 +1,101 @@
+Overview
+--------
+Processed visual types: 11
+Visual type coverage:
+- actionButton: 11 visuals, 2 style variant(s)
+- card: 7 visuals, 3 style variant(s)
+- clusteredColumnChart: 4 visuals, 3 style variant(s)
+- image: 7 visuals, 1 style variant(s)
+- lineChart: 1 visuals, 1 style variant(s)
+- pivotTable: 6 visuals, 6 style variant(s)
+- shape: 18 visuals, 3 style variant(s)
+- slicer: 39 visuals, 3 style variant(s)
+- tableEx: 7 visuals, 4 style variant(s)
+- textbox: 14 visuals, 2 style variant(s)
+- waterfallChart: 1 visuals, 1 style variant(s)
+Unsupported types skipped: Unknown (36), advancedSlicerVisual (13), aiNarratives (7), powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6 (3)
+
+Type: actionButton
+- Style 1 (7 visuals): icon.show=true
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/b5b20f69f7e6ad8bf950/visual.json
+- Style 2 (4 visuals): fill.show=true; fill[id=default].fillColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); fill[id=default].transparency=0; icon.show=false; outline.show=false; outline[id=default].weight=1; text.show=true
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json
+
+Type: card
+- Style 1 (3 visuals): background.show=false; categoryLabels.show=false; labels.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); labels.fontFamily=Calibri; labels.fontSize=24; labels.labelDisplayUnits=1000000; title.alignment=center; title.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/1fd1be3336e8e9c71080/visual.json
+- Style 2 (3 visuals): background.show=false; categoryLabels.show=false; labels.color.solid.color={"Conditional": {"Cases": [{"Condition": {"Comparison": {"ComparisonKind": 0, "Left": {"Measure": {"Expression": {"SourceRef": {"Entity": "_Measures"}}, "Property": "Amt Paid Change %"}}, "Right": 0}}, "Value": "#666666"}, {"Condition": {"Comparison": {"ComparisonKind": 3, "Left": {"Measure": {"Expression": {"SourceRef": {"Entity": "_Measures"}}, "Property": "Amt Paid Change %"}}, "Right": 0}}, "Value": "#008000"}, {"Condition": {"Comparison": {"ComparisonKind": 2, "Left": {"Measure": {"Expression": {"SourceRef": {"Entity": "_Measures"}}, "Property": "Amt Paid Change %"}}, "Right": 0}}, "Value": "#FF0000"}]}}; labels.fontSize=9; title.alignment=center; title.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; title.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/00769583f29fe2b64c50/visual.json
+- Style 3 (1 visuals): background.show=false; categoryLabels.show=false; labels.color.solid.color=ThemeDataColor(ColorId=3,Percent=0); labels.fontFamily=Calibri; labels.fontSize=24; title.alignment=center; title.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; title.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/202c56b0c7a6fa64d77b/visual.json
+
+Type: clusteredColumnChart
+- Style 1 (2 visuals): categoryAxis.fontFamily=Calibri; categoryAxis.fontSize=14; categoryAxis.innerPadding=15; categoryAxis.labelColor.solid.color=#4B4C4A; categoryAxis.maxMarginFactor=35; categoryAxis.preferredCategoryWidth=40; categoryAxis.showAxisTitle=false; labels.color.solid.color=#4B4C4A
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json
+- Style 2 (1 visuals): categoryAxis.fontFamily=Calibri; categoryAxis.fontSize=11; categoryAxis.showAxisTitle=false; labels.color.solid.color=ThemeDataColor(ColorId=0,Percent=0); labels.fontFamily=Calibri; labels.fontSize=12; labels.labelPosition=Under; labels.labelPrecision=1
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/3e50486e0c488a40e894/visual.json
+- Style 3 (1 visuals): categoryAxis.fontFamily=Calibri; categoryAxis.fontSize=12; categoryAxis.labelColor.solid.color=#2E2E2E; categoryAxis.show=true; categoryAxis.showAxisTitle=false; labels.color.solid.color=ThemeDataColor(ColorId=0,Percent=0); labels.fontFamily=Calibri; labels.fontSize=12
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ae9ccbfdcd1ebcebc0ea/visual.json
+
+Type: image
+- Style 1 (7 visuals): imageScaling.imageScalingType=Normal
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/39f30bda89ed23307ac0/visual.json
+
+Type: lineChart
+- Style 1 (1 visuals): categoryAxis.axisType=Categorical; categoryAxis.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; categoryAxis.fontSize=12; categoryAxis.labelColor.solid.color=#4B4C4A; categoryAxis.maxMarginFactor=35; categoryAxis.preferredCategoryWidth=40; categoryAxis.show=true; categoryAxis.showAxisTitle=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json
+
+Type: pivotTable
+- Style 1 (1 visuals): background.show=false; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=2,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; columnHeaders.fontSize=12; columnHeaders.titleAlignment=Center
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/018bde61dba48e2ce72e/visual.json
+- Style 2 (1 visuals): background.show=false; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=2,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; columnHeaders.fontSize=12; columnHeaders.titleAlignment=Center
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/40814e49acb0638d2425/visual.json
+- Style 3 (1 visuals): background.show=false; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=2,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; columnHeaders.fontSize=12; columnHeaders.titleAlignment=Center
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/eee22707705d70d18888/visual.json
+- Style 4 (1 visuals): background.show=false; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=2,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=Calibri; columnHeaders.fontSize=14; columnHeaders.titleAlignment=Center
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/557ab93bcfedbfe6ee59/visual.json
+- Style 5 (1 visuals): background.show=false; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=2,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=Calibri; columnHeaders.fontSize=14; columnHeaders.titleAlignment=Center
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json
+- Style 6 (1 visuals): background.show=false; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=2,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=Calibri; columnHeaders.fontSize=14; columnHeaders.titleAlignment=Center
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/91df5e4b466836c60284/visual.json
+
+Type: shape
+- Style 1 (7 visuals): fill.fillColor.solid.color=ThemeDataColor(ColorId=6,Percent=0); fill.show=false; visualHeader.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/643d5532a3983c120c97/visual.json
+- Style 2 (7 visuals): fill[id=default].fillColor.solid.color=ThemeDataColor(ColorId=0,Percent=0)
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/be616747c638d1fb17ae/visual.json
+- Style 3 (4 visuals): fill.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/000656284e359f125b8a/visual.json
+
+Type: slicer
+- Style 1 (36 visuals): data.mode=Dropdown; header.show=true; selection.selectAllCheckboxEnabled=true; selection.singleSelect=false; visualHeader.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/08c60e9651021e4efedd/visual.json
+- Style 2 (2 visuals): data.mode=Dropdown; selection.selectAllCheckboxEnabled=true; selection.singleSelect=false; visualHeader.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/71d959c3ce900bc1c773/visual.json
+- Style 3 (1 visuals): background.transparency=0; data.mode=Dropdown; selection.selectAllCheckboxEnabled=true; selection.singleSelect=false; visualHeader.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/d51d4ed5dc123e8dd1f2/visual.json
+
+Type: tableEx
+- Style 1 (4 visuals): background.show=true; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=3,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; columnHeaders.fontSize=12; values.fontFamily=Calibri
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json
+- Style 2 (1 visuals): background.show=false; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=2,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=Calibri; columnHeaders.fontSize=14; grid.gridHorizontalColor.solid.color=#D5D5D4
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/aebf6f41349a836b67fc/visual.json
+- Style 3 (1 visuals): background.show=true; background.transparency=0; columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=3,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; columnHeaders.fontSize=12; values.fontFamily=''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1fcf82ba299c5692a2b4/visuals/9b7d3377d87a29578137/visual.json
+- Style 4 (1 visuals): columnHeaders.alignment=Center; columnHeaders.backColor.solid.color=ThemeDataColor(ColorId=3,Percent=0); columnHeaders.fontColor.solid.color=ThemeDataColor(ColorId=0,Percent=0); columnHeaders.fontFamily=''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif; columnHeaders.fontSize=12; total.totals=false; values.fontFamily=Calibri; values.fontSize=12
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/23d10e40206341b517f6/visuals/ace87607236317a3df16/visual.json
+
+Type: textbox
+- Style 1 (12 visuals): background.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/13cc83f2159925777c2d/visual.json
+- Style 2 (2 visuals): background.show=false; background.transparency=0; title.fontColor.solid.color=#2E2E2E; title.show=false; visualHeader.show=false
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/2e5c011167fbf0d1b008/visual.json
+
+Type: waterfallChart
+- Style 1 (1 visuals): categoryAxis.fontFamily=Calibri; categoryAxis.fontSize=14; categoryAxis.innerPadding=15; categoryAxis.labelColor.solid.color=#4B4C4A; categoryAxis.maxMarginFactor=35; categoryAxis.preferredCategoryWidth=40; categoryAxis.showAxisTitle=false; labels.color.solid.color=#4B4C4A
+  Sample: 3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json
+
+Sources
+-------
+Report root: /3.Sample Files/Spend Cube.Report
+Inventory reference: 2.Custom Themes/Spend Cube/01_overview/spend-cube-inventory.json
