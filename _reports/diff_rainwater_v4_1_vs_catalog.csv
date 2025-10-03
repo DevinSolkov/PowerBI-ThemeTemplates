@@ -1,0 +1,662 @@
+classification,visual_type,attribute_key,theme_style_variants,theme_values,theme_pointers,catalog_count,catalog_style_variants,catalog_dominant_value,catalog_sample_value,catalog_sample_source,match_status
+only_in_theme,*,background.transparency,*,100,/visualStyles/*/*/background/0/transparency,0,,,,,n/a
+only_in_theme,*,border.show,*,false,/visualStyles/*/*/border/0/show,0,,,,,n/a
+only_in_theme,*,categoryAxis.axisType,*,Categorical,/visualStyles/*/*/categoryAxis/0/axisType,0,,,,,n/a
+only_in_theme,*,categoryAxis.fontSize,*,12,/visualStyles/*/*/categoryAxis/0/fontSize,0,,,,,n/a
+only_in_theme,*,categoryAxis.labelColor.solid.color,*,#4B4C4A,/visualStyles/*/*/categoryAxis/0/labelColor/solid/color,0,,,,,n/a
+only_in_theme,*,categoryAxis.labelPrecision,*,0,/visualStyles/*/*/categoryAxis/0/labelPrecision,0,,,,,n/a
+only_in_theme,*,categoryAxis.maxMarginFactor,*,35,/visualStyles/*/*/categoryAxis/0/maxMarginFactor,0,,,,,n/a
+only_in_theme,*,categoryAxis.show,*,true,/visualStyles/*/*/categoryAxis/0/show,0,,,,,n/a
+only_in_theme,*,categoryAxis.showAxisTitle,*,false,/visualStyles/*/*/categoryAxis/0/showAxisTitle,0,,,,,n/a
+only_in_theme,*,categoryLabels.color.solid.color,*,#4B4C4A,/visualStyles/*/*/categoryLabels/0/color/solid/color,0,,,,,n/a
+only_in_theme,*,categoryLabels.fontFamily,*,Segoe UI Semibold,/visualStyles/*/*/categoryLabels/0/fontFamily,0,,,,,n/a
+only_in_theme,*,categoryLabels.fontSize,*,12,/visualStyles/*/*/categoryLabels/0/fontSize,0,,,,,n/a
+only_in_theme,*,categoryLabels.show,*,true,/visualStyles/*/*/categoryLabels/0/show,0,,,,,n/a
+only_in_theme,*,columnHeaders.alignment,*,Left,/visualStyles/*/*/columnHeaders/0/alignment,0,,,,,n/a
+only_in_theme,*,columnHeaders.fontColor.solid.color,*,#2E2E2E,/visualStyles/*/*/columnHeaders/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,*,columnHeaders.fontFamily,*,Segoe UI Semibold,/visualStyles/*/*/columnHeaders/0/fontFamily,0,,,,,n/a
+only_in_theme,*,columnHeaders.fontSize,*,10,/visualStyles/*/*/columnHeaders/0/fontSize,0,,,,,n/a
+only_in_theme,*,dataPoint.fill.solid.color,*,#0C2340,/visualStyles/*/*/dataPoint/0/fill/solid/color,0,,,,,n/a
+only_in_theme,*,divider.show,*,false,/visualStyles/*/*/divider/0/show,0,,,,,n/a
+only_in_theme,*,dropShadow.show,*,false,/visualStyles/*/*/dropShadow/0/show,0,,,,,n/a
+only_in_theme,*,general.keepLayerOrder,*,true,/visualStyles/*/*/general/0/keepLayerOrder,0,,,,,n/a
+only_in_theme,*,grid.gridHorizontal,*,false,/visualStyles/*/*/grid/0/gridHorizontal,0,,,,,n/a
+only_in_theme,*,grid.gridVertical,*,false,/visualStyles/*/*/grid/0/gridVertical,0,,,,,n/a
+only_in_theme,*,labels.color.solid.color,*,#4B4C4A,/visualStyles/*/*/labels/0/color/solid/color,0,,,,,n/a
+only_in_theme,*,labels.fontFamily,*,Segoe UI Semibold,/visualStyles/*/*/labels/0/fontFamily,0,,,,,n/a
+only_in_theme,*,labels.fontSize,*,12,/visualStyles/*/*/labels/0/fontSize,0,,,,,n/a
+only_in_theme,*,labels.labelDisplayUnits,*,1,/visualStyles/*/*/labels/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,*,labels.labelPosition,*,OutsideEnd,/visualStyles/*/*/labels/0/labelPosition,0,,,,,n/a
+only_in_theme,*,labels.labelPrecision,*,0,/visualStyles/*/*/labels/0/labelPrecision,0,,,,,n/a
+only_in_theme,*,labels.show,*,true,/visualStyles/*/*/labels/0/show,0,,,,,n/a
+only_in_theme,*,legend.show,*,false,/visualStyles/*/*/legend/0/show,0,,,,,n/a
+only_in_theme,*,lineStyles.lineStyle,*,dashed,/visualStyles/*/*/lineStyles/0/lineStyle,0,,,,,n/a
+only_in_theme,*,lineStyles.markerColor.solid.color,*,#0C2340,/visualStyles/*/*/lineStyles/0/markerColor/solid/color,0,,,,,n/a
+only_in_theme,*,lineStyles.markerSize,*,5,/visualStyles/*/*/lineStyles/0/markerSize,0,,,,,n/a
+only_in_theme,*,lineStyles.shadeArea,*,true,/visualStyles/*/*/lineStyles/0/shadeArea,0,,,,,n/a
+only_in_theme,*,lineStyles.showMarker,*,true,/visualStyles/*/*/lineStyles/0/showMarker,0,,,,,n/a
+only_in_theme,*,lineStyles.stepped,*,true,/visualStyles/*/*/lineStyles/0/stepped,0,,,,,n/a
+only_in_theme,*,lineStyles.strokeLineJoin,*,round,/visualStyles/*/*/lineStyles/0/strokeLineJoin,0,,,,,n/a
+only_in_theme,*,lineStyles.strokeWidth,*,2,/visualStyles/*/*/lineStyles/0/strokeWidth,0,,,,,n/a
+only_in_theme,*,mapControls.autoZoom,*,false,/visualStyles/*/*/mapControls/0/autoZoom,0,,,,,n/a
+only_in_theme,*,mapControls.centerLatitude,*,38.8,/visualStyles/*/*/mapControls/0/centerLatitude,0,,,,,n/a
+only_in_theme,*,mapControls.centerLongitude,*,-122.6,/visualStyles/*/*/mapControls/0/centerLongitude,0,,,,,n/a
+only_in_theme,*,mapControls.zoomLevel,*,8,/visualStyles/*/*/mapControls/0/zoomLevel,0,,,,,n/a
+only_in_theme,*,spacing.customizeSpacing,*,true,/visualStyles/*/*/spacing/0/customizeSpacing,0,,,,,n/a
+only_in_theme,*,spacing.spaceBelowSubTitle,*,5,/visualStyles/*/*/spacing/0/spaceBelowSubTitle,0,,,,,n/a
+only_in_theme,*,spacing.spaceBelowTitle,*,5,/visualStyles/*/*/spacing/0/spaceBelowTitle,0,,,,,n/a
+only_in_theme,*,spacing.spaceBelowTitleArea,*,5,/visualStyles/*/*/spacing/0/spaceBelowTitleArea,0,,,,,n/a
+only_in_theme,*,subTitle.fontColor.solid.color,*,#0C2340,/visualStyles/*/*/subTitle/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,*,subTitle.fontFamily,*,Segoe UI Semibold,/visualStyles/*/*/subTitle/0/fontFamily,0,,,,,n/a
+only_in_theme,*,subTitle.fontSize,*,16,/visualStyles/*/*/subTitle/0/fontSize,0,,,,,n/a
+only_in_theme,*,subTitle.show,*,true,/visualStyles/*/*/subTitle/0/show,0,,,,,n/a
+only_in_theme,*,title.fontColor.solid.color,*,#007BA8,/visualStyles/*/*/title/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,*,title.fontFamily,*,Segoe UI Semibold,/visualStyles/*/*/title/0/fontFamily,0,,,,,n/a
+only_in_theme,*,title.fontSize,*,20,/visualStyles/*/*/title/0/fontSize,0,,,,,n/a
+only_in_theme,*,title.show,*,false,/visualStyles/*/*/title/0/show,0,,,,,n/a
+only_in_theme,*,totals.color.solid.color,*,#0C2340,/visualStyles/*/*/totals/0/color/solid/color,0,,,,,n/a
+only_in_theme,*,totals.enableBackground,*,false,/visualStyles/*/*/totals/0/enableBackground,0,,,,,n/a
+only_in_theme,*,totals.fontFamily,*,Segoe UI Semibold,/visualStyles/*/*/totals/0/fontFamily,0,,,,,n/a
+only_in_theme,*,totals.fontSize,*,8,/visualStyles/*/*/totals/0/fontSize,0,,,,,n/a
+only_in_theme,*,totals.labelDisplayUnits,*,1,/visualStyles/*/*/totals/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,*,totals.labelPrecision,*,0,/visualStyles/*/*/totals/0/labelPrecision,0,,,,,n/a
+only_in_theme,*,totals.show,*,true,/visualStyles/*/*/totals/0/show,0,,,,,n/a
+only_in_theme,*,valueAxis.fontFamily,*,Segoe UI,/visualStyles/*/*/valueAxis/0/fontFamily,0,,,,,n/a
+only_in_theme,*,valueAxis.fontSize,*,12,/visualStyles/*/*/valueAxis/0/fontSize,0,,,,,n/a
+only_in_theme,*,valueAxis.gridlineShow,*,false,/visualStyles/*/*/valueAxis/0/gridlineShow,0,,,,,n/a
+only_in_theme,*,valueAxis.labelColor.solid.color,*,#4B4C4A,/visualStyles/*/*/valueAxis/0/labelColor/solid/color,0,,,,,n/a
+only_in_theme,*,valueAxis.labelDisplayUnits,*,1,/visualStyles/*/*/valueAxis/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,*,valueAxis.labelPrecision,*,0,/visualStyles/*/*/valueAxis/0/labelPrecision,0,,,,,n/a
+only_in_theme,*,valueAxis.showAxisTitle,*,false,/visualStyles/*/*/valueAxis/0/showAxisTitle,0,,,,,n/a
+only_in_theme,*,values.fontColorPrimary.solid.color,*,#2E2E2E,/visualStyles/*/*/values/0/fontColorPrimary/solid/color,0,,,,,n/a
+only_in_theme,*,values.fontColorSecondary.solid.color,*,#2E2E2E,/visualStyles/*/*/values/0/fontColorSecondary/solid/color,0,,,,,n/a
+only_in_theme,*,values.fontFamily,*,Segoe UI Semibold,/visualStyles/*/*/values/0/fontFamily,0,,,,,n/a
+only_in_theme,*,values.fontSize,*,10,/visualStyles/*/*/values/0/fontSize,0,,,,,n/a
+only_in_theme,*,y2Axis.show,*,false,/visualStyles/*/*/y2Axis/0/show,0,,,,,n/a
+only_in_theme,*,zoom.show,*,false,/visualStyles/*/*/zoom/0/show,0,,,,,n/a
+only_in_scans,actionButton,fill.show,,,,4,Style 2,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json,n/a
+only_in_scans,actionButton,fill[id=default].fillColor.solid.color,,,,4,Style 2,"ThemeDataColor(ColorId=0,Percent=0)","ThemeDataColor(ColorId=0,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json,n/a
+only_in_scans,actionButton,fill[id=default].transparency,,,,4,Style 2,0,0,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json,n/a
+only_in_scans,actionButton,icon.show,,,,11,Style 1;Style 2,true,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json,n/a
+only_in_scans,actionButton,outline.show,,,,4,Style 2,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json,n/a
+only_in_scans,actionButton,outline[id=default].weight,,,,4,Style 2,1,1,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json,n/a
+only_in_scans,actionButton,text.show,,,,4,Style 2,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/20c4f4b196f0952a45c0/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=default].color.solid.color,,,,10,Style 1;Style 3;Style 4;Style 5,"ThemeDataColor(ColorId=2,Percent=0)","ThemeDataColor(ColorId=2,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=default].position,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,Bottom,Bottom,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=default].show,,,,10,Style 1;Style 3;Style 4;Style 5,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=interaction:hover].color.solid.color,,,,3,Style 2;Style 6,"ThemeDataColor(ColorId=2,Percent=0)","ThemeDataColor(ColorId=2,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=interaction:hover].width,,,,5,Style 2;Style 3;Style 4;Style 6,3,3,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=interaction:press].width,,,,8,Style 1;Style 5,3,3,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=interaction:rest].show,,,,3,Style 2;Style 6,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=interaction:rest].transparency,,,,5,Style 2;Style 3;Style 4;Style 6,100,100,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,accentBar[id=selection:selected].transparency,,,,8,Style 1;Style 5,0,0,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,background[id=interaction:hover].show,,,,5,Style 2;Style 3;Style 4;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,border.show,,,,3,Style 2;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,border.width,,,,5,Style 2;Style 3;Style 4;Style 6,1,1,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,fillCustom[id=default].show,,,,10,Style 1;Style 3;Style 4;Style 5,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,fillCustom[id=interaction:hover].fillColor.solid.color,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,"ThemeDataColor(ColorId=3,Percent=-0.25)","ThemeDataColor(ColorId=3,Percent=-0.25)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,fillCustom[id=interaction:hover].show,,,,3,Style 2;Style 6,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,fillCustom[id=interaction:hover].transparency,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,25,25,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,layout.cellPadding,,,,4,Style 2;Style 3;Style 6,0,2,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,layout.columnCount,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,3,3,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,layout.maxTiles,,,,4,Style 2;Style 3;Style 6,10,10,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,layout.orientation,,,,5,Style 2;Style 3;Style 4;Style 6,1,2,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,layout.rowCount,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,1,1,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,outline[id=default].show,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,overFlow.overFlowDirection,,,,5,Style 2;Style 3;Style 4;Style 6,0,1,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,overFlow.overFlowStyle,,,,1,Style 3,1,1,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/9b5ec1cb10fd9624e712/visual.json,n/a
+only_in_scans,advancedSlicerVisual,selection.restrictToLeafNodes,,,,5,Style 2;Style 3;Style 4;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,selection.selectAllCheckboxEnabled,,,,5,Style 2;Style 3;Style 4;Style 6,true,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,selection.singleSelect,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,selection.strictSingleSelect,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,selectionIcon.show,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,shadowCustom[id=default].show,,,,2,Style 2,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/61308f61c133dccad754/visual.json,n/a
+only_in_scans,advancedSlicerVisual,shapeCustomRectangle[id=default].rectangleRoundedCurveCustomStyle,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,shapeCustomRectangle[id=default].tileShape,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,rectangleRoundedByPixel,rectangleRoundedByPixel,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,title.show,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,title.text,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,Slicer - Calendar Year,Slicer - Calendar Year,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,title.titleWrap,,,,5,Style 2;Style 3;Style 4;Style 6,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=default].horizontalAlignment,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,center,center,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:hover].bold,,,,10,Style 1;Style 3;Style 4;Style 5,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:hover].fontColor.solid.color,,,,10,Style 1;Style 3;Style 4;Style 5,"ThemeDataColor(ColorId=8,Percent=-0.5)","ThemeDataColor(ColorId=8,Percent=-0.5)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:hover].fontFamily,,,,10,Style 1;Style 3;Style 4;Style 5,"''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif","''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:hover].fontSize,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,14,14,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:hover].transparency,,,,10,Style 1;Style 3;Style 4;Style 5,0,0,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:hover].underline,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:rest].bold,,,,3,Style 2;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:rest].fontColor.solid.color,,,,3,Style 2;Style 6,"ThemeDataColor(ColorId=8,Percent=-0.25)","ThemeDataColor(ColorId=8,Percent=-0.25)",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:rest].fontFamily,,,,3,Style 2;Style 6,"''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif","''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:rest].italic,,,,3,Style 2;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=interaction:rest].transparency,,,,3,Style 2;Style 6,0,0,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json,n/a
+only_in_scans,advancedSlicerVisual,value[id=selection:selected].italic,,,,10,Style 1;Style 3;Style 4;Style 5,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,advancedSlicerVisual,visualHeader.show,,,,13,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json,n/a
+only_in_scans,aiNarratives,background.color.solid.color,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,"ThemeDataColor(ColorId=6,Percent=0)","ThemeDataColor(ColorId=6,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,background.show,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,background.transparency,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,5,5,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,border.color.solid.color,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,"ThemeDataColor(ColorId=3,Percent=0)","ThemeDataColor(ColorId=3,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,border.radius,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,6,6,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,border.show,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,narrativeSelection.dismissSelectionScreen,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,text.fontColor.solid.color,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,"ThemeDataColor(ColorId=1,Percent=0)","ThemeDataColor(ColorId=1,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,text.fontSize,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,12,12,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,text.textAlignment,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,left,left,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,title.show,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,userPrompt.selectedVisualsJson,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,"{""isEntireReportSelected"":false,""sections"":{""02604e232e37ce8027cd"":{""isEntireSectionSelected"":true}}}","{""isEntireReportSelected"":false,""sections"":{""02604e232e37ce8027cd"":{""isEntireSectionSelected"":true}}}",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,userPrompt.text,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,"Executive Summary (underline, bold)
+
+[2 blank rows]
+
+Create 4-sentence executive summary focusing on business impact and strategic trends with implications. Blank row in between sentences. Each sentence on separate row. Don''t bold. Identify actionable patterns and performance drivers. Don''t reference BLANK data or obvious page callouts.
+
+[3 blank rows]
+
+Key Insights (underline, bold)
+
+Create 3-5 bulleted insights with business context and quantitative details. Add blank row between bullets. Don''t bold bullets. Focus on non-obvious, decision-driving findings that warrant investigation. Don''t compare Direct vs Indirect spend.
+
+[2 blank rows]
+
+Strategic Questions for Leadership (underline, bold)
+
+List 5 action-oriented ""how"" and ""what if"" questions based on data patterns for optimization opportunities and risk mitigation.
+
+When page has selections, tailor all content to that specific context (vendor, date, organization). Compare selection performance to relevant benchmarks when possible.","Executive Summary (underline, bold)
+
+[2 blank rows]
+
+Create 4-sentence executive summary focusing on business impact and strategic trends with implications. Blank row in between sentences. Each sentence on separate row. Don''t bold. Identify actionable patterns and performance drivers. Don''t reference BLANK data or obvious page callouts.
+
+[3 blank rows]
+
+Key Insights (underline, bold)
+
+Create 3-5 bulleted insights with business context and quantitative details. Add blank row between bullets. Don''t bold bullets. Focus on non-obvious, decision-driving findings that warrant investigation. Don''t compare Direct vs Indirect spend.
+
+[2 blank rows]
+
+Strategic Questions for Leadership (underline, bold)
+
+List 5 action-oriented ""how"" and ""what if"" questions based on data patterns for optimization opportunities and risk mitigation.
+
+When page has selections, tailor all content to that specific context (vendor, date, organization). Compare selection performance to relevant benchmarks when possible.",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,userPrompt.useAllVisuals,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,visualHeader.show,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_scans,aiNarratives,visualTooltip.show,,,,7,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6;Style 7,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/8b7d2fbe96b61532e888/visual.json,n/a
+only_in_theme,areaChart,categoryAxis.axisStyle,*,showTitleOnly,/visualStyles/areaChart/*/categoryAxis/0/axisStyle,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.axisType,*,Scalar,/visualStyles/areaChart/*/categoryAxis/0/axisType,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.concatenateLabels,*,true,/visualStyles/areaChart/*/categoryAxis/0/concatenateLabels,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.fontFamily,*,Segoe UI Semibold,/visualStyles/areaChart/*/categoryAxis/0/fontFamily,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.fontSize,*,9,/visualStyles/areaChart/*/categoryAxis/0/fontSize,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.gridlineColor.solid.color,*,#EAEAEA,/visualStyles/areaChart/*/categoryAxis/0/gridlineColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.gridlineShow,*,false,/visualStyles/areaChart/*/categoryAxis/0/gridlineShow,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.gridlineStyle,*,dashed,/visualStyles/areaChart/*/categoryAxis/0/gridlineStyle,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.gridlineThickness,*,1,/visualStyles/areaChart/*/categoryAxis/0/gridlineThickness,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.labelColor.solid.color,*,#4B4C4A,/visualStyles/areaChart/*/categoryAxis/0/labelColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.maxMarginFactor,*,28,/visualStyles/areaChart/*/categoryAxis/0/maxMarginFactor,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.preferredCategoryWidth,*,30,/visualStyles/areaChart/*/categoryAxis/0/preferredCategoryWidth,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.show,*,true,/visualStyles/areaChart/*/categoryAxis/0/show,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.showAxisTitle,*,false,/visualStyles/areaChart/*/categoryAxis/0/showAxisTitle,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.titleColor.solid.color,*,#4B4C4A,/visualStyles/areaChart/*/categoryAxis/0/titleColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.titleFontFamily,*,Segoe UI Semibold,/visualStyles/areaChart/*/categoryAxis/0/titleFontFamily,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.titleFontSize,*,12,/visualStyles/areaChart/*/categoryAxis/0/titleFontSize,0,,,,,n/a
+only_in_theme,areaChart,categoryAxis.titleText,*,Area Chart,/visualStyles/areaChart/*/categoryAxis/0/titleText,0,,,,,n/a
+only_in_theme,areaChart,dataPoint.defaultColor.solid.color,*,#0C2340,/visualStyles/areaChart/*/dataPoint/0/defaultColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,general.keepLayerOrder,*,true,/visualStyles/areaChart/*/general/0/keepLayerOrder,0,,,,,n/a
+only_in_theme,areaChart,general.responsive,*,true,/visualStyles/areaChart/*/general/0/responsive,0,,,,,n/a
+only_in_theme,areaChart,labels.color.solid.color,*,#0C2340,/visualStyles/areaChart/*/labels/0/color/solid/color,0,,,,,n/a
+only_in_theme,areaChart,labels.fontFamily,*,Segoe UI Semibold,/visualStyles/areaChart/*/labels/0/fontFamily,0,,,,,n/a
+only_in_theme,areaChart,labels.fontSize,*,12,/visualStyles/areaChart/*/labels/0/fontSize,0,,,,,n/a
+only_in_theme,areaChart,labels.labelDisplayUnits,*,0,/visualStyles/areaChart/*/labels/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,areaChart,labels.labelPrecision,*,1,/visualStyles/areaChart/*/labels/0/labelPrecision,0,,,,,n/a
+only_in_theme,areaChart,labels.show,*,true,/visualStyles/areaChart/*/labels/0/show,0,,,,,n/a
+only_in_theme,areaChart,legend.fontFamily,*,Courier New,/visualStyles/areaChart/*/legend/0/fontFamily,0,,,,,n/a
+only_in_theme,areaChart,legend.fontSize,*,10,/visualStyles/areaChart/*/legend/0/fontSize,0,,,,,n/a
+only_in_theme,areaChart,legend.labelColor.solid.color,*,#01B8AA,/visualStyles/areaChart/*/legend/0/labelColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,legend.legendMarkerRendering,*,markerOnly,/visualStyles/areaChart/*/legend/0/legendMarkerRendering,0,,,,,n/a
+only_in_theme,areaChart,legend.matchLineColor,*,false,/visualStyles/areaChart/*/legend/0/matchLineColor,0,,,,,n/a
+only_in_theme,areaChart,legend.position,*,Top,/visualStyles/areaChart/*/legend/0/position,0,,,,,n/a
+only_in_theme,areaChart,legend.show,*,false,/visualStyles/areaChart/*/legend/0/show,0,,,,,n/a
+only_in_theme,areaChart,legend.showTitle,*,true,/visualStyles/areaChart/*/legend/0/showTitle,0,,,,,n/a
+only_in_theme,areaChart,legend.titleText,*,,/visualStyles/areaChart/*/legend/0/titleText,0,,,,,n/a
+only_in_theme,areaChart,lineStyles.lineStyle,*,dashed,/visualStyles/areaChart/*/lineStyles/0/lineStyle,0,,,,,n/a
+only_in_theme,areaChart,lineStyles.markerColor.solid.color,*,#0C2340,/visualStyles/areaChart/*/lineStyles/0/markerColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,lineStyles.markerShape,*,circle,/visualStyles/areaChart/*/lineStyles/0/markerShape,0,,,,,n/a
+only_in_theme,areaChart,lineStyles.markerSize,*,4,/visualStyles/areaChart/*/lineStyles/0/markerSize,0,,,,,n/a
+only_in_theme,areaChart,lineStyles.showMarker,*,true,/visualStyles/areaChart/*/lineStyles/0/showMarker,0,,,,,n/a
+only_in_theme,areaChart,lineStyles.strokeLineJoin,*,bevel,/visualStyles/areaChart/*/lineStyles/0/strokeLineJoin,0,,,,,n/a
+only_in_theme,areaChart,lineStyles.strokeWidth,*,1,/visualStyles/areaChart/*/lineStyles/0/strokeWidth,0,,,,,n/a
+only_in_theme,areaChart,plotArea.transparency,*,100,/visualStyles/areaChart/*/plotArea/0/transparency,0,,,,,n/a
+only_in_theme,areaChart,title.alignment,*,left,/visualStyles/areaChart/*/title/0/alignment,0,,,,,n/a
+only_in_theme,areaChart,title.fontColor.solid.color,*,#007BA8,/visualStyles/areaChart/*/title/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,title.fontFamily,*,Segoe UI Semibold,/visualStyles/areaChart/*/title/0/fontFamily,0,,,,,n/a
+only_in_theme,areaChart,title.fontSize,*,20,/visualStyles/areaChart/*/title/0/fontSize,0,,,,,n/a
+only_in_theme,areaChart,title.show,*,true,/visualStyles/areaChart/*/title/0/show,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.axisScale,*,linear,/visualStyles/areaChart/*/valueAxis/0/axisScale,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.axisStyle,*,showTitleOnly,/visualStyles/areaChart/*/valueAxis/0/axisStyle,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.color.solid.color,*,#4B4C4A,/visualStyles/areaChart/*/valueAxis/0/color/solid/color,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.fontFamily,*,Segoe UI Semibold,/visualStyles/areaChart/*/valueAxis/0/fontFamily,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.fontSize,*,9,/visualStyles/areaChart/*/valueAxis/0/fontSize,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.gridlineColor.solid.color,*,#EAEAEA,/visualStyles/areaChart/*/valueAxis/0/gridlineColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.gridlineShow,*,false,/visualStyles/areaChart/*/valueAxis/0/gridlineShow,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.gridlineStyle,*,dashed,/visualStyles/areaChart/*/valueAxis/0/gridlineStyle,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.gridlineThickness,*,1,/visualStyles/areaChart/*/valueAxis/0/gridlineThickness,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.labelColor.solid.color,*,#4B4C4A,/visualStyles/areaChart/*/valueAxis/0/labelColor/solid/color,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.labelDisplayUnits,*,0,/visualStyles/areaChart/*/valueAxis/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.labelPrecision,*,0,/visualStyles/areaChart/*/valueAxis/0/labelPrecision,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.position,*,Right,/visualStyles/areaChart/*/valueAxis/0/position,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.show,*,false,/visualStyles/areaChart/*/valueAxis/0/show,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.showAxisTitle,*,false,/visualStyles/areaChart/*/valueAxis/0/showAxisTitle,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.titleFontFamily,*,Segoe UI Semibold,/visualStyles/areaChart/*/valueAxis/0/titleFontFamily,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.titleFontSize,*,12,/visualStyles/areaChart/*/valueAxis/0/titleFontSize,0,,,,,n/a
+only_in_theme,areaChart,valueAxis.titleText,*,Area Chart,/visualStyles/areaChart/*/valueAxis/0/titleText,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.$id,*,0,/visualStyles/barChart/*/xAxisReferenceLine/0/$id,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.dataLabelColor.solid.color,*,#605E5C,/visualStyles/barChart/*/xAxisReferenceLine/0/dataLabelColor/solid/color,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.dataLabelDecimalPoints,*,2,/visualStyles/barChart/*/xAxisReferenceLine/0/dataLabelDecimalPoints,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.dataLabelDisplayUnits,*,0,/visualStyles/barChart/*/xAxisReferenceLine/0/dataLabelDisplayUnits,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.dataLabelHorizontalPosition,*,left,/visualStyles/barChart/*/xAxisReferenceLine/0/dataLabelHorizontalPosition,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.dataLabelShow,*,false,/visualStyles/barChart/*/xAxisReferenceLine/0/dataLabelShow,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.dataLabelText,*,Value,/visualStyles/barChart/*/xAxisReferenceLine/0/dataLabelText,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.dataLabelVerticalPosition,*,above,/visualStyles/barChart/*/xAxisReferenceLine/0/dataLabelVerticalPosition,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.lineColor.solid.color,*,#605E5C,/visualStyles/barChart/*/xAxisReferenceLine/0/lineColor/solid/color,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.position,*,back,/visualStyles/barChart/*/xAxisReferenceLine/0/position,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.shadeColor.solid.color,*,#000000,/visualStyles/barChart/*/xAxisReferenceLine/0/shadeColor/solid/color,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.shadeRegion,*,none,/visualStyles/barChart/*/xAxisReferenceLine/0/shadeRegion,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.shadeTransparency,*,0,/visualStyles/barChart/*/xAxisReferenceLine/0/shadeTransparency,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.show,*,false,/visualStyles/barChart/*/xAxisReferenceLine/0/show,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.style,*,solid,/visualStyles/barChart/*/xAxisReferenceLine/0/style,0,,,,,n/a
+only_in_theme,barChart,xAxisReferenceLine.transparency,*,0,/visualStyles/barChart/*/xAxisReferenceLine/0/transparency,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.$id,*,0,/visualStyles/barChart/*/y1AxisReferenceLine/0/$id,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.dataLabelColor.solid.color,*,#605E5C,/visualStyles/barChart/*/y1AxisReferenceLine/0/dataLabelColor/solid/color,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.dataLabelDecimalPoints,*,2,/visualStyles/barChart/*/y1AxisReferenceLine/0/dataLabelDecimalPoints,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.dataLabelDisplayUnits,*,0,/visualStyles/barChart/*/y1AxisReferenceLine/0/dataLabelDisplayUnits,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.dataLabelHorizontalPosition,*,left,/visualStyles/barChart/*/y1AxisReferenceLine/0/dataLabelHorizontalPosition,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.dataLabelShow,*,false,/visualStyles/barChart/*/y1AxisReferenceLine/0/dataLabelShow,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.dataLabelText,*,Value,/visualStyles/barChart/*/y1AxisReferenceLine/0/dataLabelText,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.dataLabelVerticalPosition,*,above,/visualStyles/barChart/*/y1AxisReferenceLine/0/dataLabelVerticalPosition,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.lineColor.solid.color,*,#605E5C,/visualStyles/barChart/*/y1AxisReferenceLine/0/lineColor/solid/color,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.position,*,back,/visualStyles/barChart/*/y1AxisReferenceLine/0/position,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.shadeColor.solid.color,*,#000000,/visualStyles/barChart/*/y1AxisReferenceLine/0/shadeColor/solid/color,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.shadeRegion,*,none,/visualStyles/barChart/*/y1AxisReferenceLine/0/shadeRegion,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.shadeTransparency,*,0,/visualStyles/barChart/*/y1AxisReferenceLine/0/shadeTransparency,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.show,*,false,/visualStyles/barChart/*/y1AxisReferenceLine/0/show,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.style,*,solid,/visualStyles/barChart/*/y1AxisReferenceLine/0/style,0,,,,,n/a
+only_in_theme,barChart,y1AxisReferenceLine.transparency,*,0,/visualStyles/barChart/*/y1AxisReferenceLine/0/transparency,0,,,,,n/a
+only_in_scans,card,background.show,,,,7,Style 1;Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/00769583f29fe2b64c50/visual.json,n/a
+only_in_scans,card,categoryLabels.show,,,,7,Style 1;Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/00769583f29fe2b64c50/visual.json,n/a
+only_in_scans,card,labels.color.solid.color,,,,7,Style 1;Style 2;Style 3,"ThemeDataColor(ColorId=3,Percent=0)","{""Conditional"": {""Cases"": [{""Condition"": {""Comparison"": {""ComparisonKind"": 0, ""Left"": {""Measure"": {""Expression"": {""SourceRef"": {""Entity"": ""_Measures""}}, ""Property"": ""Amt Paid Change %""}}, ""Right"": 0}}, ""Value"": ""#666666""}, {""Condition"": {""Comparison"": {""ComparisonKind"": 3, ""Left"": {""Measure"": {""Expression"": {""SourceRef"": {""Entity"": ""_Measures""}}, ""Property"": ""Amt Paid Change %""}}, ""Right"": 0}}, ""Value"": ""#008000""}, {""Condition"": {""Comparison"": {""ComparisonKind"": 2, ""Left"": {""Measure"": {""Expression"": {""SourceRef"": {""Entity"": ""_Measures""}}, ""Property"": ""Amt Paid Change %""}}, ""Right"": 0}}, ""Value"": ""#FF0000""}]}}",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/00769583f29fe2b64c50/visual.json,n/a
+only_in_scans,card,labels.fontFamily,,,,4,Style 1;Style 3,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/1fd1be3336e8e9c71080/visual.json,n/a
+only_in_scans,card,labels.fontSize,,,,7,Style 1;Style 2;Style 3,24,9,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/00769583f29fe2b64c50/visual.json,n/a
+only_in_scans,card,labels.labelDisplayUnits,,,,3,Style 1,1000000,1000000,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/1fd1be3336e8e9c71080/visual.json,n/a
+only_in_scans,card,title.alignment,,,,7,Style 1;Style 2;Style 3,center,center,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/00769583f29fe2b64c50/visual.json,n/a
+only_in_scans,card,title.fontFamily,,,,7,Style 1;Style 2;Style 3,"''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif","''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/00769583f29fe2b64c50/visual.json,n/a
+only_in_scans,card,title.show,,,,7,Style 1;Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/00769583f29fe2b64c50/visual.json,n/a
+only_in_theme,clusteredBarChart,background.show,*,false,/visualStyles/clusteredBarChart/*/background/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,border.show,*,false,/visualStyles/clusteredBarChart/*/border/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,categoryAxis.fontFamily,*,Segoe UI,/visualStyles/clusteredBarChart/*/categoryAxis/0/fontFamily,0,,,,,n/a
+only_in_theme,clusteredBarChart,categoryAxis.fontSize,*,12,/visualStyles/clusteredBarChart/*/categoryAxis/0/fontSize,0,,,,,n/a
+only_in_theme,clusteredBarChart,categoryAxis.labelColor.solid.color,*,#4B4C4A,/visualStyles/clusteredBarChart/*/categoryAxis/0/labelColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,categoryAxis.labelDisplayUnits,*,1,/visualStyles/clusteredBarChart/*/categoryAxis/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,clusteredBarChart,categoryAxis.labelPrecision,*,0,/visualStyles/clusteredBarChart/*/categoryAxis/0/labelPrecision,0,,,,,n/a
+only_in_theme,clusteredBarChart,categoryAxis.show,*,true,/visualStyles/clusteredBarChart/*/categoryAxis/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,categoryAxis.showAxisTitle,*,false,/visualStyles/clusteredBarChart/*/categoryAxis/0/showAxisTitle,0,,,,,n/a
+only_in_theme,clusteredBarChart,dataPoint.fill.solid.color,*,#0C2340,/visualStyles/clusteredBarChart/*/dataPoint/0/fill/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,dataPoint.fillTransparency,*,20,/visualStyles/clusteredBarChart/*/dataPoint/0/fillTransparency,0,,,,,n/a
+only_in_theme,clusteredBarChart,dropShadow.show,*,false,/visualStyles/clusteredBarChart/*/dropShadow/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,error.enabled,*,false,/visualStyles/clusteredBarChart/*/error/0/enabled,0,,,,,n/a
+only_in_theme,clusteredBarChart,labels.color.solid.color,*,#4B4C4A,/visualStyles/clusteredBarChart/*/labels/0/color/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,labels.fontSize,*,12,/visualStyles/clusteredBarChart/*/labels/0/fontSize,0,,,,,n/a
+only_in_theme,clusteredBarChart,labels.labelDisplayUnits,*,1,/visualStyles/clusteredBarChart/*/labels/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,clusteredBarChart,labels.labelPosition,*,OutsideEnd,/visualStyles/clusteredBarChart/*/labels/0/labelPosition,0,,,,,n/a
+only_in_theme,clusteredBarChart,labels.labelPrecision,*,0,/visualStyles/clusteredBarChart/*/labels/0/labelPrecision,0,,,,,n/a
+only_in_theme,clusteredBarChart,labels.show,*,true,/visualStyles/clusteredBarChart/*/labels/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,layout.seriesOrderSorted,*,true,/visualStyles/clusteredBarChart/*/layout/0/seriesOrderSorted,0,,,,,n/a
+only_in_theme,clusteredBarChart,legend.show,*,false,/visualStyles/clusteredBarChart/*/legend/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,padding.bottom,*,5,/visualStyles/clusteredBarChart/*/padding/0/bottom,0,,,,,n/a
+only_in_theme,clusteredBarChart,padding.left,*,5,/visualStyles/clusteredBarChart/*/padding/0/left,0,,,,,n/a
+only_in_theme,clusteredBarChart,padding.right,*,5,/visualStyles/clusteredBarChart/*/padding/0/right,0,,,,,n/a
+only_in_theme,clusteredBarChart,padding.top,*,0,/visualStyles/clusteredBarChart/*/padding/0/top,0,,,,,n/a
+only_in_theme,clusteredBarChart,subTitle.fontColor.solid.color,*,#2E2E2E,/visualStyles/clusteredBarChart/*/subTitle/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,subTitle.fontSize,*,16,/visualStyles/clusteredBarChart/*/subTitle/0/fontSize,0,,,,,n/a
+only_in_theme,clusteredBarChart,subTitle.show,*,true,/visualStyles/clusteredBarChart/*/subTitle/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,title.fontColor.solid.color,*,#007BA8,/visualStyles/clusteredBarChart/*/title/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,title.fontFamily,*,Segoe UI Semibold,/visualStyles/clusteredBarChart/*/title/0/fontFamily,0,,,,,n/a
+only_in_theme,clusteredBarChart,title.fontSize,*,20,/visualStyles/clusteredBarChart/*/title/0/fontSize,0,,,,,n/a
+only_in_theme,clusteredBarChart,title.show,*,true,/visualStyles/clusteredBarChart/*/title/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,trend.show,*,false,/visualStyles/clusteredBarChart/*/trend/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,valueAxis.show,*,false,/visualStyles/clusteredBarChart/*/valueAxis/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,visualHeader.show,*,true,/visualStyles/clusteredBarChart/*/visualHeader/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.$id,*,0,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/$id,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.dataLabelColor.solid.color,*,#605E5C,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/dataLabelColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.dataLabelDecimalPoints,*,2,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/dataLabelDecimalPoints,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.dataLabelDisplayUnits,*,0,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/dataLabelDisplayUnits,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.dataLabelHorizontalPosition,*,left,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/dataLabelHorizontalPosition,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.dataLabelShow,*,false,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/dataLabelShow,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.dataLabelText,*,Value,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/dataLabelText,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.dataLabelVerticalPosition,*,above,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/dataLabelVerticalPosition,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.lineColor.solid.color,*,#605E5C,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/lineColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.position,*,back,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/position,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.shadeColor.solid.color,*,#000000,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/shadeColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.shadeRegion,*,none,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/shadeRegion,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.shadeTransparency,*,0,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/shadeTransparency,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.show,*,false,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.style,*,solid,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/style,0,,,,,n/a
+only_in_theme,clusteredBarChart,xAxisReferenceLine.transparency,*,0,/visualStyles/clusteredBarChart/*/xAxisReferenceLine/0/transparency,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.$id,*,0,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/$id,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.dataLabelColor.solid.color,*,#605E5C,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/dataLabelColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.dataLabelDecimalPoints,*,2,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/dataLabelDecimalPoints,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.dataLabelDisplayUnits,*,0,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/dataLabelDisplayUnits,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.dataLabelHorizontalPosition,*,left,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/dataLabelHorizontalPosition,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.dataLabelShow,*,false,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/dataLabelShow,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.dataLabelText,*,Value,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/dataLabelText,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.dataLabelVerticalPosition,*,above,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/dataLabelVerticalPosition,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.lineColor.solid.color,*,#605E5C,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/lineColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.position,*,back,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/position,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.shadeColor.solid.color,*,#000000,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/shadeColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.shadeRegion,*,none,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/shadeRegion,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.shadeTransparency,*,0,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/shadeTransparency,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.show,*,false,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/show,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.style,*,solid,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/style,0,,,,,n/a
+only_in_theme,clusteredBarChart,y1AxisReferenceLine.transparency,*,0,/visualStyles/clusteredBarChart/*/y1AxisReferenceLine/0/transparency,0,,,,,n/a
+only_in_theme,clusteredColumnChart,background.show,*,false,/visualStyles/clusteredColumnChart/*/background/0/show,0,,,,,n/a
+only_in_theme,clusteredColumnChart,border.show,*,false,/visualStyles/clusteredColumnChart/*/border/0/show,0,,,,,n/a
+in_both,clusteredColumnChart,categoryAxis.fontFamily,*,Segoe UI,/visualStyles/clusteredColumnChart/*/categoryAxis/0/fontFamily,4,Style 1;Style 2;Style 3,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,mismatch
+in_both,clusteredColumnChart,categoryAxis.fontSize,*,12,/visualStyles/clusteredColumnChart/*/categoryAxis/0/fontSize,4,Style 1;Style 2;Style 3,14,14,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,aligned
+only_in_scans,clusteredColumnChart,categoryAxis.innerPadding,,,,2,Style 1,15,15,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,n/a
+in_both,clusteredColumnChart,categoryAxis.labelColor.solid.color,*,#4B4C4A,/visualStyles/clusteredColumnChart/*/categoryAxis/0/labelColor/solid/color,3,Style 1;Style 3,#4B4C4A,#4B4C4A,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,aligned
+only_in_theme,clusteredColumnChart,categoryAxis.labelDisplayUnits,*,1,/visualStyles/clusteredColumnChart/*/categoryAxis/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,clusteredColumnChart,categoryAxis.labelPrecision,*,0,/visualStyles/clusteredColumnChart/*/categoryAxis/0/labelPrecision,0,,,,,n/a
+only_in_scans,clusteredColumnChart,categoryAxis.maxMarginFactor,,,,2,Style 1,35,35,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,n/a
+only_in_scans,clusteredColumnChart,categoryAxis.preferredCategoryWidth,,,,2,Style 1,40,40,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,n/a
+in_both,clusteredColumnChart,categoryAxis.show,*,true,/visualStyles/clusteredColumnChart/*/categoryAxis/0/show,1,Style 3,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ae9ccbfdcd1ebcebc0ea/visual.json,aligned
+in_both,clusteredColumnChart,categoryAxis.showAxisTitle,*,false,/visualStyles/clusteredColumnChart/*/categoryAxis/0/showAxisTitle,4,Style 1;Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,aligned
+only_in_theme,clusteredColumnChart,dataPoint.fill.solid.color,*,#0C2340,/visualStyles/clusteredColumnChart/*/dataPoint/0/fill/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,dataPoint.fillTransparency,*,20,/visualStyles/clusteredColumnChart/*/dataPoint/0/fillTransparency,0,,,,,n/a
+only_in_theme,clusteredColumnChart,dropShadow.show,*,false,/visualStyles/clusteredColumnChart/*/dropShadow/0/show,0,,,,,n/a
+only_in_theme,clusteredColumnChart,error.enabled,*,false,/visualStyles/clusteredColumnChart/*/error/0/enabled,0,,,,,n/a
+in_both,clusteredColumnChart,labels.color.solid.color,*,#4B4C4A,/visualStyles/clusteredColumnChart/*/labels/0/color/solid/color,4,Style 1;Style 2;Style 3,#4B4C4A,#4B4C4A,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,aligned
+in_both,clusteredColumnChart,labels.fontFamily,*,Segoe UI Semibold,/visualStyles/clusteredColumnChart/*/labels/0/fontFamily,4,Style 1;Style 2;Style 3,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,mismatch
+in_both,clusteredColumnChart,labels.fontSize,*,12,/visualStyles/clusteredColumnChart/*/labels/0/fontSize,4,Style 1;Style 2;Style 3,12,12,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,aligned
+only_in_theme,clusteredColumnChart,labels.labelDisplayUnits,*,1,/visualStyles/clusteredColumnChart/*/labels/0/labelDisplayUnits,0,,,,,n/a
+in_both,clusteredColumnChart,labels.labelPosition,*,OutsideEnd,/visualStyles/clusteredColumnChart/*/labels/0/labelPosition,4,Style 1;Style 2;Style 3,OutsideEnd,OutsideEnd,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,aligned
+in_both,clusteredColumnChart,labels.labelPrecision,*,0,/visualStyles/clusteredColumnChart/*/labels/0/labelPrecision,4,Style 1;Style 2;Style 3,1,1,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,mismatch
+in_both,clusteredColumnChart,labels.show,*,true,/visualStyles/clusteredColumnChart/*/labels/0/show,4,Style 1;Style 2;Style 3,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,aligned
+only_in_scans,clusteredColumnChart,"labels[data=[{'scopeId': {'Comparison': {'ComparisonKind': 0, 'Left': {'Column': {'Expression': {'SourceRef': {'Entity': 'AP Checks'}}, 'Property': 'Account Lvl1'}}, 'Right': {'Literal': {'Value': ""'Non-Expense'""}}}}}]].labelDisplayUnits",,,,1,Style 2,1000,1000,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/3e50486e0c488a40e894/visual.json,n/a
+only_in_theme,clusteredColumnChart,layout.seriesOrderSorted,*,true,/visualStyles/clusteredColumnChart/*/layout/0/seriesOrderSorted,0,,,,,n/a
+only_in_scans,clusteredColumnChart,legend.fontFamily,,,,2,Style 2;Style 3,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ae9ccbfdcd1ebcebc0ea/visual.json,n/a
+only_in_scans,clusteredColumnChart,legend.fontSize,,,,2,Style 2;Style 3,12,12,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ae9ccbfdcd1ebcebc0ea/visual.json,n/a
+only_in_scans,clusteredColumnChart,legend.position,,,,2,Style 2;Style 3,TopCenter,TopCenter,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ae9ccbfdcd1ebcebc0ea/visual.json,n/a
+in_both,clusteredColumnChart,legend.show,*,false,/visualStyles/clusteredColumnChart/*/legend/0/show,2,Style 2;Style 3,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ae9ccbfdcd1ebcebc0ea/visual.json,mismatch
+only_in_scans,clusteredColumnChart,legend.showTitle,,,,2,Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/ae9ccbfdcd1ebcebc0ea/visual.json,n/a
+only_in_theme,clusteredColumnChart,padding.bottom,*,5,/visualStyles/clusteredColumnChart/*/padding/0/bottom,0,,,,,n/a
+only_in_theme,clusteredColumnChart,padding.left,*,5,/visualStyles/clusteredColumnChart/*/padding/0/left,0,,,,,n/a
+only_in_theme,clusteredColumnChart,padding.right,*,5,/visualStyles/clusteredColumnChart/*/padding/0/right,0,,,,,n/a
+only_in_theme,clusteredColumnChart,padding.top,*,0,/visualStyles/clusteredColumnChart/*/padding/0/top,0,,,,,n/a
+only_in_theme,clusteredColumnChart,subTitle.fontColor.solid.color,*,#2E2E2E,/visualStyles/clusteredColumnChart/*/subTitle/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,subTitle.fontSize,*,16,/visualStyles/clusteredColumnChart/*/subTitle/0/fontSize,0,,,,,n/a
+only_in_theme,clusteredColumnChart,subTitle.show,*,true,/visualStyles/clusteredColumnChart/*/subTitle/0/show,0,,,,,n/a
+only_in_theme,clusteredColumnChart,title.fontColor.solid.color,*,#007BA8,/visualStyles/clusteredColumnChart/*/title/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,title.fontFamily,*,Segoe UI Semibold,/visualStyles/clusteredColumnChart/*/title/0/fontFamily,0,,,,,n/a
+only_in_theme,clusteredColumnChart,title.fontSize,*,20,/visualStyles/clusteredColumnChart/*/title/0/fontSize,0,,,,,n/a
+only_in_theme,clusteredColumnChart,title.show,*,true,/visualStyles/clusteredColumnChart/*/title/0/show,0,,,,,n/a
+only_in_theme,clusteredColumnChart,trend.show,*,false,/visualStyles/clusteredColumnChart/*/trend/0/show,0,,,,,n/a
+in_both,clusteredColumnChart,valueAxis.show,*,false,/visualStyles/clusteredColumnChart/*/valueAxis/0/show,4,Style 1;Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,aligned
+only_in_scans,clusteredColumnChart,valueAxis.showAxisTitle,,,,4,Style 1;Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/46ac09d20b0a1a2ad983/visual.json,n/a
+only_in_theme,clusteredColumnChart,visualHeader.show,*,true,/visualStyles/clusteredColumnChart/*/visualHeader/0/show,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.$id,*,0,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/$id,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.dataLabelColor.solid.color,*,#605E5C,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/dataLabelColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.dataLabelDecimalPoints,*,2,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/dataLabelDecimalPoints,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.dataLabelDisplayUnits,*,0,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/dataLabelDisplayUnits,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.dataLabelHorizontalPosition,*,left,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/dataLabelHorizontalPosition,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.dataLabelShow,*,false,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/dataLabelShow,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.dataLabelText,*,Value,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/dataLabelText,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.dataLabelVerticalPosition,*,above,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/dataLabelVerticalPosition,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.lineColor.solid.color,*,#605E5C,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/lineColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.position,*,back,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/position,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.shadeColor.solid.color,*,#000000,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/shadeColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.shadeRegion,*,none,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/shadeRegion,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.shadeTransparency,*,0,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/shadeTransparency,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.show,*,false,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/show,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.style,*,solid,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/style,0,,,,,n/a
+only_in_theme,clusteredColumnChart,xAxisReferenceLine.transparency,*,0,/visualStyles/clusteredColumnChart/*/xAxisReferenceLine/0/transparency,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.$id,*,0,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/$id,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.dataLabelColor.solid.color,*,#605E5C,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/dataLabelColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.dataLabelDecimalPoints,*,2,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/dataLabelDecimalPoints,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.dataLabelDisplayUnits,*,0,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/dataLabelDisplayUnits,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.dataLabelHorizontalPosition,*,left,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/dataLabelHorizontalPosition,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.dataLabelShow,*,false,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/dataLabelShow,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.dataLabelText,*,Value,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/dataLabelText,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.dataLabelVerticalPosition,*,above,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/dataLabelVerticalPosition,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.lineColor.solid.color,*,#605E5C,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/lineColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.position,*,back,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/position,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.shadeColor.solid.color,*,#000000,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/shadeColor/solid/color,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.shadeRegion,*,none,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/shadeRegion,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.shadeTransparency,*,0,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/shadeTransparency,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.show,*,false,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/show,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.style,*,solid,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/style,0,,,,,n/a
+only_in_theme,clusteredColumnChart,y1AxisReferenceLine.transparency,*,0,/visualStyles/clusteredColumnChart/*/y1AxisReferenceLine/0/transparency,0,,,,,n/a
+only_in_theme,donutChart,background.color.solid.color,*,#FFFFFF,/visualStyles/donutChart/*/background/0/color/solid/color,0,,,,,n/a
+only_in_theme,donutChart,background.show,*,false,/visualStyles/donutChart/*/background/0/show,0,,,,,n/a
+only_in_theme,donutChart,background.transparency,*,0,/visualStyles/donutChart/*/background/0/transparency,0,,,,,n/a
+only_in_theme,donutChart,border.color.solid.color,*,#FFFFFF,/visualStyles/donutChart/*/border/0/color/solid/color,0,,,,,n/a
+only_in_theme,donutChart,border.radius,*,0,/visualStyles/donutChart/*/border/0/radius,0,,,,,n/a
+only_in_theme,donutChart,border.show,*,false,/visualStyles/donutChart/*/border/0/show,0,,,,,n/a
+only_in_theme,donutChart,general.keepLayerOrder,*,true,/visualStyles/donutChart/*/general/0/keepLayerOrder,0,,,,,n/a
+only_in_theme,donutChart,general.responsive,*,true,/visualStyles/donutChart/*/general/0/responsive,0,,,,,n/a
+only_in_theme,donutChart,labels.color.solid.color,*,#0C2340,/visualStyles/donutChart/*/labels/0/color/solid/color,0,,,,,n/a
+only_in_theme,donutChart,labels.fontFamily,*,Segoe UI Semibold,/visualStyles/donutChart/*/labels/0/fontFamily,0,,,,,n/a
+only_in_theme,donutChart,labels.fontSize,*,10,/visualStyles/donutChart/*/labels/0/fontSize,0,,,,,n/a
+only_in_theme,donutChart,labels.labelDisplayUnits,*,0,/visualStyles/donutChart/*/labels/0/labelDisplayUnits,0,,,,,n/a
+only_in_theme,donutChart,labels.labelPrecision,*,0,/visualStyles/donutChart/*/labels/0/labelPrecision,0,,,,,n/a
+only_in_theme,donutChart,labels.labelStyle,*,"Category, data value, percent of total",/visualStyles/donutChart/*/labels/0/labelStyle,0,,,,,n/a
+only_in_theme,donutChart,labels.position,*,outside,/visualStyles/donutChart/*/labels/0/position,0,,,,,n/a
+only_in_theme,donutChart,labels.show,*,true,/visualStyles/donutChart/*/labels/0/show,0,,,,,n/a
+only_in_theme,donutChart,legend.fontFamily,*,Segoe UI Semibold,/visualStyles/donutChart/*/legend/0/fontFamily,0,,,,,n/a
+only_in_theme,donutChart,legend.fontSize,*,12,/visualStyles/donutChart/*/legend/0/fontSize,0,,,,,n/a
+only_in_theme,donutChart,legend.labelColor.solid.color,*,#01B8AA,/visualStyles/donutChart/*/legend/0/labelColor/solid/color,0,,,,,n/a
+only_in_theme,donutChart,legend.position,*,Top,/visualStyles/donutChart/*/legend/0/position,0,,,,,n/a
+only_in_theme,donutChart,legend.show,*,false,/visualStyles/donutChart/*/legend/0/show,0,,,,,n/a
+only_in_theme,donutChart,legend.showTitle,*,false,/visualStyles/donutChart/*/legend/0/showTitle,0,,,,,n/a
+only_in_theme,donutChart,legend.titleText,*,,/visualStyles/donutChart/*/legend/0/titleText,0,,,,,n/a
+only_in_theme,donutChart,slices.innerRadiusRatio,*,70,/visualStyles/donutChart/*/slices/0/innerRadiusRatio,0,,,,,n/a
+only_in_theme,donutChart,title.alignment,*,left,/visualStyles/donutChart/*/title/0/alignment,0,,,,,n/a
+only_in_theme,donutChart,title.fontColor.solid.color,*,#007BA8,/visualStyles/donutChart/*/title/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,donutChart,title.fontFamily,*,Segoe UI Semibold,/visualStyles/donutChart/*/title/0/fontFamily,0,,,,,n/a
+only_in_theme,donutChart,title.fontSize,*,20,/visualStyles/donutChart/*/title/0/fontSize,0,,,,,n/a
+only_in_theme,donutChart,title.show,*,true,/visualStyles/donutChart/*/title/0/show,0,,,,,n/a
+only_in_scans,image,imageScaling.imageScalingType,,,,7,Style 1,Normal,Normal,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/39f30bda89ed23307ac0/visual.json,n/a
+only_in_scans,lineChart,categoryAxis.axisType,,,,1,Style 1,Categorical,Categorical,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,categoryAxis.fontFamily,,,,1,Style 1,"''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif","''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,categoryAxis.fontSize,,,,1,Style 1,12,12,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,categoryAxis.labelColor.solid.color,,,,1,Style 1,#4B4C4A,#4B4C4A,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,categoryAxis.maxMarginFactor,,,,1,Style 1,35,35,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,categoryAxis.preferredCategoryWidth,,,,1,Style 1,40,40,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,categoryAxis.show,,,,1,Style 1,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,categoryAxis.showAxisTitle,,,,1,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,labels.color.solid.color,,,,1,Style 1,#4B4C4A,#4B4C4A,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,labels.fontFamily,,,,1,Style 1,"''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif","''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,labels.fontSize,,,,1,Style 1,12,12,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,labels.labelPrecision,,,,1,Style 1,1,1,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,labels.show,,,,1,Style 1,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,legend.position,,,,1,Style 1,LeftCenter,LeftCenter,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,legend.showTitle,,,,1,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,lineStyles.markerSize,,,,1,Style 1,4,4,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,lineStyles.showMarker,,,,1,Style 1,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,valueAxis.show,,,,1,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,lineChart,valueAxis.showAxisTitle,,,,1,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/522417871a3e0f158281/visual.json,n/a
+only_in_scans,pivotTable,background.show,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,background.transparency,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,0,0,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,columnHeaders.alignment,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,Center,Center,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,columnHeaders.backColor.solid.color,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,"ThemeDataColor(ColorId=2,Percent=0)","ThemeDataColor(ColorId=2,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,columnHeaders.fontColor.solid.color,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,"ThemeDataColor(ColorId=0,Percent=0)","ThemeDataColor(ColorId=0,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,columnHeaders.fontFamily,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,columnHeaders.fontSize,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,14,14,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,columnHeaders.titleAlignment,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,Center,Center,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,grid.gridHorizontalColor.solid.color,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,#D5D5D4,#D5D5D4,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,rowHeaders.alignment,,,,1,Style 1,Left,Left,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/018bde61dba48e2ce72e/visual.json,n/a
+only_in_scans,pivotTable,rowHeaders.fontFamily,,,,4,Style 1;Style 4;Style 5;Style 6,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,rowHeaders.fontSize,,,,3,Style 1;Style 5;Style 6,12,12,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,rowHeaders.showExpandCollapseButtons,,,,5,Style 2;Style 3;Style 4;Style 5;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,stylePreset.name,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,None,None,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,subTotals.perRowLevel,,,,2,Style 2;Style 5,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,subTotals.rowSubtotalsPosition,,,,1,Style 5,Top,Top,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,subTotals[id=Column].applyToHeaders,,,,1,Style 2,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/40814e49acb0638d2425/visual.json,n/a
+only_in_scans,pivotTable,subTotals[id=Column].backColor.solid.color,,,,1,Style 2,"ThemeDataColor(ColorId=5,Percent=0)","ThemeDataColor(ColorId=5,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/1727c31ca7e81a638716/visuals/40814e49acb0638d2425/visual.json,n/a
+only_in_scans,pivotTable,subTotals[id=Row].applyToHeaders,,,,4,Style 3;Style 4;Style 5;Style 6,true,true,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,subTotals[id=Row].backColor.solid.color,,,,4,Style 3;Style 4;Style 5;Style 6,"ThemeDataColor(ColorId=5,Percent=0)","ThemeDataColor(ColorId=5,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,title.fontColor.solid.color,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,#2E2E2E,#2E2E2E,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,title.show,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,values.fontColorPrimary.solid.color,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,#2E2E2E,#2E2E2E,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,values.fontColorSecondary.solid.color,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,#2E2E2E,#2E2E2E,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,values.fontFamily,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,pivotTable,values.fontSize,,,,6,Style 1;Style 2;Style 3;Style 4;Style 5;Style 6,12,12,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,asOfDate.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,background.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,comparisonValue.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,currentValue.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,header.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,horizontalGrid.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_actualLabelKPI.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_actualValueKPI.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_dateLabelKPI.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_dateValueKPI.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_kpiIndicator.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_kpiIndicatorValue.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_legend.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_referenceLineOfYAxis.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_secondKPIIndicatorValue.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_secondTooltipVariance.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_tooltipLabel.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_tooltipValues.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_tooltipVariance.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_xAxis.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,integratedPowerKPI_yAxis.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,kpiIndicatorValue.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,metricName.color.solid.color,,,,3,Style 1,"ThemeDataColor(ColorId=0,Percent=0)","ThemeDataColor(ColorId=0,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,metricName.fontSize,,,,3,Style 1,8,8,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,metricName.order,,,,3,Style 1,1,1,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,metricName.shouldShowLabel,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,sparklineSettings.actualColor.solid.color,,,,3,Style 1,#005598,#005598,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,sparklineSettings.actualThickness,,,,3,Style 1,2,2,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,sparklineSettings.label,,,,3,Style 1, , ,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,sparklineSettings.order,,,,3,Style 1,1,1,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,sparklineSettings.shouldUseCommonScale,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,sparklineSettings.verticalReferenceLineThickness,,,,3,Style 1,0,0,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,table.type,,,,3,Style 1,0,0,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,title.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,title.text,,,,3,Style 1,sparkline,sparkline,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,verticalGrid.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_scans,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6,visualHeader.show,,,,3,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json,n/a
+only_in_theme,shape,background.color.solid.color,*,#FFFFFF,/visualStyles/shape/*/background/0/color/solid/color,0,,,,,n/a
+only_in_theme,shape,background.show,*,true,/visualStyles/shape/*/background/0/show,0,,,,,n/a
+only_in_theme,shape,background.transparency,*,0,/visualStyles/shape/*/background/0/transparency,0,,,,,n/a
+only_in_theme,shape,dropShadow.angle,*,90,/visualStyles/shape/*/dropShadow/0/angle,0,,,,,n/a
+only_in_theme,shape,dropShadow.color.solid.color,*,#4B4C4A,/visualStyles/shape/*/dropShadow/0/color/solid/color,0,,,,,n/a
+only_in_theme,shape,dropShadow.position,*,Outer,/visualStyles/shape/*/dropShadow/0/position,0,,,,,n/a
+only_in_theme,shape,dropShadow.preset,*,Custom,/visualStyles/shape/*/dropShadow/0/preset,0,,,,,n/a
+only_in_theme,shape,dropShadow.shadowBlur,*,1,/visualStyles/shape/*/dropShadow/0/shadowBlur,0,,,,,n/a
+only_in_theme,shape,dropShadow.shadowDistance,*,2,/visualStyles/shape/*/dropShadow/0/shadowDistance,0,,,,,n/a
+only_in_theme,shape,dropShadow.shadowSpread,*,1,/visualStyles/shape/*/dropShadow/0/shadowSpread,0,,,,,n/a
+only_in_theme,shape,dropShadow.show,*,true,/visualStyles/shape/*/dropShadow/0/show,0,,,,,n/a
+only_in_theme,shape,dropShadow.transparency,*,90,/visualStyles/shape/*/dropShadow/0/transparency,0,,,,,n/a
+in_both,shape,fill.fillColor.solid.color,*,#FFFFFF,/visualStyles/shape/*/fill/0/fillColor/solid/color,7,Style 1,"ThemeDataColor(ColorId=6,Percent=0)","ThemeDataColor(ColorId=6,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/643d5532a3983c120c97/visual.json,mismatch
+in_both,shape,fill.show,*,false,/visualStyles/shape/*/fill/0/show,11,Style 1;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/000656284e359f125b8a/visual.json,aligned
+only_in_theme,shape,fill.transparency,*,100,/visualStyles/shape/*/fill/0/transparency,0,,,,,n/a
+only_in_scans,shape,fill[id=default].fillColor.solid.color,,,,7,Style 2,"ThemeDataColor(ColorId=0,Percent=0)","ThemeDataColor(ColorId=0,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/be616747c638d1fb17ae/visual.json,n/a
+only_in_theme,shape,general.keepLayerOrder,*,true,/visualStyles/shape/*/general/0/keepLayerOrder,0,,,,,n/a
+only_in_theme,shape,line.lineColor.solid.color,*,#D5D5D4,/visualStyles/shape/*/line/0/lineColor/solid/color,0,,,,,n/a
+only_in_theme,shape,line.roundEdge,*,0,/visualStyles/shape/*/line/0/roundEdge,0,,,,,n/a
+only_in_theme,shape,line.show,*,false,/visualStyles/shape/*/line/0/show,0,,,,,n/a
+only_in_theme,shape,line.transparency,*,0,/visualStyles/shape/*/line/0/transparency,0,,,,,n/a
+only_in_theme,shape,line.weight,*,13,/visualStyles/shape/*/line/0/weight,0,,,,,n/a
+only_in_theme,shape,rotation.angle,*,0,/visualStyles/shape/*/rotation/0/angle,0,,,,,n/a
+in_both,shape,visualHeader.show,*,false,/visualStyles/shape/*/visualHeader/0/show,7,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/643d5532a3983c120c97/visual.json,aligned
+in_both,slicer,background.transparency,*,100,/visualStyles/slicer/*/background/0/transparency,1,Style 3,0,0,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/d51d4ed5dc123e8dd1f2/visual.json,mismatch
+in_both,slicer,data.mode,*,Dropdown,/visualStyles/slicer/*/data/0/mode,39,Style 1;Style 2;Style 3,Dropdown,Dropdown,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/08c60e9651021e4efedd/visual.json,aligned
+only_in_theme,slicer,general.keepLayerOrder,*,true,/visualStyles/slicer/*/general/0/keepLayerOrder,0,,,,,n/a
+only_in_theme,slicer,general.orientation,*,0,/visualStyles/slicer/*/general/0/orientation,0,,,,,n/a
+only_in_theme,slicer,general.outlineColor.solid.color,*,#444444,/visualStyles/slicer/*/general/0/outlineColor/solid/color,0,,,,,n/a
+only_in_theme,slicer,general.outlineWeight,*,1,/visualStyles/slicer/*/general/0/outlineWeight,0,,,,,n/a
+only_in_theme,slicer,header.background.solid.color,*,#FFFFFF,/visualStyles/slicer/*/header/0/background/solid/color,0,,,,,n/a
+only_in_theme,slicer,header.fontColor.solid.color,*,#2E2E2E,/visualStyles/slicer/*/header/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,slicer,header.fontFamily,*,Segoe UI Semibold,/visualStyles/slicer/*/header/0/fontFamily,0,,,,,n/a
+only_in_theme,slicer,header.outline,*,None,/visualStyles/slicer/*/header/0/outline,0,,,,,n/a
+in_both,slicer,header.show,*,true,/visualStyles/slicer/*/header/0/show,36,Style 1,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/08c60e9651021e4efedd/visual.json,aligned
+only_in_theme,slicer,header.textSize,*,14,/visualStyles/slicer/*/header/0/textSize,0,,,,,n/a
+only_in_theme,slicer,items.background.solid.color,*,#FFFFFF,/visualStyles/slicer/*/items/0/background/solid/color,0,,,,,n/a
+only_in_theme,slicer,items.fontColor.solid.color,*,#666666,/visualStyles/slicer/*/items/0/fontColor/solid/color,0,,,,,n/a
+only_in_theme,slicer,items.fontFamily,*,Segoe UI Semibold,/visualStyles/slicer/*/items/0/fontFamily,0,,,,,n/a
+only_in_theme,slicer,items.outline,*,None,/visualStyles/slicer/*/items/0/outline,0,,,,,n/a
+only_in_theme,slicer,items.padding,*,4,/visualStyles/slicer/*/items/0/padding,0,,,,,n/a
+only_in_theme,slicer,items.textSize,*,12,/visualStyles/slicer/*/items/0/textSize,0,,,,,n/a
+in_both,slicer,selection.selectAllCheckboxEnabled,*,false,/visualStyles/slicer/*/selection/0/selectAllCheckboxEnabled,39,Style 1;Style 2;Style 3,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/08c60e9651021e4efedd/visual.json,mismatch
+in_both,slicer,selection.singleSelect,*,false,/visualStyles/slicer/*/selection/0/singleSelect,39,Style 1;Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/08c60e9651021e4efedd/visual.json,aligned
+only_in_theme,slicer,slider.color.solid.color,*,#FF373A,/visualStyles/slicer/*/slider/0/color/solid/color,0,,,,,n/a
+only_in_theme,slicer,visualHeader.background.solid.color,*,#444444,/visualStyles/slicer/*/visualHeader/0/background/solid/color,0,,,,,n/a
+only_in_theme,slicer,visualHeader.border.solid.color,*,#444444,/visualStyles/slicer/*/visualHeader/0/border/solid/color,0,,,,,n/a
+only_in_theme,slicer,visualHeader.foreground.solid.color,*,#444444,/visualStyles/slicer/*/visualHeader/0/foreground/solid/color,0,,,,,n/a
+in_both,slicer,visualHeader.show,*,false,/visualStyles/slicer/*/visualHeader/0/show,39,Style 1;Style 2;Style 3,false,false,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/08c60e9651021e4efedd/visual.json,aligned
+only_in_theme,slicer,visualHeader.showDrillDownExpandButton,*,false,/visualStyles/slicer/*/visualHeader/0/showDrillDownExpandButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showDrillDownLevelButton,*,false,/visualStyles/slicer/*/visualHeader/0/showDrillDownLevelButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showDrillRoleSelector,*,false,/visualStyles/slicer/*/visualHeader/0/showDrillRoleSelector,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showDrillToggleButton,*,false,/visualStyles/slicer/*/visualHeader/0/showDrillToggleButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showDrillUpButton,*,false,/visualStyles/slicer/*/visualHeader/0/showDrillUpButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showFilterRestatementButton,*,false,/visualStyles/slicer/*/visualHeader/0/showFilterRestatementButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showFocusModeButton,*,false,/visualStyles/slicer/*/visualHeader/0/showFocusModeButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showOptionsMenu,*,false,/visualStyles/slicer/*/visualHeader/0/showOptionsMenu,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showPinButton,*,false,/visualStyles/slicer/*/visualHeader/0/showPinButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showSeeDataLayoutToggleButton,*,false,/visualStyles/slicer/*/visualHeader/0/showSeeDataLayoutToggleButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showTooltipButton,*,false,/visualStyles/slicer/*/visualHeader/0/showTooltipButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showVisualErrorButton,*,false,/visualStyles/slicer/*/visualHeader/0/showVisualErrorButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showVisualInformationButton,*,false,/visualStyles/slicer/*/visualHeader/0/showVisualInformationButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.showVisualWarningButton,*,false,/visualStyles/slicer/*/visualHeader/0/showVisualWarningButton,0,,,,,n/a
+only_in_theme,slicer,visualHeader.transparency,*,20,/visualStyles/slicer/*/visualHeader/0/transparency,0,,,,,n/a
+only_in_scans,tableEx,background.show,,,,6,Style 1;Style 2;Style 3,true,true,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_scans,tableEx,background.transparency,,,,6,Style 1;Style 2;Style 3,0,0,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_scans,tableEx,columnHeaders.alignment,,,,7,Style 1;Style 2;Style 3;Style 4,Center,Center,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_scans,tableEx,columnHeaders.backColor.solid.color,,,,7,Style 1;Style 2;Style 3;Style 4,"ThemeDataColor(ColorId=3,Percent=0)","ThemeDataColor(ColorId=3,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_scans,tableEx,columnHeaders.fontColor.solid.color,,,,7,Style 1;Style 2;Style 3;Style 4,"ThemeDataColor(ColorId=0,Percent=0)","ThemeDataColor(ColorId=0,Percent=0)",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_scans,tableEx,columnHeaders.fontFamily,,,,7,Style 1;Style 2;Style 3;Style 4,"''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif","''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_scans,tableEx,columnHeaders.fontSize,,,,7,Style 1;Style 2;Style 3;Style 4,12,12,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_scans,tableEx,grid.gridHorizontalColor.solid.color,,,,1,Style 2,#D5D5D4,#D5D5D4,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/aebf6f41349a836b67fc/visual.json,n/a
+only_in_scans,tableEx,stylePreset.name,,,,1,Style 2,None,None,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/aebf6f41349a836b67fc/visual.json,n/a
+only_in_scans,tableEx,title.fontColor.solid.color,,,,1,Style 2,#2E2E2E,#2E2E2E,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/aebf6f41349a836b67fc/visual.json,n/a
+only_in_scans,tableEx,title.show,,,,1,Style 2,false,false,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/aebf6f41349a836b67fc/visual.json,n/a
+only_in_scans,tableEx,total.totals,,,,2,Style 2;Style 4,false,false,3.Sample Files/Spend Cube.Report/definition/pages/23d10e40206341b517f6/visuals/ace87607236317a3df16/visual.json,n/a
+only_in_scans,tableEx,values.fontColorPrimary.solid.color,,,,1,Style 2,#2E2E2E,#2E2E2E,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/aebf6f41349a836b67fc/visual.json,n/a
+only_in_scans,tableEx,values.fontColorSecondary.solid.color,,,,1,Style 2,#2E2E2E,#2E2E2E,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/aebf6f41349a836b67fc/visual.json,n/a
+only_in_scans,tableEx,values.fontFamily,,,,7,Style 1;Style 2;Style 3;Style 4,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_scans,tableEx,values.fontSize,,,,6,Style 1;Style 2;Style 4,12,12,3.Sample Files/Spend Cube.Report/definition/pages/02604e232e37ce8027cd/visuals/0a85bca3e40364b2d41a/visual.json,n/a
+only_in_theme,textbox,*.color.solid.color,*,#2E2E2E,/visualStyles/textbox/*/*/0/color/solid/color,0,,,,,n/a
+only_in_theme,textbox,*.fontFamily,*,Segoe UI Semibold,/visualStyles/textbox/*/*/0/fontFamily,0,,,,,n/a
+only_in_theme,textbox,*.fontSize,*,18,/visualStyles/textbox/*/*/0/fontSize,0,,,,,n/a
+only_in_theme,textbox,*.wordWrap,*,true,/visualStyles/textbox/*/*/0/wordWrap,0,,,,,n/a
+only_in_theme,textbox,background.color.solid.color,*,#DDDDDD,/visualStyles/textbox/*/background/0/color/solid/color,0,,,,,n/a
+in_both,textbox,background.show,*,false,/visualStyles/textbox/*/background/0/show,14,Style 1;Style 2,false,false,3.Sample Files/Spend Cube.Report/definition/pages/1374d8c3ba887ae4c02c/visuals/13cc83f2159925777c2d/visual.json,aligned
+in_both,textbox,background.transparency,*,0,/visualStyles/textbox/*/background/0/transparency,2,Style 2,0,0,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/2e5c011167fbf0d1b008/visual.json,aligned
+only_in_theme,textbox,border.color.solid.color,*,#808080,/visualStyles/textbox/*/border/0/color/solid/color,0,,,,,n/a
+only_in_theme,textbox,border.radius,*,0,/visualStyles/textbox/*/border/0/radius,0,,,,,n/a
+only_in_theme,textbox,border.show,*,false,/visualStyles/textbox/*/border/0/show,0,,,,,n/a
+only_in_theme,textbox,general.keepLayerOrder,*,true,/visualStyles/textbox/*/general/0/keepLayerOrder,0,,,,,n/a
+only_in_theme,textbox,general.responsive,*,true,/visualStyles/textbox/*/general/0/responsive,0,,,,,n/a
+only_in_theme,textbox,title.alignment,*,left,/visualStyles/textbox/*/title/0/alignment,0,,,,,n/a
+only_in_theme,textbox,title.background.solid.color,*,#FFFFFF,/visualStyles/textbox/*/title/0/background/solid/color,0,,,,,n/a
+in_both,textbox,title.fontColor.solid.color,*,#000000,/visualStyles/textbox/*/title/0/fontColor/solid/color,2,Style 2,#2E2E2E,#2E2E2E,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/2e5c011167fbf0d1b008/visual.json,mismatch
+in_both,textbox,title.show,*,false,/visualStyles/textbox/*/title/0/show,2,Style 2,false,false,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/2e5c011167fbf0d1b008/visual.json,aligned
+in_both,textbox,visualHeader.show,*,false,/visualStyles/textbox/*/visualHeader/0/show,2,Style 2,false,false,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/2e5c011167fbf0d1b008/visual.json,aligned
+only_in_scans,waterfallChart,categoryAxis.fontFamily,,,,1,Style 1,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,categoryAxis.fontSize,,,,1,Style 1,14,14,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,categoryAxis.innerPadding,,,,1,Style 1,15,15,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,categoryAxis.labelColor.solid.color,,,,1,Style 1,#4B4C4A,#4B4C4A,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,categoryAxis.maxMarginFactor,,,,1,Style 1,35,35,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,categoryAxis.preferredCategoryWidth,,,,1,Style 1,40,40,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,categoryAxis.showAxisTitle,,,,1,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,labels.color.solid.color,,,,1,Style 1,#4B4C4A,#4B4C4A,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,labels.fontFamily,,,,1,Style 1,Calibri,Calibri,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,labels.fontSize,,,,1,Style 1,12,12,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,labels.labelDisplayUnits,,,,1,Style 1,1000000,1000000,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,labels.labelPosition,,,,1,Style 1,Auto,Auto,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,labels.labelPrecision,,,,1,Style 1,1,1,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,labels.show,,,,1,Style 1,true,true,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,legend.show,,,,1,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,valueAxis.show,,,,1,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a
+only_in_scans,waterfallChart,valueAxis.showAxisTitle,,,,1,Style 1,false,false,3.Sample Files/Spend Cube.Report/definition/pages/c6c944f6f8cefed2eb4d/visuals/c596ef67544ee9cf09f8/visual.json,n/a

@@ -1,0 +1,33 @@
+path,json_pointer,key,old_value,new_value,note
+2.Custom Themes\Rainwater Theme v4.1.json,/textClasses/callout/fontFace,fontFace,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/textClasses/title/fontFace,fontFace,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/textClasses/header/fontFace,fontFace,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/textClasses/label/fontFace,fontFace,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/textClasses/boldLabel/fontFace,fontFace,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/textClasses/semiboldLabel/fontFace,fontFace,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/*/*/title/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/*/*/categoryLabels/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/*/*/columnHeaders/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/*/*/labels/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/*/*/subTitle/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/*/*/totals/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/*/*/valueAxis/0/fontFamily,fontFamily,Segoe UI,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/*/*/values/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/clusteredColumnChart/*/categoryAxis/0/fontFamily,fontFamily,Segoe UI,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/clusteredColumnChart/*/labels/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/clusteredColumnChart/*/title/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/clusteredBarChart/*/categoryAxis/0/fontFamily,fontFamily,Segoe UI,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/clusteredBarChart/*/title/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/areaChart/*/legend/0/fontFamily,fontFamily,Courier New,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/areaChart/*/categoryAxis/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/areaChart/*/categoryAxis/0/titleFontFamily,titleFontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/areaChart/*/valueAxis/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/areaChart/*/valueAxis/0/titleFontFamily,titleFontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/areaChart/*/labels/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/areaChart/*/title/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/donutChart/*/title/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/donutChart/*/legend/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/donutChart/*/labels/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/textbox/*/*/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/slicer/*/header/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
+2.Custom Themes\Rainwater Theme v4.1.json,/visualStyles/slicer/*/items/0/fontFamily,fontFamily,Segoe UI Semibold,Calibri,standardized font string to Calibri
