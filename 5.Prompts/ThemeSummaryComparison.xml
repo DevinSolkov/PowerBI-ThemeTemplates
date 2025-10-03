@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompt name="Theme Summary Comparison" version="1.0">
+  <context>
+    <repoRoot>.</repoRoot>
+    <themeFile>2.Custom Themes/Rainwater Theme v4.1.json</themeFile>
+    <scanArtifacts>
+      <humanSummary>2.Custom Themes/Spend Cube/02_properties/visual-properties-human.txt</humanSummary>
+      <catalogCsv>2.Custom Themes/Spend Cube/02_properties/visual-properties.csv</catalogCsv>
+      <inventory>_reports/repo_inventory.json</inventory>
+    </scanArtifacts>
+    <schemaFile>reportThemeSchema-2.114.json</schemaFile>
+  </context>
+  <objectives>
+    <objective>Ingest existing scan outputs to build a canonical catalog of visual attributes keyed by report, page, visual, and attribute</objective>
+    <objective>Compare Rainwater Theme v4.1 to the catalog to identify overlap, gaps, and conflicts</objective>
+    <objective>Update the theme so every key that contains the word font uses Calibri while preserving all non font keys and values</objective>
+  </objectives>
+  <milestones>
+    <milestone id="1" title="Ingest existing scan artifacts">
+      <assumptions>
+        <assumption>Scan outputs already exist in the repo</assumption>
+      </assumptions>
+      <inputs>
+        <file>2.Custom Themes/Spend Cube/02_properties/visual-properties.csv</file>
+        <file>2.Custom Themes/Spend Cube/02_properties/visual-properties-human.txt</file>
+        <file>_reports/repo_inventory.json</file>
+      </inputs>
+      <steps>
+        <step>Load visual-properties.csv and normalize to a catalog with report, page, visual, attribute_family, attribute_key, attribute_value, source_path</step>
+        <step>Cross check against repo_inventory.json to ensure each pbip reference is accounted for</step>
+        <step>Produce a one page summary grouped by visual type and attribute family</step>
+      </steps>
+      <deliverables>
+        <deliverable>catalog.json and catalog.csv in _reports</deliverable>
+        <deliverable>_reports/summary_visual_attributes.md</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>All pbip visuals referenced are present with source file paths</criterion>
+        <criterion>No orphan attributes without a source reference</criterion>
+        <criterion>Summary surfaces top attribute clusters</criterion>
+      </acceptance>
+    </milestone>
+    <milestone id="2" title="Rainwater Theme v4.1 comparison">
+      <inputs>
+        <file>2.Custom Themes/Rainwater Theme v4.1.json</file>
+        <file>_reports/catalog.json</file>
+      </inputs>
+      <steps>
+        <step>Parse the theme JSON and flatten JSON Pointer paths with keys and values</step>
+        <step>Join flattened theme keys to catalog attribute keys using case insensitive matching and common synonyms</step>
+        <step>Classify into in_both, only_in_theme, only_in_scans</step>
+        <step>Compute per family counts of matches, partials, and misses</step>
+        <step>Generate a diff report with JSON Pointers for reproducibility</step>
+      </steps>
+      <deliverables>
+        <deliverable>_reports/diff_rainwater_v4_1_vs_catalog.json</deliverable>
+        <deliverable>_reports/diff_rainwater_v4_1_vs_catalog.csv</deliverable>
+        <deliverable>_reports/exec_summary_diff.md</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>Each diff entry includes file path and JSON Pointer</criterion>
+        <criterion>Executive summary provides at least five recommendations</criterion>
+      </acceptance>
+    </milestone>
+    <milestone id="3" title="Font standardization to Calibri">
+      <inputs>
+        <file>2.Custom Themes/Rainwater Theme v4.1.json</file>
+      </inputs>
+      <steps>
+        <step>Copy to 2.Custom Themes/Rainwater Theme v4.1.calibri.json</step>
+        <step>Traverse all objects and arrays; for each key where the name contains 'font' set the value to 'Calibri' if it is a string</step>
+        <step>Do not change sizes or any non font keys</step>
+        <step>Emit a change log with path, json_pointer, key, old_value, new_value, note</step>
+        <step>Verify all keys containing 'font' equal 'Calibri' and all non font keys are byte identical</step>
+      </steps>
+      <deliverables>
+        <deliverable>2.Custom Themes/Rainwater Theme v4.1.calibri.json</deliverable>
+        <deliverable>_reports/calibri_change_log.csv</deliverable>
+        <deliverable>_reports/verification_report.md</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>All keys with 'font' contain 'Calibri'</criterion>
+        <criterion>No non font keys changed</criterion>
+        <criterion>Verification report documents checks performed and results</criterion>
+      </acceptance>
+    </milestone>
+  </milestones>
+  <constraints>
+    <constraint>Read only for inputs except new outputs</constraint>
+    <constraint>Case insensitive match for key names that include 'font'</constraint>
+    <constraint>Ignore values that include the word 'font' unless the key also includes 'font'</constraint>
+    <constraint>Preserve encoding and newline style of the original theme</constraint>
+  </constraints>
+  <tools>
+    <tool name="json_flatten">Flatten JSON with JSON Pointer paths</tool>
+    <tool name="csv_io">Read and write CSV</tool>
+    <tool name="json_diff">Diff that emits JSON Pointers</tool>
+    <tool name="validator">Validate against reportThemeSchema-2.114.json when applicable</tool>
+  </tools>
+  <outputs>
+    <path>_reports/catalog.json</path>
+    <path>_reports/catalog.csv</path>
+    <path>_reports/summary_visual_attributes.md</path>
+    <path>_reports/diff_rainwater_v4_1_vs_catalog.json</path>
+    <path>_reports/diff_rainwater_v4_1_vs_catalog.csv</path>
+    <path>_reports/exec_summary_diff.md</path>
+    <path>2.Custom Themes/Rainwater Theme v4.1.calibri.json</path>
+    <path>_reports/calibri_change_log.csv</path>
+    <path>_reports/verification_report.md</path>
+  </outputs>
+  <successCriteria>
+    <criterion>Reproducible pipeline from inputs to outputs with clear logs</criterion>
+    <criterion>Summaries and diffs suitable for review in under five minutes</criterion>
+  </successCriteria>
+</prompt>
