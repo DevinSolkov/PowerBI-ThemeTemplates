@@ -1,4 +1,4 @@
-# Rainwater Theme v4.1 vs Catalog
+AA# Rainwater Theme v4.1 vs Catalog
 
 ## Overview
 
@@ -11,7 +11,7 @@
 ## Recommendations
 
 - Extend theme coverage for `advancedSlicerVisual.accentBar[id=default].position` to align with 13 catalog instance(s).
-- Extend theme coverage for `advancedSlicerVisual.fillCustom[id=interaction:hover].fillColor.solid.color` to align with 13 catalog instance(s).
+- Extend theme coverage for `advancedSlicerVisual.fillCustom[id=interaction:hover].fillColor.solid.color` to align with 13 catalog instance(s).V
 - Extend theme coverage for `advancedSlicerVisual.fillCustom[id=interaction:hover].transparency` to align with 13 catalog instance(s).
 - Align `clusteredColumnChart.categoryAxis.fontFamily` (theme uses `Segoe UI`) with dominant catalog value `Calibri` observed 4 time(s).
 - Align `clusteredColumnChart.labels.fontFamily` (theme uses `Segoe UI Semibold`) with dominant catalog value `Calibri` observed 4 time(s).
