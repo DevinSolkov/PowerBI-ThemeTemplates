@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompt name="Table Matrix Theme Integration" version="1.0">
+  <context>
+    <repoRoot>.</repoRoot>
+    <baseTheme>2.Custom Themes/Rainwater Theme v4.1.calibri.json</baseTheme>
+    <schemaFile>reportThemeSchema-2.114.json</schemaFile>
+    <templateSource>2.Custom Themes/Rainwater TableMatrix Templates.json</templateSource>
+    <changeLog>_reports/table_matrix_template_changes.csv</changeLog>
+    <validationReport>_reports/table_matrix_template_validation.md</validationReport>
+  </context>
+  <objectives>
+    <objective>Create a new theme file that integrates table and matrix style presets from the template source.</objective>
+    <objective>Ensure matrix presets map to `pivotTable` visual styles and table presets map to `tableEx` visual styles.</objective>
+    <objective>Verify the integrated theme validates against the schema and preserves Calibri fonts.</objective>
+  </objectives>
+  <milestones>
+    <milestone id="1" title="Prepare integration plan">
+      <inputs>
+        <file>2.Custom Themes/Rainwater Theme v4.1.calibri.json</file>
+        <file>2.Custom Themes/Rainwater TableMatrix Templates.json</file>
+        <file>_reports/table_matrix_template_manifest.md</file>
+      </inputs>
+      <steps>
+        <step>Identify existing visualStyles entries for `pivotTable` and `tableEx` in the base theme (if any).</step>
+        <step>Confirm template presets align with catalog-derived naming.</step>
+      </steps>
+      <deliverables>
+        <deliverable>Integration notes outlining visual types to be merged.</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>All template presets mapped to their correct visual types.</criterion>
+      </acceptance>
+    </milestone>
+    <milestone id="2" title="Author integrated theme file">
+      <inputs>
+        <file>2.Custom Themes/Rainwater Theme v4.1.calibri.json</file>
+        <file>2.Custom Themes/Rainwater TableMatrix Templates.json</file>
+      </inputs>
+      <steps>
+        <step>Clone the base theme to `2.Custom Themes/Rainwater Theme v4.1.with-table-matrix.json`.</step>
+        <step>Merge `pivotTable` and `tableEx` presets from template source into the new file under `visualStyles`.</step>
+        <step>Ensure existing global styles remain untouched.</step>
+      </steps>
+      <deliverables>
+        <deliverable>2.Custom Themes/Rainwater Theme v4.1.with-table-matrix.json</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>New file contains all original theme properties plus table/matrix presets.</criterion>
+        <criterion>No changes to non-table/matrix sections.</criterion>
+      </acceptance>
+    </milestone>
+    <milestone id="3" title="Validate and document integration">
+      <inputs>
+        <file>2.Custom Themes/Rainwater Theme v4.1.with-table-matrix.json</file>
+        <file>reportThemeSchema-2.114.json</file>
+      </inputs>
+      <steps>
+        <step>Validate new theme against the schema using available tooling.</step>
+        <step>Confirm all fontFamily values within merged presets remain `Calibri`.</step>
+        <step>Log differences from the base theme referencing the original change log.</step>
+      </steps>
+      <deliverables>
+        <deliverable>_reports/table_matrix_integration_validation.md</deliverable>
+        <deliverable>_reports/table_matrix_integration_diff.json</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>Validation report records checks performed and outcomes.</criterion>
+        <criterion>Diff file enumerates merged presets with JSON Pointers.</criterion>
+        <criterion>No validation or font compliance failures.</criterion>
+      </acceptance>
+    </milestone>
+  </milestones>
+  <constraints>
+    <constraint>Do not modify the original base theme; create a new file for the integrated output.</constraint>
+    <constraint>Preserve Calibri as the font for all `fontFamily` keys.</constraint>
+    <constraint>Maintain existing Rainwater color palette unless attributes explicitly specify otherwise.</constraint>
+  </constraints>
+  <tools>
+    <tool name="json_merger">Merge JSON visual style sections with schema awareness.</tool>
+    <tool name="validator">Validate theme JSON against the schema.</tool>
+    <tool name="json_diff">Produce diff artifacts referencing JSON Pointers.</tool>
+  </tools>
+  <outputs>
+    <path>2.Custom Themes/Rainwater Theme v4.1.with-table-matrix.json</path>
+    <path>_reports/table_matrix_integration_diff.json</path>
+    <path>_reports/table_matrix_integration_validation.md</path>
+  </outputs>
+  <successCriteria>
+    <criterion>Integrated theme ready for use with table and matrix presets accessible by name.</criterion>
+    <criterion>Documentation supports future maintenance and auditing.</criterion>
+  </successCriteria>
+</prompt>

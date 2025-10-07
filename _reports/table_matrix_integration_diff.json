@@ -1,0 +1,52 @@
+[
+  {
+    "json_pointer": "/visualStyles/pivotTable/Maritime Steel Grid",
+    "visual_type": "pivotTable",
+    "style_name": "Maritime Steel Grid"
+  },
+  {
+    "json_pointer": "/visualStyles/pivotTable/Muted Horizon Ledger",
+    "visual_type": "pivotTable",
+    "style_name": "Muted Horizon Ledger"
+  },
+  {
+    "json_pointer": "/visualStyles/pivotTable/Azure Balance Bands",
+    "visual_type": "pivotTable",
+    "style_name": "Azure Balance Bands"
+  },
+  {
+    "json_pointer": "/visualStyles/pivotTable/Slate Beacon Matrix",
+    "visual_type": "pivotTable",
+    "style_name": "Slate Beacon Matrix"
+  },
+  {
+    "json_pointer": "/visualStyles/pivotTable/Teal Summit Totals",
+    "visual_type": "pivotTable",
+    "style_name": "Teal Summit Totals"
+  },
+  {
+    "json_pointer": "/visualStyles/pivotTable/Frosted Harbor Cells",
+    "visual_type": "pivotTable",
+    "style_name": "Frosted Harbor Cells"
+  },
+  {
+    "json_pointer": "/visualStyles/tableEx/Golden Harbor Ledger",
+    "visual_type": "tableEx",
+    "style_name": "Golden Harbor Ledger"
+  },
+  {
+    "json_pointer": "/visualStyles/tableEx/Mistline Accent Table",
+    "visual_type": "tableEx",
+    "style_name": "Mistline Accent Table"
+  },
+  {
+    "json_pointer": "/visualStyles/tableEx/Midnight Ribbon Rows",
+    "visual_type": "tableEx",
+    "style_name": "Midnight Ribbon Rows"
+  },
+  {
+    "json_pointer": "/visualStyles/tableEx/Polar Stripe Summary",
+    "visual_type": "tableEx",
+    "style_name": "Polar Stripe Summary"
+  }
+]
