@@ -1,0 +1,92 @@
+[
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 1",
+    "display_name": "Matrix - Style 1",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 2",
+    "display_name": "Matrix - Style 2",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 3",
+    "display_name": "Matrix - Style 3",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 4",
+    "display_name": "Matrix - Style 4",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 5",
+    "display_name": "Matrix - Style 5",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 6",
+    "display_name": "Matrix - Style 6",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "tableEx",
+    "style_variant": "Style 1",
+    "display_name": "Table - Style 1",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "tableEx",
+    "style_variant": "Style 2",
+    "display_name": "Table - Style 2",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "tableEx",
+    "style_variant": "Style 3",
+    "display_name": "Table - Style 3",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  },
+  {
+    "visual_type": "tableEx",
+    "style_variant": "Style 4",
+    "display_name": "Table - Style 4",
+    "sources": [
+      "catalog"
+    ],
+    "theme_attribute_count": 0
+  }
+]
