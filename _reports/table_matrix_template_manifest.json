@@ -1,0 +1,112 @@
+[
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 1",
+    "template_name": "Maritime Steel Grid",
+    "description": "Structured navy matrix with crisp steel gridlines.",
+    "features": [
+      "Centered navy headers with steel backdrops",
+      "Visible horizontal and vertical separators",
+      "Balanced row and column subtotals"
+    ]
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 2",
+    "template_name": "Muted Horizon Ledger",
+    "description": "Soft blue-gray matrix tailored for financial ledgers.",
+    "features": [
+      "Subdued header band with white lettering",
+      "Row headers without expand buttons for clean presentation",
+      "Top-position row subtotals for fast scanning"
+    ]
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 3",
+    "template_name": "Azure Balance Bands",
+    "description": "Banded matrix with alternating azure highlights.",
+    "features": [
+      "Azure headers with centered typography",
+      "Horizontal grid only for stripped-down layout",
+      "Band-inspired subtotals for both direction groups"
+    ]
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 4",
+    "template_name": "Slate Beacon Matrix",
+    "description": "High-contrast matrix with slate headers and beacon accents.",
+    "features": [
+      "Slate header panel with bright text",
+      "Row headers in soft neutral for readability",
+      "Totals shaded for executive summaries"
+    ]
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 5",
+    "template_name": "Teal Summit Totals",
+    "description": "Summit-inspired matrix emphasizing teal subtotals.",
+    "features": [
+      "Teal headers contrasted with white totals",
+      "Prominent subtotals styled for dashboards",
+      "Compact typography with Calibri consistency"
+    ]
+  },
+  {
+    "visual_type": "pivotTable",
+    "style_variant": "Style 6",
+    "template_name": "Frosted Harbor Cells",
+    "description": "Frosted glass effect with vertical grid accents.",
+    "features": [
+      "Frosted harbor background with soft tint",
+      "Vertical and horizontal separators for dense tables",
+      "Balanced totals mirroring header palette"
+    ]
+  },
+  {
+    "visual_type": "tableEx",
+    "style_variant": "Style 1",
+    "template_name": "Golden Harbor Ledger",
+    "description": "Warm ledger presentation with golden headers.",
+    "features": [
+      "Golden header band for emphasis",
+      "Alternating mist rows for legibility",
+      "Totals reversed for quick scanning"
+    ]
+  },
+  {
+    "visual_type": "tableEx",
+    "style_variant": "Style 2",
+    "template_name": "Mistline Accent Table",
+    "description": "Cool accent table with mistline grid markers.",
+    "features": [
+      "Mistline header with navy typography",
+      "Thin gridlines for restrained separation",
+      "Neutral totals ready for export"
+    ]
+  },
+  {
+    "visual_type": "tableEx",
+    "style_variant": "Style 3",
+    "template_name": "Midnight Ribbon Rows",
+    "description": "Dark ribbon headers with alternating midnight rows.",
+    "features": [
+      "Midnight navy headers with white contrast",
+      "Ribbon-style mist banding on values",
+      "Totals matched to header sheen"
+    ]
+  },
+  {
+    "visual_type": "tableEx",
+    "style_variant": "Style 4",
+    "template_name": "Polar Stripe Summary",
+    "description": "Crisp arctic-inspired table with polar stripes.",
+    "features": [
+      "Polar striped rows with subtle contrast",
+      "Centered headers with icy palette",
+      "Totals muted for supporting detail"
+    ]
+  }
+]
