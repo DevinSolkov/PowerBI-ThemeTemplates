@@ -1,0 +1,162 @@
+﻿{
+  "name": "RainwaterMatrixTemplate",
+  "visualStyles": {
+    "pivotTable": {
+      "*": {
+        "general": [
+          {
+            "responsive": true,
+            "keepLayerOrder": true
+          }
+        ],
+        "background": [
+          {
+            "show": false,
+            "transparency": 0,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "radius": 0
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#0C2340"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontFamily": "Calibri",
+            "fontSize": 16,
+            "alignment": "left"
+          }
+        ],
+        "grid": [
+          {
+            "gridVertical": false,
+            "gridVerticalColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "gridHorizontal": false,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "rowPadding": 2,
+            "outlineColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#0C2340"
+              }
+            },
+            "fontFamily": "Calibri",
+            "fontSize": 12,
+            "alignment": "Left",
+            "titleAlignment": "Left",
+            "wordWrap": true
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#2E2E2E"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontFamily": "Calibri",
+            "fontSize": 11,
+            "alignment": "Left",
+            "showExpandCollapseButtons": true,
+            "wordWrap": true
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": {
+              "solid": {
+                "color": "#2E2E2E"
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontFamily": "Calibri",
+            "fontSize": 11,
+            "wrapText": true
+          }
+        ],
+        "subTotals": [
+          {
+            "rowSubtotals": false,
+            "columnSubtotals": false,
+            "applyToHeaders": false
+          }
+        ],
+        "totals": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#0C2340"
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": "#0C2340"
+              }
+            },
+            "backgroundColor": {
+              "solid": {
+                "color": "#C9D9E8"
+              }
+            },
+            "fontFamily": "Calibri",
+            "fontSize": 12
+          }
+        ]
+      }
+    }
+  }
+}
+
