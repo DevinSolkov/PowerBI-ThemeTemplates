@@ -4,7 +4,13 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) where applicable.
 
 ## [Unreleased]
-- Placeholder for next iteration.
+### Added
+- `docs/theme_properties.md` cataloging general theme colors, borders, and fonts from the License Cost Analysis report.
+- `themes/outputs/general-theme.json` providing the reusable Power BI general theme.
+- `docs/theme_readme.md` documenting theme properties, usage guidance, and repository inventories.
+
+### Changed
+- Updated root `README.md` with a Themes section referencing the new assets.
 
 ## [2025-10-09]
 ### Added

@@ -1,0 +1,48 @@
+{
+  "name": "Tilamook Theme",
+  "background": "#E4E3E1",
+  "dataColors": [
+    "#D9531E"
+  ],
+  "textClasses": {
+    "callout": {
+      "fontSize": 24,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2F2F30"
+    },
+    "title": {
+      "fontSize": 32,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2F2F30"
+    },
+    "header": {
+      "fontSize": 18,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2F2F30"
+    },
+    "label": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI",
+      "color": "#2F2F30"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": [
+        {
+          "border": {
+            "show": true,
+            "color": "#F8FAFC",
+            "radius": 5,
+            "weight": 1
+          }
+        },
+        {
+          "background": {
+            "color": "#E4E3E1"
+          }
+        }
+      ]
+    }
+  }
+}

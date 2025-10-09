@@ -12,6 +12,10 @@
 | `README.machine.md` | Machine-friendly quick spec for automations. | Pairs with this human overview. |
 | `CHANGELOG.md` | Keep a Changelog log of repository activity. | Updated with every structural change. |
 
+## Themes
+- `docs/theme_readme.md` – License Cost Analysis general theme notes and usage guide.
+- `themes/outputs/general-theme.json` – Power BI import file generated from the analysis.
+
 ## Working With Themes
 - Raw Power BI visual templates live in `themes/inputs/visual_templates/` and follow lower_snake_case naming.
 - Schema fixtures and validation helpers are under `themes/inputs/schemas/` (see `report_theme_schema-2_114.json` and `test_schema.json`).
