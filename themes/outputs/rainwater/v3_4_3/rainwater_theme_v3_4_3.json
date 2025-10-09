@@ -1249,34 +1249,34 @@
             "showExpandCollapseButtons": true
           }
         ],
-        "values": [
-          {
-            "fontFamily": "Calibri",
-            "fontSize": 11,
-            "fontColor": {
-              "solid": {
-                "color": "#0C2340"
-              }
-            },
-            "wrapText": true
-          }
-        ],
-        "grid": [
-          {
-            "gridHorizontal": true,
-            "gridHorizontalColor": {
-              "solid": {
-                "color": "#B0C4D4"
-              }
-            },
-            "gridVertical": false,
-            "gridVerticalColor": {
-              "solid": {
-                "color": "#D9D9D9"
-              }
+          "values": [
+            {
+              "fontFamily": "Calibri",
+              "fontSize": 11,
+              "fontColor": {
+                "solid": {
+                  "color": "#2E2E2E"
+                }
+              },
+              "backColor": {
+                "solid": {
+                  "color": "#FFFFFF"
+                }
+              },
+              "alternateBackColor": {
+                "solid": {
+                  "color": "#FFFFFF"
+                }
+              },
+              "wrapText": true
             }
-          }
-        ],
+          ],
+          "grid": [
+            {
+              "gridHorizontal": false,
+              "gridVertical": false
+            }
+          ],
         "subTotals": [
           {
             "id": "Row",
