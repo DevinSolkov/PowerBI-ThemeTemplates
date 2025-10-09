@@ -1,0 +1,107 @@
+﻿{
+  "name": "Spend Cube Slicer",
+  "visualType": "slicer",
+  "defaultStyle": "Style 1",
+  "styles": [
+    {
+      "name": "Style 1",
+      "visualStyles": {
+        "slicer": {
+          "*": {
+            "data": [
+              {
+                "mode": "Dropdown"
+              }
+            ],
+            "selection": [
+              {
+                "selectAllCheckboxEnabled": true,
+                "singleSelect": false
+              }
+            ],
+            "header": [
+              {
+                "show": true
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/02604e232e37ce8027cd/visuals/08c60e9651021e4efedd/visual.json",
+        "themes/samples/spend_cube_report/definition/pages/02604e232e37ce8027cd/visuals/111e917238e703a0c373/visual.json",
+        "themes/samples/spend_cube_report/definition/pages/02604e232e37ce8027cd/visuals/2fc236f7d460d541ff95/visual.json"
+      ],
+      "visualCount": 36
+    },
+    {
+      "name": "Style 2",
+      "visualStyles": {
+        "slicer": {
+          "*": {
+            "data": [
+              {
+                "mode": "Dropdown"
+              }
+            ],
+            "selection": [
+              {
+                "selectAllCheckboxEnabled": true,
+                "singleSelect": false
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1374d8c3ba887ae4c02c/visuals/71d959c3ce900bc1c773/visual.json",
+        "themes/samples/spend_cube_report/definition/pages/1727c31ca7e81a638716/visuals/f84517e0c4bfbcf6e83b/visual.json"
+      ],
+      "visualCount": 2
+    },
+    {
+      "name": "Style 3",
+      "visualStyles": {
+        "slicer": {
+          "*": {
+            "data": [
+              {
+                "mode": "Dropdown"
+              }
+            ],
+            "selection": [
+              {
+                "selectAllCheckboxEnabled": true,
+                "singleSelect": false
+              }
+            ],
+            "background": [
+              {
+                "transparency": 0
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/c6c944f6f8cefed2eb4d/visuals/d51d4ed5dc123e8dd1f2/visual.json"
+      ],
+      "visualCount": 1
+    }
+  ]
+}

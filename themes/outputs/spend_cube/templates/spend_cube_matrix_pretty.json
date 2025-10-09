@@ -1,0 +1,653 @@
+﻿{
+  "name": "Spend Cube Matrix",
+  "visualType": "pivotTable",
+  "defaultStyle": "Style 1",
+  "styles": [
+    {
+      "name": "Style 1",
+      "visualStyles": {
+        "pivotTable": {
+          "*": {
+            "background": [
+              {
+                "show": false,
+                "transparency": 0
+              }
+            ],
+            "title": [
+              {
+                "fontColor": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "show": false
+              }
+            ],
+            "stylePreset": [
+              {
+                "name": "None"
+              }
+            ],
+            "grid": [
+              {
+                "gridHorizontalColor": {
+                  "solid": {
+                    "color": "#D5D5D4"
+                  }
+                }
+              }
+            ],
+            "columnHeaders": [
+              {
+                "alignment": "Center",
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 12,
+                "titleAlignment": "Center"
+              }
+            ],
+            "rowHeaders": [
+              {
+                "alignment": "Left",
+                "fontFamily": "Calibri",
+                "fontSize": 12
+              }
+            ],
+            "values": [
+              {
+                "fontColorPrimary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontColorSecondary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 12
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1727c31ca7e81a638716/visuals/018bde61dba48e2ce72e/visual.json"
+      ],
+      "visualCount": 1
+    },
+    {
+      "name": "Style 2",
+      "visualStyles": {
+        "pivotTable": {
+          "*": {
+            "background": [
+              {
+                "show": false,
+                "transparency": 0
+              }
+            ],
+            "title": [
+              {
+                "fontColor": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "show": false
+              }
+            ],
+            "stylePreset": [
+              {
+                "name": "None"
+              }
+            ],
+            "grid": [
+              {
+                "gridHorizontalColor": {
+                  "solid": {
+                    "color": "#D5D5D4"
+                  }
+                }
+              }
+            ],
+            "columnHeaders": [
+              {
+                "alignment": "Center",
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 12,
+                "titleAlignment": "Center"
+              }
+            ],
+            "rowHeaders": [
+              {
+                "showExpandCollapseButtons": false
+              }
+            ],
+            "values": [
+              {
+                "fontColorPrimary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontColorSecondary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 12
+              }
+            ],
+            "subTotals": [
+              {
+                "perRowLevel": true
+              },
+              {
+                "$id": "Column",
+                "applyToHeaders": true,
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 5,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1727c31ca7e81a638716/visuals/40814e49acb0638d2425/visual.json"
+      ],
+      "visualCount": 1
+    },
+    {
+      "name": "Style 3",
+      "visualStyles": {
+        "pivotTable": {
+          "*": {
+            "background": [
+              {
+                "show": false,
+                "transparency": 0
+              }
+            ],
+            "title": [
+              {
+                "fontColor": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "show": false
+              }
+            ],
+            "stylePreset": [
+              {
+                "name": "None"
+              }
+            ],
+            "grid": [
+              {
+                "gridHorizontalColor": {
+                  "solid": {
+                    "color": "#D5D5D4"
+                  }
+                }
+              }
+            ],
+            "columnHeaders": [
+              {
+                "alignment": "Center",
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 12,
+                "titleAlignment": "Center"
+              }
+            ],
+            "rowHeaders": [
+              {
+                "showExpandCollapseButtons": false
+              }
+            ],
+            "values": [
+              {
+                "fontColorPrimary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontColorSecondary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 12
+              }
+            ],
+            "subTotals": [
+              {
+                "$id": "Row",
+                "applyToHeaders": true,
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 5,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1727c31ca7e81a638716/visuals/eee22707705d70d18888/visual.json"
+      ],
+      "visualCount": 1
+    },
+    {
+      "name": "Style 4",
+      "visualStyles": {
+        "pivotTable": {
+          "*": {
+            "background": [
+              {
+                "show": false,
+                "transparency": 0
+              }
+            ],
+            "title": [
+              {
+                "fontColor": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "show": false
+              }
+            ],
+            "stylePreset": [
+              {
+                "name": "None"
+              }
+            ],
+            "grid": [
+              {
+                "gridHorizontalColor": {
+                  "solid": {
+                    "color": "#D5D5D4"
+                  }
+                }
+              }
+            ],
+            "columnHeaders": [
+              {
+                "alignment": "Center",
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 14,
+                "titleAlignment": "Center"
+              }
+            ],
+            "rowHeaders": [
+              {
+                "fontFamily": "''Lucida Sans Unicode''",
+                "showExpandCollapseButtons": false
+              }
+            ],
+            "values": [
+              {
+                "fontColorPrimary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontColorSecondary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 12
+              }
+            ],
+            "subTotals": [
+              {
+                "$id": "Row",
+                "applyToHeaders": true,
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 5,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/c6c944f6f8cefed2eb4d/visuals/557ab93bcfedbfe6ee59/visual.json"
+      ],
+      "visualCount": 1
+    },
+    {
+      "name": "Style 5",
+      "visualStyles": {
+        "pivotTable": {
+          "*": {
+            "background": [
+              {
+                "show": false,
+                "transparency": 0
+              }
+            ],
+            "title": [
+              {
+                "fontColor": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "show": false
+              }
+            ],
+            "stylePreset": [
+              {
+                "name": "None"
+              }
+            ],
+            "grid": [
+              {
+                "gridHorizontalColor": {
+                  "solid": {
+                    "color": "#D5D5D4"
+                  }
+                }
+              }
+            ],
+            "columnHeaders": [
+              {
+                "alignment": "Center",
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 14,
+                "titleAlignment": "Center"
+              }
+            ],
+            "rowHeaders": [
+              {
+                "fontFamily": "Calibri",
+                "fontSize": 12,
+                "showExpandCollapseButtons": false
+              }
+            ],
+            "values": [
+              {
+                "fontColorPrimary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontColorSecondary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 12
+              }
+            ],
+            "subTotals": [
+              {
+                "perRowLevel": true,
+                "rowSubtotalsPosition": "Top"
+              },
+              {
+                "$id": "Row",
+                "applyToHeaders": true,
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 5,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1374d8c3ba887ae4c02c/visuals/4e4504de597ec3a11d4a/visual.json"
+      ],
+      "visualCount": 1
+    },
+    {
+      "name": "Style 6",
+      "visualStyles": {
+        "pivotTable": {
+          "*": {
+            "background": [
+              {
+                "show": false,
+                "transparency": 0
+              }
+            ],
+            "title": [
+              {
+                "fontColor": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "show": false
+              }
+            ],
+            "stylePreset": [
+              {
+                "name": "None"
+              }
+            ],
+            "grid": [
+              {
+                "gridHorizontalColor": {
+                  "solid": {
+                    "color": "#D5D5D4"
+                  }
+                }
+              }
+            ],
+            "columnHeaders": [
+              {
+                "alignment": "Center",
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 14,
+                "titleAlignment": "Center"
+              }
+            ],
+            "rowHeaders": [
+              {
+                "fontFamily": "Calibri",
+                "fontSize": 12,
+                "showExpandCollapseButtons": false
+              }
+            ],
+            "values": [
+              {
+                "fontColorPrimary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontColorSecondary": {
+                  "solid": {
+                    "color": "#2E2E2E"
+                  }
+                },
+                "fontFamily": "Calibri",
+                "fontSize": 12
+              }
+            ],
+            "subTotals": [
+              {
+                "$id": "Row",
+                "applyToHeaders": true,
+                "backColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 5,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1374d8c3ba887ae4c02c/visuals/91df5e4b466836c60284/visual.json"
+      ],
+      "visualCount": 1
+    }
+  ]
+}

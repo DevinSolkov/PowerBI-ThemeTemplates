@@ -1,0 +1,20 @@
+﻿report_name=Spend Cube
+report_path=/themes/samples/spend_cube_report
+page_count=8
+total_visual_containers=191
+visual_group_containers=36
+bookmark_count=25
+base_theme=CY24SU10
+custom_theme=RainwaterTheme11234990230315.json
+custom_visuals=powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6
+visual_type_counts=actionButton:12|advancedSlicerVisual:13|aiNarratives:7|card:7|clusteredColumnChart:4|image:15|lineChart:1|pivotTable:6|powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6:3|shape:18|slicer:39|tableEx:8|textbox:21|visualGroup:36|waterfallChart:1
+page_Receipt_Line_Item_Detail=29|actionButton:3,advancedSlicerVisual:1,aiNarratives:1,image:2,shape:1,slicer:12,tableEx:2,textbox:1,visualGroup:6
+page_AP_Summary=42|actionButton:1,advancedSlicerVisual:3,aiNarratives:1,card:5,clusteredColumnChart:2,image:2,pivotTable:2,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6:2,shape:6,slicer:1,textbox:9,visualGroup:8
+page_AP_Indirect_Level_Analysis=27|actionButton:2,advancedSlicerVisual:3,aiNarratives:1,image:3,lineChart:1,pivotTable:3,shape:4,slicer:1,textbox:4,visualGroup:5
+page_AP_Checks=17|actionButton:1,advancedSlicerVisual:1,aiNarratives:1,image:2,shape:1,slicer:7,tableEx:1,visualGroup:3
+page_AP_Details=18|actionButton:1,advancedSlicerVisual:1,aiNarratives:1,image:2,shape:1,slicer:7,tableEx:1,textbox:1,visualGroup:3
+page_Page_1=2|clusteredColumnChart:1,tableEx:1
+page_AP_Direct_Overview=29|actionButton:1,advancedSlicerVisual:3,aiNarratives:1,card:2,clusteredColumnChart:1,image:2,pivotTable:1,powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6:1,shape:4,slicer:1,tableEx:1,textbox:5,visualGroup:5,waterfallChart:1
+page_Open_PO_s_Qty_Due_gt_0=27|actionButton:3,advancedSlicerVisual:1,aiNarratives:1,image:2,shape:1,slicer:10,tableEx:2,textbox:1,visualGroup:6
+generated_utc=2025-10-01T22:54:48Z
+

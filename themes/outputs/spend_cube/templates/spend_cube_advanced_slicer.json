@@ -1,0 +1,861 @@
+﻿{
+  "name": "Spend Cube Advanced Slicer",
+  "visualType": "advancedSlicerVisual",
+  "defaultStyle": "Style 1",
+  "styles": [
+    {
+      "name": "Style 1",
+      "visualStyles": {
+        "advancedSlicerVisual": {
+          "*": {
+            "selection": [
+              {
+                "singleSelect": true,
+                "strictSingleSelect": true
+              }
+            ],
+            "layout": [
+              {
+                "columnCount": 3,
+                "rowCount": 1
+              }
+            ],
+            "value": [
+              {
+                "$id": "interaction:hover",
+                "bold": false,
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 8,
+                        "Percent": -0.5
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 14,
+                "transparency": 0,
+                "underline": false
+              },
+              {
+                "$id": "default",
+                "horizontalAlignment": "center"
+              },
+              {
+                "$id": "selection:selected",
+                "italic": false
+              }
+            ],
+            "fillCustom": [
+              {
+                "$id": "interaction:hover",
+                "fillColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 3,
+                        "Percent": -0.25
+                      }
+                    }
+                  }
+                },
+                "transparency": 25
+              },
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "accentBar": [
+              {
+                "$id": "default",
+                "color": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "position": "Bottom",
+                "show": true
+              },
+              {
+                "$id": "selection:selected",
+                "transparency": 0
+              },
+              {
+                "$id": "interaction:press",
+                "width": 3
+              }
+            ],
+            "selectionIcon": [
+              {
+                "show": false
+              }
+            ],
+            "outline": [
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "shapeCustomRectangle": [
+              {
+                "$id": "default",
+                "rectangleRoundedCurveCustomStyle": true,
+                "tileShape": "rectangleRoundedByPixel"
+              }
+            ],
+            "title": [
+              {
+                "show": false,
+                "text": "Slicer - Calendar Year"
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/02604e232e37ce8027cd/visuals/59cc9da5c4d0f55695a5/visual.json",
+        "themes/samples/spend_cube_report/definition/pages/1374d8c3ba887ae4c02c/visuals/39ffdf112a2fd493dce0/visual.json",
+        "themes/samples/spend_cube_report/definition/pages/1727c31ca7e81a638716/visuals/d845e624911c93761b19/visual.json"
+      ],
+      "visualCount": 7
+    },
+    {
+      "name": "Style 2",
+      "visualStyles": {
+        "advancedSlicerVisual": {
+          "*": {
+            "selection": [
+              {
+                "restrictToLeafNodes": false,
+                "selectAllCheckboxEnabled": true,
+                "singleSelect": false,
+                "strictSingleSelect": false
+              }
+            ],
+            "layout": [
+              {
+                "cellPadding": 0,
+                "columnCount": 2,
+                "maxTiles": 10,
+                "orientation": 1,
+                "rowCount": 1
+              }
+            ],
+            "value": [
+              {
+                "$id": "interaction:rest",
+                "bold": false,
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 8,
+                        "Percent": -0.25
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "italic": false,
+                "transparency": 0
+              },
+              {
+                "$id": "interaction:hover",
+                "fontSize": 14,
+                "underline": false
+              },
+              {
+                "$id": "default",
+                "horizontalAlignment": "center"
+              }
+            ],
+            "fillCustom": [
+              {
+                "$id": "interaction:hover",
+                "fillColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": -0.1
+                      }
+                    }
+                  }
+                },
+                "show": true,
+                "transparency": 25
+              }
+            ],
+            "accentBar": [
+              {
+                "$id": "interaction:hover",
+                "color": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "width": 3
+              },
+              {
+                "$id": "default",
+                "position": "Bottom"
+              },
+              {
+                "$id": "interaction:rest",
+                "show": true,
+                "transparency": 100
+              }
+            ],
+            "selectionIcon": [
+              {
+                "show": false
+              }
+            ],
+            "outline": [
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "shapeCustomRectangle": [
+              {
+                "$id": "default",
+                "rectangleRoundedCurveCustomStyle": true,
+                "tileShape": "rectangleRoundedByPixel"
+              }
+            ],
+            "overFlow": [
+              {
+                "overFlowDirection": 0
+              }
+            ],
+            "shadowCustom": [
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "title": [
+              {
+                "show": false,
+                "text": "Org Slicer",
+                "titleWrap": true
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ],
+            "background": [
+              {
+                "$id": "interaction:hover",
+                "show": false
+              }
+            ],
+            "border": [
+              {
+                "show": false,
+                "width": 1
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1727c31ca7e81a638716/visuals/61308f61c133dccad754/visual.json",
+        "themes/samples/spend_cube_report/definition/pages/c6c944f6f8cefed2eb4d/visuals/cd4d9c7a3044e02bbdb4/visual.json"
+      ],
+      "visualCount": 2
+    },
+    {
+      "name": "Style 3",
+      "visualStyles": {
+        "advancedSlicerVisual": {
+          "*": {
+            "selection": [
+              {
+                "restrictToLeafNodes": false,
+                "selectAllCheckboxEnabled": false,
+                "singleSelect": false,
+                "strictSingleSelect": false
+              }
+            ],
+            "layout": [
+              {
+                "cellPadding": 0,
+                "columnCount": 2,
+                "maxTiles": 8,
+                "orientation": 2,
+                "rowCount": 1
+              }
+            ],
+            "value": [
+              {
+                "$id": "interaction:hover",
+                "bold": false,
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 8,
+                        "Percent": -0.5
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 14,
+                "transparency": 0,
+                "underline": false
+              },
+              {
+                "$id": "default",
+                "horizontalAlignment": "center"
+              },
+              {
+                "$id": "selection:selected",
+                "italic": false
+              }
+            ],
+            "fillCustom": [
+              {
+                "$id": "interaction:hover",
+                "fillColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": -0.1
+                      }
+                    }
+                  }
+                },
+                "transparency": 25
+              },
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "accentBar": [
+              {
+                "$id": "default",
+                "color": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "position": "Bottom",
+                "show": true
+              },
+              {
+                "$id": "interaction:rest",
+                "transparency": 100
+              },
+              {
+                "$id": "interaction:hover",
+                "width": 3
+              }
+            ],
+            "selectionIcon": [
+              {
+                "show": false
+              }
+            ],
+            "outline": [
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "shapeCustomRectangle": [
+              {
+                "$id": "default",
+                "rectangleRoundedCurveCustomStyle": true,
+                "tileShape": "rectangleRoundedByPixel"
+              }
+            ],
+            "overFlow": [
+              {
+                "overFlowDirection": 1,
+                "overFlowStyle": 1
+              }
+            ],
+            "title": [
+              {
+                "show": false,
+                "text": "Inventory Slicer",
+                "titleWrap": true
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ],
+            "background": [
+              {
+                "$id": "interaction:hover",
+                "show": false
+              }
+            ],
+            "border": [
+              {
+                "width": 1
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/c6c944f6f8cefed2eb4d/visuals/9b5ec1cb10fd9624e712/visual.json"
+      ],
+      "visualCount": 1
+    },
+    {
+      "name": "Style 4",
+      "visualStyles": {
+        "advancedSlicerVisual": {
+          "*": {
+            "selection": [
+              {
+                "restrictToLeafNodes": false,
+                "selectAllCheckboxEnabled": false,
+                "singleSelect": false,
+                "strictSingleSelect": false
+              }
+            ],
+            "layout": [
+              {
+                "columnCount": 2,
+                "orientation": 2,
+                "rowCount": 1
+              }
+            ],
+            "value": [
+              {
+                "$id": "interaction:hover",
+                "bold": false,
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 8,
+                        "Percent": -0.5
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 14,
+                "transparency": 0,
+                "underline": false
+              },
+              {
+                "$id": "default",
+                "horizontalAlignment": "center"
+              },
+              {
+                "$id": "selection:selected",
+                "italic": false
+              }
+            ],
+            "fillCustom": [
+              {
+                "$id": "interaction:hover",
+                "fillColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": -0.1
+                      }
+                    }
+                  }
+                },
+                "transparency": 25
+              },
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "accentBar": [
+              {
+                "$id": "default",
+                "color": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "position": "Bottom",
+                "show": true
+              },
+              {
+                "$id": "interaction:rest",
+                "transparency": 100
+              },
+              {
+                "$id": "interaction:hover",
+                "width": 3
+              }
+            ],
+            "selectionIcon": [
+              {
+                "show": false
+              }
+            ],
+            "outline": [
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "shapeCustomRectangle": [
+              {
+                "$id": "default",
+                "rectangleRoundedCurveCustomStyle": true,
+                "tileShape": "rectangleRoundedByPixel"
+              }
+            ],
+            "overFlow": [
+              {
+                "overFlowDirection": 1
+              }
+            ],
+            "title": [
+              {
+                "show": false,
+                "text": "Direct Indirect Slicer",
+                "titleWrap": true
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ],
+            "background": [
+              {
+                "$id": "interaction:hover",
+                "show": false
+              }
+            ],
+            "border": [
+              {
+                "width": 1
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1374d8c3ba887ae4c02c/visuals/8a6bd4e9ee22c1423803/visual.json"
+      ],
+      "visualCount": 1
+    },
+    {
+      "name": "Style 5",
+      "visualStyles": {
+        "advancedSlicerVisual": {
+          "*": {
+            "selection": [
+              {
+                "singleSelect": true,
+                "strictSingleSelect": true
+              }
+            ],
+            "layout": [
+              {
+                "columnCount": 3,
+                "rowCount": 1
+              }
+            ],
+            "value": [
+              {
+                "$id": "interaction:hover",
+                "bold": false,
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 8,
+                        "Percent": -0.5
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "fontSize": 14,
+                "transparency": 0,
+                "underline": false
+              },
+              {
+                "$id": "default",
+                "horizontalAlignment": "center"
+              },
+              {
+                "$id": "selection:selected",
+                "italic": false
+              }
+            ],
+            "fillCustom": [
+              {
+                "$id": "interaction:hover",
+                "fillColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 3,
+                        "Percent": -0.25
+                      }
+                    }
+                  }
+                },
+                "transparency": 25
+              },
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "accentBar": [
+              {
+                "$id": "default",
+                "color": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "position": "Bottom",
+                "show": true
+              },
+              {
+                "$id": "selection:selected",
+                "transparency": 0
+              },
+              {
+                "$id": "interaction:press",
+                "width": 3
+              }
+            ],
+            "selectionIcon": [
+              {
+                "show": false
+              }
+            ],
+            "outline": [
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "shapeCustomRectangle": [
+              {
+                "$id": "default",
+                "rectangleRoundedCurveCustomStyle": true,
+                "tileShape": "rectangleRoundedByPixel"
+              }
+            ],
+            "title": [
+              {
+                "show": false,
+                "text": "Level Slicer"
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1727c31ca7e81a638716/visuals/b28df6dc2b9351da7f68/visual.json"
+      ],
+      "visualCount": 1
+    },
+    {
+      "name": "Style 6",
+      "visualStyles": {
+        "advancedSlicerVisual": {
+          "*": {
+            "selection": [
+              {
+                "restrictToLeafNodes": false,
+                "selectAllCheckboxEnabled": true,
+                "singleSelect": false,
+                "strictSingleSelect": false
+              }
+            ],
+            "layout": [
+              {
+                "cellPadding": 2,
+                "columnCount": 2,
+                "maxTiles": 10,
+                "orientation": 1,
+                "rowCount": 1
+              }
+            ],
+            "value": [
+              {
+                "$id": "interaction:rest",
+                "bold": false,
+                "fontColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 8,
+                        "Percent": -0.25
+                      }
+                    }
+                  }
+                },
+                "fontFamily": "''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+                "italic": false,
+                "transparency": 0
+              },
+              {
+                "$id": "interaction:hover",
+                "fontSize": 14,
+                "underline": false
+              },
+              {
+                "$id": "default",
+                "horizontalAlignment": "center"
+              }
+            ],
+            "fillCustom": [
+              {
+                "$id": "interaction:hover",
+                "fillColor": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": -0.1
+                      }
+                    }
+                  }
+                },
+                "show": true,
+                "transparency": 25
+              }
+            ],
+            "accentBar": [
+              {
+                "$id": "interaction:hover",
+                "color": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "width": 3
+              },
+              {
+                "$id": "default",
+                "position": "Bottom"
+              },
+              {
+                "$id": "interaction:rest",
+                "show": true,
+                "transparency": 100
+              }
+            ],
+            "selectionIcon": [
+              {
+                "show": false
+              }
+            ],
+            "outline": [
+              {
+                "$id": "default",
+                "show": false
+              }
+            ],
+            "shapeCustomRectangle": [
+              {
+                "$id": "default",
+                "rectangleRoundedCurveCustomStyle": true,
+                "tileShape": "rectangleRoundedByPixel"
+              }
+            ],
+            "overFlow": [
+              {
+                "overFlowDirection": 0
+              }
+            ],
+            "title": [
+              {
+                "show": false,
+                "text": "Org Slicer",
+                "titleWrap": true
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ],
+            "background": [
+              {
+                "$id": "interaction:hover",
+                "show": false
+              }
+            ],
+            "border": [
+              {
+                "show": false,
+                "width": 1
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1374d8c3ba887ae4c02c/visuals/ada85ff105c703939409/visual.json"
+      ],
+      "visualCount": 1
+    }
+  ]
+}

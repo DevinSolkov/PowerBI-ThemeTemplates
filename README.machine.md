@@ -1,0 +1,22 @@
+﻿# Repository Specification (Machine)
+- root: `.`
+- schema_files:
+  - `themes/inputs/schemas/report_theme_schema-2_114.json`
+  - `themes/inputs/schemas/test_schema.json`
+- visual_templates_dir: `themes/inputs/visual_templates`
+- samples:
+  - `themes/samples/omx_template_report`
+  - `themes/samples/spend_cube_report`
+- outputs:
+  - `themes/outputs/rainwater/v4_1/`
+  - `themes/outputs/spend_cube/templates/`
+  - `themes/outputs/virginia_forest/`
+- automation_scripts:
+  - `src/scripts/build_table_matrix_templates.py`
+  - `src/scripts/integrate_table_matrix_templates.py`
+  - `src/scripts/table_matrix_style_report.py`
+  - `src/scripts/theme_summary_comparison.py`
+- prompts_dir: `docs/prompts`
+- analytics_root: `reports`
+- manifest: `themes/MANIFEST.json`
+- scorecards: `reports/scorecards`

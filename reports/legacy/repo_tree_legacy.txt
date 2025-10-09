@@ -1,0 +1,923 @@
+﻿Folder PATH listing for volume OS
+Volume serial number is 349D-A544
+C:.
+|   README.md
+|   reportThemeSchema-2.114.json
+|   repo_tree.txt
+|   
++---.github
+|   \---workflows
+|           housekeeping-welcome-contributors.yml
+|           rss-issues.yml
+|           tests-monitor-docs.yml
+|           tests-validate-docs.yml
+|           tests-validate-json.yml
+|           
++---1.Visual Templates
+|       Area.json
+|       AzureMap.json
+|       Button.json
+|       Card.json
+|       ClusteredBar.json
+|       ClusteredColumn.json
+|       DecompositionTree.json
+|       Donut.json
+|       EsriArcGisMap.json
+|       FilledMap.json
+|       Funnel.json
+|       Gauge.json
+|       GlobalLevelTemplate.json
+|       HundredPercentStackedBar.json
+|       HundredPercentStackedColumn.json
+|       Image.json
+|       KeyInfluencers.json
+|       KPI.json
+|       Line.json
+|       LineClusteredColumnCombo.json
+|       LineStackedColumnCombo.json
+|       Map.json
+|       Matrix.json
+|       MultirowCard.json
+|       Pie.json
+|       QnA.json
+|       Ribbon.json
+|       ScatterChart.json
+|       Shape.json
+|       ShapeMap.json
+|       Slicer.json
+|       StackedArea.json
+|       StackedBar.json
+|       StackedColumn.json
+|       Table.json
+|       Textbox.json
+|       Treemap.json
+|       Waterfall.json
+|       
++---2.Custom Themes
+|       Rainwater Theme v4.1.json
+|       Virginia Forest.json
+|       
++---3.Sample Files
+|   +---OMX Template.Report
+|   |   |   .platform
+|   |   |   definition.pbir
+|   |   |   
+|   |   +---.pbi
+|   |   |       localSettings.json
+|   |   |       
+|   |   +---definition
+|   |   |   |   report.json
+|   |   |   |   version.json
+|   |   |   |   
+|   |   |   \---pages
+|   |   |       |   pages.json
+|   |   |       |   
+|   |   |       +---091cac176acb2cb8cc7b
+|   |   |       |   |   page.json
+|   |   |       |   |   
+|   |   |       |   \---visuals
+|   |   |       |       +---2bf0c2e89bcd7c6c77d4
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---39434421707d10bd3087
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---39f277b2921b91350c6a
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---400051a4db6034739c9c
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---418e8cb76a399ec5e407
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---5d77dd608c31b66704e2
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---5f9f5a61bdab0347a2dc
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---663cdfd8a5116b52ade3
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---6a83009a012903ee3d0a
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---6a8806e3d20de4020653
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---7459551d4b5b535ebd40
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---8f2d91f82740d3cc5c6a
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---960c04db08003da79751
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---a0b7f646b16a4d17be32
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       \---bd0483300077695e4709
+|   |   |       |               visual.json
+|   |   |       |               
+|   |   |       +---77a0effb5b4b5c478c34
+|   |   |       |   |   page.json
+|   |   |       |   |   
+|   |   |       |   \---visuals
+|   |   |       |       \---070759c0620cae8c5e58
+|   |   |       |               visual.json
+|   |   |       |               
+|   |   |       +---7b0fb4fd07c4da6a4209
+|   |   |       |   |   page.json
+|   |   |       |   |   
+|   |   |       |   \---visuals
+|   |   |       |       +---071cd26b2aaeaea870cb
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---0e1afa5e37655ec7ed80
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---0feaeaa0b9ba777279b0
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---15371ca4e4a51e22ee75
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---40e4cd78cea0d00d1d6e
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---412d96675bdd70c45409
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---4204154b6d750ea74be3
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---7b5b57415816057eab40
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---df4839dbbe01885996ee
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       \---f139fcfdd86b5edac08b
+|   |   |       |               visual.json
+|   |   |       |               
+|   |   |       +---83c4bb23c5dba0fb0cac
+|   |   |       |   |   page.json
+|   |   |       |   |   
+|   |   |       |   \---visuals
+|   |   |       |       +---185ba4cd977d83361d31
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---51aa28be32d5ff2f2ce4
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---a80c3e1593c6a3097880
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       +---cd44812628e1f24497e2
+|   |   |       |       |       visual.json
+|   |   |       |       |       
+|   |   |       |       \---e0d2f8656ac5435ff49e
+|   |   |       |               visual.json
+|   |   |       |               
+|   |   |       \---ReportSection
+|   |   |           |   page.json
+|   |   |           |   
+|   |   |           \---visuals
+|   |   |               +---1c7ee6b79790362080bc
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---4aecc4e88c19c085cd5a
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---5636b5e9d1554d27c01a
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---639b567289435088c76c
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---69464374c40803d8c9ae
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---75c624f501f3c20eb760
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---8a5a9d2330be61900e76
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---8f20ffb03be3d0cd6e58
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---b676c9766004ab73aacc
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---c26c13c3a02a1a09000e
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---d8fb5a20533064003307
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               +---ddc669d1ed997bf82754
+|   |   |               |       visual.json
+|   |   |               |       
+|   |   |               \---e62f8d740cd4f569300d
+|   |   |                       visual.json
+|   |   |                       
+|   |   \---StaticResources
+|   |       +---RegisteredResources
+|   |       |       OMX_Logo_-_Color3935936284716768.png
+|   |       |       RainwaterTheme8493302776309731.json
+|   |       |       
+|   |       \---SharedResources
+|   |           \---BaseThemes
+|   |                   CY24SU10.json
+|   |                   
+|   \---Spend Cube.Report
+|       |   .platform
+|       |   definition.pbir
+|       |   semanticModelDiagramLayout.json
+|       |   
+|       +---.pbi
+|       |       localSettings.json
+|       |       
+|       +---DAXQueries
+|       |   |   Query 1.dax
+|       |   |   Query 2.dax
+|       |   |   
+|       |   \---.pbi
+|       |           daxQueries.json
+|       |           
+|       +---definition
+|       |   |   report.json
+|       |   |   version.json
+|       |   |   
+|       |   +---bookmarks
+|       |   |       200a6b7e990cefa0e303.bookmark.json
+|       |   |       2026341a61744de98039.bookmark.json
+|       |   |       20c2737d59233d0e9dd6.bookmark.json
+|       |   |       252e8b9f3fed8dabed13.bookmark.json
+|       |   |       3fc8da20e5327278f8d2.bookmark.json
+|       |   |       45c9e52d7f93f6b62969.bookmark.json
+|       |   |       6bc43fd26a9cb7432fa4.bookmark.json
+|       |   |       7375b62a50a9b5cf8a76.bookmark.json
+|       |   |       806b0eff4aa0e30b1a87.bookmark.json
+|       |   |       8160c566b9dce055538b.bookmark.json
+|       |   |       86473fba169a58938e0e.bookmark.json
+|       |   |       8bd07dee497ae5ad863c.bookmark.json
+|       |   |       96d1498e7366db700dc7.bookmark.json
+|       |   |       9797d12e6183a30274a9.bookmark.json
+|       |   |       9ea8cef112dd1ba58bc3.bookmark.json
+|       |   |       a4f75a1326d1ff90d44c.bookmark.json
+|       |   |       ab951bde9ad9b9e90132.bookmark.json
+|       |   |       b1bbf16eff2d3fabb62f.bookmark.json
+|       |   |       b1d04bcf3f443c6aaf20.bookmark.json
+|       |   |       b6580d65474257f45aeb.bookmark.json
+|       |   |       bb497790f5a95ca45d3f.bookmark.json
+|       |   |       bookmarks.json
+|       |   |       dda1b76a3afc5b7b813f.bookmark.json
+|       |   |       e63990938b5e48c24c3b.bookmark.json
+|       |   |       fbaa56e57c1e0db2fb20.bookmark.json
+|       |   |       
+|       |   \---pages
+|       |       |   pages.json
+|       |       |   
+|       |       +---02604e232e37ce8027cd
+|       |       |   |   page.json
+|       |       |   |   
+|       |       |   \---visuals
+|       |       |       +---08c60e9651021e4efedd
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---0a85bca3e40364b2d41a
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---111e917238e703a0c373
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---12f8292beb7997d79c2b
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---1a89019ff0d027b6a027
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---20c4f4b196f0952a45c0
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---2fc236f7d460d541ff95
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---3138098e572e451e35f2
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---39f30bda89ed23307ac0
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---59cc9da5c4d0f55695a5
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---77e9c5443ed3f6930029
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---7b35aeb99bd1cf6aabbe
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---8b7d2fbe96b61532e888
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---911103ba7ead89f2fb04
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---9561b2505f2440e48421
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a2439f2fd4313bf805f7
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a7fc3b3c632669906f19
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b3a5d9d945cd6544fb4c
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b5b20f69f7e6ad8bf950
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---be616747c638d1fb17ae
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---bf3f83c564bfb2b6d3ee
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c3f255057918d562dfd8
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c69bd4869d47aeed5b3c
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d0c66c58970f8de82d7d
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d631b92360fbb2586a62
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d92cdaf1a670afce6056
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d94e6436b3e8bb0c71b7
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---f0a3939c6c811cbb9f16
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       \---fae5420ad7d038d03e90
+|       |       |               visual.json
+|       |       |               
+|       |       +---1374d8c3ba887ae4c02c
+|       |       |   |   page.json
+|       |       |   |   
+|       |       |   \---visuals
+|       |       |       +---000656284e359f125b8a
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---00769583f29fe2b64c50
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---09cb0b4b0015c015d99c
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---13cc83f2159925777c2d
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---1fd1be3336e8e9c71080
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---202c56b0c7a6fa64d77b
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---266aa28eb7868639e534
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---27f189b7a2718a694208
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---2d1766021abe0f7a6dde
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---347c924ebafa4a53291b
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---39ffdf112a2fd493dce0
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---46ac09d20b0a1a2ad983
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---49613eed3143132d945b
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---4e4504de597ec3a11d4a
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---4f08adbab88866b4979f
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---5601738301e7995e152a
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---643d5532a3983c120c97
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---6490cef7ddc97dc5b977
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---706908a0d88717eee814
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---71d959c3ce900bc1c773
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---74658089aaa29503c387
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---79e9bff20aea7aca4891
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---7f252f03341db581b700
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---8a6bd4e9ee22c1423803
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---91df5e4b466836c60284
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---94e990a2418b7e8ce633
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---95618ee5040b68b9ee78
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---9d394c236c50c6b89a64
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a6aa3dae1c64bc2f3ad6
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---ada85ff105c703939409
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---ae9ccbfdcd1ebcebc0ea
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b453ba1454e83b5020fd
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b514abb1a09957d21bc7
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b83e9d8dda6ea823c13e
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---ba7e78775e62e14a47bf
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---beb016abe42865b6b9f0
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c21847e6070bdce7490a
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c3deb67142561eae9526
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c47a96b5c73c4ce44cd7
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---eaadbc9d83a174593895
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---fbe8c9a2ae94d176e95d
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       \---fd82b3104ab3934e982f
+|       |       |               visual.json
+|       |       |               
+|       |       +---1727c31ca7e81a638716
+|       |       |   |   page.json
+|       |       |   |   
+|       |       |   \---visuals
+|       |       |       +---018bde61dba48e2ce72e
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---075d1397dc93980d45d8
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---136a3115a35ab8bb6e14
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---1561d53f75939235f5d9
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---197dbd4eb57ce6dbca6d
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---19ab08f715e036e4a8a6
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---203fd315eb2b045ccb38
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---2bd1af277c374e657511
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---33217e978eaf57810586
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---40814e49acb0638d2425
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---522417871a3e0f158281
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---5e6d7010abb7d6acc5e0
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---5faf003e33597246dcca
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---61308f61c133dccad754
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---7ce456e803f99d2af1d5
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---809e99adbf1497dd1a84
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---812f11c08248277d2694
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---93568db84a575d1cb1e3
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---9f8a65a6e4fbb53669bc
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---9fa9b6cfc6e98c815c48
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b073aa08c6189849b383
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b28df6dc2b9351da7f68
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d845e624911c93761b19
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---eee22707705d70d18888
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---f74b189eebaca39d8e9d
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---f84517e0c4bfbcf6e83b
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       \---fe8a95aa9fcc3606238e
+|       |       |               visual.json
+|       |       |               
+|       |       +---1fcf82ba299c5692a2b4
+|       |       |   |   page.json
+|       |       |   |   
+|       |       |   \---visuals
+|       |       |       +---18362653b1c98af05d60
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---2de7b3e3eae7c195ab91
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---5309e0a7a26749732430
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---548460d9f6a19ad71a8d
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---814708d5d4d9687de3bd
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---86f8400d38bcd3e4dbbf
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---8c683d5064b23c26ac4d
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---9b7d3377d87a29578137
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a3de146438f7414aa2cd
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a779017bade6b6576f13
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---aadaaddae765eee04dd4
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c351922afff13c7a874b
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c43c728610e7c1cccf48
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c751a9a865b8e8aba9cd
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---ca06dfc410c2ff1aeba6
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---eff11844b1a12fa1a3b8
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       \---f5f3ab532e19129ae8e9
+|       |       |               visual.json
+|       |       |               
+|       |       +---23d10e40206341b517f6
+|       |       |   |   page.json
+|       |       |   |   
+|       |       |   \---visuals
+|       |       |       +---1c82c4abdbd40f3a214a
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---2c5b5deb7ff1c96a620f
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---2cfb01ccedc5100dbe59
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---325b62c58eea9e026863
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---487b2916def4b15fd2be
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---5a82f2f249afa1d5a61b
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---692f3044341ab7a28e48
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---7c9164b49f795af27ec0
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---8f9b31d41e09758a6115
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---94b0ae91d03f8908e0fa
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a078fec22ed367ed7e02
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a4ecf650f650e9bee7ec
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---ace87607236317a3df16
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---afd8c1132f8cb35deed1
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b2e501df70a0306fc7b7
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d0c30de74198e1e33a8c
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d1974b7453d79b49fc06
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       \---e2fb0f3c9418283ef596
+|       |       |               visual.json
+|       |       |               
+|       |       +---c5bc9f03e571b9e32b0c
+|       |       |   |   page.json
+|       |       |   |   
+|       |       |   \---visuals
+|       |       |       +---8f6d43c60dc751620de9
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       \---fb237ef95ed0a4ce3250
+|       |       |               visual.json
+|       |       |               
+|       |       +---c6c944f6f8cefed2eb4d
+|       |       |   |   page.json
+|       |       |   |   
+|       |       |   \---visuals
+|       |       |       +---13d41757807b9d69e0ac
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---16f8b3d0be679c92dab6
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---1d5943309d6570e89473
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---21870ae241f785380e82
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---2e5c011167fbf0d1b008
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---3ddfc666b0a9a9a4f312
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---3e50486e0c488a40e894
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---4b801b35f796a26198c2
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---557ab93bcfedbfe6ee59
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---718370e7c589a41e8d45
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---87a6fc356fd4f6e16394
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---92a504ff7c2bf91a3f33
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---944f31b0a4d9c3a6078e
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---95bc395b30ac008a5fd9
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---9b5ec1cb10fd9624e712
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a0dd202e0798bbf18b92
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---a7397c52bc6264a5e075
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---acca08f4751158a84df0
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---aebf6f41349a836b67fc
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---b9911de327c5291ccdfc
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c596ef67544ee9cf09f8
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---c9a3d9efa179b4a82324
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---cd4d9c7a3044e02bbdb4
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---cecca9027b92d8186770
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d51d4ed5dc123e8dd1f2
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---d9be8b250cb722567678
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---dc788f474629fa68e93a
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       +---e1082a40ebef008f13f8
+|       |       |       |       visual.json
+|       |       |       |       
+|       |       |       \---fa2ca0e62238fb2a40eb
+|       |       |               visual.json
+|       |       |               
+|       |       \---e3f3044a3d39d4ba663d
+|       |           |   page.json
+|       |           |   
+|       |           \---visuals
+|       |               +---14b8f01be0edd333b50e
+|       |               |       visual.json
+|       |               |       
+|       |               +---35c92ea553139e671b07
+|       |               |       visual.json
+|       |               |       
+|       |               +---3860f04b804d1c0e3234
+|       |               |       visual.json
+|       |               |       
+|       |               +---4064431ba07268e00fb2
+|       |               |       visual.json
+|       |               |       
+|       |               +---41b5b34818bcdb508103
+|       |               |       visual.json
+|       |               |       
+|       |               +---4934cf27d879a859bf4e
+|       |               |       visual.json
+|       |               |       
+|       |               +---4ba72d0de47cc7d61b1c
+|       |               |       visual.json
+|       |               |       
+|       |               +---5500d0ed830b7ddb2945
+|       |               |       visual.json
+|       |               |       
+|       |               +---5579139deca5a050127b
+|       |               |       visual.json
+|       |               |       
+|       |               +---5c96de949b02a8f291e7
+|       |               |       visual.json
+|       |               |       
+|       |               +---5f22085f3f4ffacc7f66
+|       |               |       visual.json
+|       |               |       
+|       |               +---5fbb3e61aa13ccd9133d
+|       |               |       visual.json
+|       |               |       
+|       |               +---775eb801030cc719d4a4
+|       |               |       visual.json
+|       |               |       
+|       |               +---849fe1a31d3b5399dbc5
+|       |               |       visual.json
+|       |               |       
+|       |               +---8983bbc165f12c728ce6
+|       |               |       visual.json
+|       |               |       
+|       |               +---bde7ab04b9c65b0bb7fb
+|       |               |       visual.json
+|       |               |       
+|       |               +---cd3aa5025048ba34c6f3
+|       |               |       visual.json
+|       |               |       
+|       |               +---cde02cadb87f4dc883d0
+|       |               |       visual.json
+|       |               |       
+|       |               +---d8eae0f998e392da0a41
+|       |               |       visual.json
+|       |               |       
+|       |               +---e77b636caabb2d71a7e5
+|       |               |       visual.json
+|       |               |       
+|       |               +---ee433e1d190b0e30bacb
+|       |               |       visual.json
+|       |               |       
+|       |               +---f4706e94a0b6e5caf24e
+|       |               |       visual.json
+|       |               |       
+|       |               +---f70690f864a48df2c27d
+|       |               |       visual.json
+|       |               |       
+|       |               +---faba5b602452810aa672
+|       |               |       visual.json
+|       |               |       
+|       |               +---fcc41dfea06346a1ecf4
+|       |               |       visual.json
+|       |               |       
+|       |               +---fd1fb5fd21eb7dd03862
+|       |               |       visual.json
+|       |               |       
+|       |               \---fd8bc2c0c2d2f315351d
+|       |                       visual.json
+|       |                       
+|       \---StaticResources
+|           +---RegisteredResources
+|           |       AI_Narrative_Text41588792078976333.png
+|           |       Line_Chart_20028464086796508026.png
+|           |       OMX_Logo_-_Color3935936284716768.png
+|           |       RainwaterTheme11234990230315.json
+|           |       
+|           \---SharedResources
+|               \---BaseThemes
+|                       CY24SU10.json
+|                       
++---4.Documentation
+|   |   # Power BI Theme Builder.md
+|   |   .gitignore
+|   |   CODE_OF_CONDUCT.md
+|   |   CONTRIBUTING.md
+|   |   FAQ.md
+|   |   LICENSE
+|   |   repo_tree.txt
+|   |   
+|   \---legacy
+|           README_1.1.md
+|           
++---tests
+|       testSchema.json
+|       
+\---_reports
+    |   repo_inventory.json
+    |   
+    \---scorecards
+            2025-10-01T220246Z_init_readme.json
+            
+
+

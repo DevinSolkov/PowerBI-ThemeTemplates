@@ -1,0 +1,112 @@
+﻿{
+    "generated":  "2025-10-09T12:21:39.0496480-07:00",
+    "schema_version":  "1.0",
+    "schemas":  [
+                    {
+                        "path":  "themes/inputs/schemas/report_theme_schema-2_114.json",
+                        "description":  "Power BI theme schema 2.114"
+                    },
+                    {
+                        "path":  "themes/inputs/schemas/test_schema.json",
+                        "description":  "Validation fixture for schema smoke tests"
+                    }
+                ],
+    "inputs":  {
+                   "visual_templates":  [
+                                            "advanced_slicer.json",
+                                            "area.json",
+                                            "azure_map.json",
+                                            "button.json",
+                                            "card.json",
+                                            "clustered_bar.json",
+                                            "clustered_column.json",
+                                            "decomposition_tree.json",
+                                            "donut.json",
+                                            "esri_arc_gis_map.json",
+                                            "filled_map.json",
+                                            "funnel.json",
+                                            "gauge.json",
+                                            "global_level_template.json",
+                                            "hundred_percent_stacked_bar.json",
+                                            "hundred_percent_stacked_column.json",
+                                            "image.json",
+                                            "key_influencers.json",
+                                            "kpi.json",
+                                            "line.json",
+                                            "line_clustered_column_combo.json",
+                                            "line_stacked_column_combo.json",
+                                            "map.json",
+                                            "matrix.json",
+                                            "multirow_card.json",
+                                            "pie.json",
+                                            "power_kpi_matrix.json",
+                                            "qna.json",
+                                            "ribbon.json",
+                                            "scatter_chart.json",
+                                            "shape.json",
+                                            "shape_map.json",
+                                            "slicer.json",
+                                            "smart_narrative.json",
+                                            "stacked_area.json",
+                                            "stacked_bar.json",
+                                            "stacked_column.json",
+                                            "table.json",
+                                            "textbox.json",
+                                            "treemap.json",
+                                            "waterfall.json"
+                                        ],
+                   "samples":  [
+                                   "themes/samples/omx_template_report",
+                                   "themes/samples/spend_cube_report"
+                               ]
+               },
+    "outputs":  {
+                    "rainwater":  {
+                                      "version":  "v4_1",
+                                      "files":  [
+                                                    "themes/outputs/rainwater/v4_1/_archive/rainwater_theme_v4_1_backup.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_calibri.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed_pivot_table_azure_balance_bands.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed_pivot_table_frosted_harbor_cells.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed_pivot_table_muted_horizon_ledger.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed_pivot_table_slate_beacon_matrix.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed_pivot_table_teal_summit_totals.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed_table_ex_midnight_ribbon_rows.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed_table_ex_mistline_accent_table.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_fixed_table_ex_polar_stripe_summary.json",
+                                                    "themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_with_table_matrix.json",
+                                                    "themes/outputs/rainwater/v4_1/table_matrix/rainwater_table_matrix_templates.json"
+                                                ]
+                                  },
+                    "spend_cube":  {
+                                       "templates":  [
+                                                         "themes/outputs/spend_cube/templates/spend_cube_advanced_slicer.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_advanced_slicer_pretty.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_button.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_card.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_card_pretty.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_clustered_column.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_image.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_line.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_matrix.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_matrix_pretty.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_power_kpi_matrix.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_shape.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_slicer.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_smart_narrative.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_smart_narrative_pretty.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_table.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_table_pretty.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_textbox.json",
+                                                         "themes/outputs/spend_cube/templates/spend_cube_waterfall.json"
+                                                     ]
+                                   },
+                    "virginia_forest":  {
+                                            "files":  [
+                                                          "themes/outputs/virginia_forest/virginia_forest.json"
+                                                      ]
+                                        }
+                }
+}

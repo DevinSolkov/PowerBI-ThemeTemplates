@@ -1,0 +1,184 @@
+﻿{
+  "name": "Spend Cube Power KPI Matrix",
+  "visualType": "powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6",
+  "defaultStyle": "Style 1",
+  "styles": [
+    {
+      "name": "Style 1",
+      "visualStyles": {
+        "powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6": {
+          "*": {
+            "header": [
+              {
+                "show": false
+              }
+            ],
+            "asOfDate": [
+              {
+                "show": false
+              }
+            ],
+            "currentValue": [
+              {
+                "show": false
+              }
+            ],
+            "kpiIndicatorValue": [
+              {
+                "show": false
+              }
+            ],
+            "comparisonValue": [
+              {
+                "show": false
+              }
+            ],
+            "verticalGrid": [
+              {
+                "show": false
+              }
+            ],
+            "horizontalGrid": [
+              {
+                "show": false
+              }
+            ],
+            "metricName": [
+              {
+                "color": {
+                  "solid": {
+                    "color": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                },
+                "fontSize": 8,
+                "order": 1,
+                "shouldShowLabel": false
+              }
+            ],
+            "sparklineSettings": [
+              {
+                "actualColor": {
+                  "solid": {
+                    "color": "#005598"
+                  }
+                },
+                "actualThickness": 2,
+                "label": " ",
+                "order": 1,
+                "shouldUseCommonScale": false,
+                "verticalReferenceLineThickness": 0
+              }
+            ],
+            "integratedPowerKPI_kpiIndicator": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_kpiIndicatorValue": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_secondKPIIndicatorValue": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_actualValueKPI": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_actualLabelKPI": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_dateValueKPI": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_dateLabelKPI": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_legend": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_xAxis": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_yAxis": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_referenceLineOfYAxis": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_tooltipLabel": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_tooltipVariance": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_secondTooltipVariance": [
+              {
+                "show": false
+              }
+            ],
+            "integratedPowerKPI_tooltipValues": [
+              {
+                "show": false
+              }
+            ],
+            "table": [
+              {
+                "type": 0
+              }
+            ],
+            "title": [
+              {
+                "show": false,
+                "text": "sparkline"
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": false
+              }
+            ],
+            "background": [
+              {
+                "show": false
+              }
+            ]
+          }
+        }
+      },
+      "sampleVisuals": [
+        "themes/samples/spend_cube_report/definition/pages/1374d8c3ba887ae4c02c/visuals/95618ee5040b68b9ee78/visual.json",
+        "themes/samples/spend_cube_report/definition/pages/1374d8c3ba887ae4c02c/visuals/c47a96b5c73c4ce44cd7/visual.json",
+        "themes/samples/spend_cube_report/definition/pages/c6c944f6f8cefed2eb4d/visuals/acca08f4751158a84df0/visual.json"
+      ],
+      "visualCount": 3
+    }
+  ]
+}

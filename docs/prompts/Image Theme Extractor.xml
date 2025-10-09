@@ -1,0 +1,122 @@
+<AgentPrompt version="1.1" name="POWER BI THEME PROPERTY EXTRACTION">
+
+  <Parameters>
+    <ProjectName>{{PROJECT_NAME}}</ProjectName>
+    <ImagePath>/mnt/data/LicenseCostAnalysis.png</ImagePath>
+    <AutoConfirm>false</AutoConfirm>
+    <CommitPolicy>NoCommits</CommitPolicy>
+  </Parameters>
+
+  <Context>
+    Purpose: Analyze a Power BI report image, extract only general theme properties that align with Power BI theme templates, 
+    and produce two deliverables:
+    1. A human-readable markdown summary of general theme properties (Milestone 1)
+    2. A general theme JSON ready for Power BI use (Milestone 2)
+
+    This operation supports repository hygiene for context engine projects used by GPT Codex agents. 
+    It focuses on readability, portability, and strict adherence to general theme schema rules.
+  </Context>
+
+  <Objectives>
+    <Item>Milestone 1: Catalog general theme-relevant properties detected in the uploaded Power BI report image and write docs/theme_properties.md.</Item>
+    <Item>Milestone 2: Generate a minimal Power BI theme JSON (themes/outputs/general-theme.json) using general template properties and the hardcoded styling context.</Item>
+    <Item>Produce a concise completion summary, then update repo tree, CHANGELOG, and README.</Item>
+  </Objectives>
+
+  <HardcodedThemeRules>
+    <Background>#E4E3E1</Background>
+    <LinesBars>#D9531E</LinesBars>
+    <VisualBorder>
+      <Color>#F8FAFC</Color>
+      <CornerRadiusPx>5</CornerRadiusPx>
+      <WidthPx>1</WidthPx>
+    </VisualBorder>
+  </HardcodedThemeRules>
+
+  <Constraints>
+    <Item>Use only general Power BI theme template properties such as background, dataColors, and wildcard visualStyles.</Item>
+    <Item>Exclude all visual-specific properties (barChart, lineChart, etc.).</Item>
+    <Item>Do not execute commits; prepare workspace for review and manual commit.</Item>
+    <Item>Write all new files in docs/ and themes/outputs/.</Item>
+    <Item>Keep markdown and JSON outputs clear and human/machine readable.</Item>
+  </Constraints>
+
+  <Rubric>
+    <Criterion>Milestone 1 markdown file contains only relevant general theme properties with clear color swatches and hex values.</Criterion>
+    <Criterion>Milestone 2 JSON validates against Power BI theme schema with only general-level properties.</Criterion>
+    <Criterion>All repo metadata updated: README, CHANGELOG, and tree snapshot.</Criterion>
+  </Rubric>
+
+  <Startup>
+    <Action>
+      Print a five-bullet summary of goals referencing the image and target files. 
+      Wait for explicit confirmation ("Go") before proceeding unless AutoConfirm is true.
+    </Action>
+  </Startup>
+
+  <Plan>
+    <Step order="1" title="Inventory">
+      Ensure folders docs/ and themes/outputs/ exist. 
+      Capture the current repository tree to inventory_before.txt at root.
+    </Step>
+
+    <Step order="2" title="Milestone 1 — Theme Property Catalog">
+      Analyze {ImagePath} visually. Detect and document only general theme elements:
+        - Report background color
+        - Primary accent color (used for bars and lines)
+        - Global border color, presence, approximate corner radius, and stroke width
+        - Optional font or text color if clearly visible
+      Save results to docs/theme_properties.md using a markdown table with columns for Property, Hex, Swatch, and Notes.
+      Display this summary inline and pause for approval before continuing.
+    </Step>
+
+    <Step order="3" title="Milestone 2 — Theme Generation">
+      After approval, generate themes/outputs/general-theme.json with the following structure:
+      {
+        "name": "{{PROJECT_NAME}} General Theme",
+        "background": "#E4E3E1",
+        "dataColors": ["#D9531E"],
+        "visualStyles": {
+          "*": {
+            "*": [
+              { "border": { "show": true, "color": "#F8FAFC", "radius": 5, "weight": 1 } },
+              { "background": { "color": "#E4E3E1" } }
+            ]
+          }
+        }
+      }
+      Use the hardcoded values above regardless of any image variance.
+    </Step>
+
+    <Step order="4" title="Documentation and Index">
+      Create docs/theme_readme.md describing:
+        - Theme purpose
+        - Property list with applied hex values
+        - How to apply in Power BI
+      Update root README.md to include a “Themes” section linking to docs/theme_readme.md.
+    </Step>
+
+    <Step order="5" title="Finalization">
+      Append entry to CHANGELOG.md with date and description of both milestones.
+      Generate inventory_after.txt with the updated structure.
+      Embed both before/after trees into docs/theme_readme.md.
+      Print final summary with created files and applied color hexes.
+    </Step>
+  </Plan>
+
+  <Outputs>
+    <File>docs/theme_properties.md</File>
+    <File>themes/outputs/general-theme.json</File>
+    <File>docs/theme_readme.md</File>
+    <File>CHANGELOG.md</File>
+    <File>inventory_before.txt</File>
+    <File>inventory_after.txt</File>
+  </Outputs>
+
+  <Finalization>
+    <Task>Update README.md with summary of new theme and reference to generated files.</Task>
+    <Task>Ensure repo tree and CHANGELOG are up to date.</Task>
+    <Task>Output concise completion summary for user verification.</Task>
+  </Finalization>
+
+</AgentPrompt>

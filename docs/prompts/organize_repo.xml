@@ -1,0 +1,71 @@
+<AgentPrompt version="1.0">
+  <Context>
+    <Purpose>Organize a development-facing repository for building and managing custom Power BI themes. The code extracts and normalizes properties from JSON files to generate reusable theme assets. Audience is developers only.</Purpose>
+    <RepoAssumptions>
+      <Item>Top level folders include: reports, GitHub, Tests, Tools, plus possible loose files.</Item>
+      <Item>Agent has read and write access to the workspace.</Item>
+      <Item>You will not perform any git commits or open pull requests.</Item>
+    </RepoAssumptions>
+  </Context>
+
+  <Objectives>
+    <Objective>Inventory the current tree and capture a before snapshot.</Objective>
+    <Objective>Design and apply a clean target structure focused on developer workflows for Power BI theme JSON ingestion and generation.</Objective>
+    <Objective>Normalize and relocate content from Tests and Tools, then remove those folders if empty.</Objective>
+    <Objective>Consolidate and organize reports, GitHub, custom themes, documentation, and any loose files.</Objective>
+    <Objective>Create machine friendly and human friendly READMEs for key folders and update the root README.</Objective>
+    <Objective>Update CHANGELOG and produce before and after repo tree snapshots.</Objective>
+  </Objectives>
+
+  <Constraints>
+    <Constraint>No commits. Produce changes in the workspace only.</Constraint>
+    <Constraint>All docs and paths must be accurate and internally linked.</Constraint>
+    <Constraint>Prefer simple names, lower_snake_case for files, kebab-case only if required by ecosystem, and clear folder purposes.</Constraint>
+    <Constraint>Keep prompts and outputs concise.</Constraint>
+  </Constraints>
+
+  <NamingConventions>
+    <Folders>
+      <Rule>src for scripts and code that transform JSON to Power BI theme outputs.</Rule>
+      <Rule>themes for input JSON, manifests, compiled outputs, and test samples that demonstrate theme variations.</Rule>
+      <Rule>docs for developer documentation, how to run, architecture, and index.</Rule>
+      <Rule>.github for workflows, issue templates, and repo configuration currently in GitHub.</Rule>
+      <Rule>reports for any developer-facing analysis, benchmarks, or design notes that are not end user docs.</Rule>
+    </Folders>
+    <Files>
+      <Rule>README.md and README.machine.md where helpful.</Rule>
+      <Rule>CHANGELOG.md using Keep a Changelog style.</Rule>
+      <Rule>MANIFEST.json inside themes to list inputs, schema version, and build targets.</Rule>
+    </Files>
+  </NamingConventions>
+
+  <TargetStructure>
+    <Tree>
+      <![CDATA[
+root
+  .github/                      # normalized from GitHub
+  docs/                         # developer docs, index, guides
+  reports/                      # dev analysis, design notes
+  src/                          # code and scripts for JSON processing
+  themes/
+    inputs/                     # raw JSON sources
+    outputs/                    # generated Power BI theme JSON
+    samples/                    # sample visuals and minimal PBIX refs if any
+    MANIFEST.json               # declared inputs and outputs
+  README.md                     # human friendly overview
+  README.machine.md             # machine friendly quick spec
+  CHANGELOG.md                  # change log
+      ]]>
+    </Tree>
+  </TargetStructure>
+
+  <Plan>
+    <Step order="1">Inventory: print the current repo tree to inventory_before.txt. Detect top level folders and loose files.</Step>
+    <Step order="2">Propose exact moves: generate a move plan table mapping source to destination with rationale. Save as docs/repo_reorg_plan.md.</Step>
+    <Step order="3">Normalize GitHub to .github. Preserve workflows and templates. Update any paths referenced by workflows.</Step>
+    <Step order="4">Create themes structure with inputs, outputs, samples, and MANIFEST.json. Move all theme JSON and related assets here.</Step>
+    <Step order="5">Create src and move transformation scripts, utilities, and build tooling from Tools and Tests if they contain runnable code.</Step>
+    <Step order="6">Handle Tests and Tools: relocate contents to src, docs, or themes as appropriate. Remove empty Tests and Tools.</Step>
+    <Step order="7">Organize reports under reports with clear subfolders by domain or audience relevant to developer workflows.</Step>
+    <Step order="8">Create docs index at docs/index.md with links to setup, build, schema, and conventions.</Step>
+    <Step order="9">Generate folder-level READMEs. Provide both human friendly and machine friendly variants wher

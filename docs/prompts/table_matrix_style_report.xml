@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompt name="Table Matrix Style Report" version="1.0">
+  <context>
+    <repoRoot>.</repoRoot>
+    <themeFile>themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_calibri.json</themeFile>
+    <schemaFile>themes/inputs/schemas/report_theme_schema-2_114.json</schemaFile>
+    <ingestionCatalog>reports/datasets/catalog.json</ingestionCatalog>
+    <ingestionCsv>reports/datasets/catalog.csv</ingestionCsv>
+    <previousDiffSummary>reports/summaries/exec_summary_diff.md</previousDiffSummary>
+  </context>
+  <objectives>
+    <objective>Identify table and matrix visual style variants defined in the Rainwater theme and scanned catalog.</objective>
+    <objective>Enumerate configurable attributes for those styles based on the official theme JSON schema and scan data.</objective>
+    <objective>Produce a human-friendly markdown report that tabulates attributes (rows) against style variants (columns) for tables and matrices.</objective>
+  </objectives>
+  <milestones>
+    <milestone id="1" title="Discover relevant styles">
+      <inputs>
+        <file>themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_calibri.json</file>
+        <file>reports/datasets/catalog.json</file>
+        <file>reports/datasets/catalog.csv</file>
+      </inputs>
+      <steps>
+        <step>Extract visual style entries for table-like visuals (e.g., tableEx, pivotTable, matrix) from the theme JSON.</step>
+        <step>Scan catalog artifacts to capture observed style variants for table and matrix visuals.</step>
+        <step>Normalize style variant names (case insensitive) and compile a unified list.</step>
+      </steps>
+      <deliverables>
+        <deliverable>Intermediate JSON or CSV of detected table/matrix styles with source references.</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>Includes every style variant discovered in theme or catalog data.</criterion>
+        <criterion>Lists source (theme vs catalog) for traceability.</criterion>
+      </acceptance>
+    </milestone>
+    <milestone id="2" title="Map attributes per style">
+      <inputs>
+        <file>themes/inputs/schemas/report_theme_schema-2_114.json</file>
+        <file>themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_calibri.json</file>
+        <file>reports/datasets/catalog.json</file>
+      </inputs>
+      <steps>
+        <step>Cross-reference style nodes with schema definitions to determine which properties are valid in the template.</step>
+        <step>Aggregate attribute keys observed in scans and in the theme for table and matrix visuals.</step>
+        <step>Group attributes into logical families (e.g., headers, values, subtotal, formatting) where helpful.</step>
+      </steps>
+      <deliverables>
+        <deliverable>Structured dataset (JSON or CSV) listing attributes per style variant with schema notes.</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>Cites schema paths for each attribute family or key.</criterion>
+        <criterion>Flags attributes observed in catalog but absent in the theme.</criterion>
+      </acceptance>
+    </milestone>
+    <milestone id="3" title="Compose markdown report">
+      <inputs>
+        <file>reports/datasets/catalog.json</file>
+        <file>themes/outputs/rainwater/v4_1/rainwater_theme_v4_1_calibri.json</file>
+      </inputs>
+      <steps>
+        <step>Design table layout with style variants as columns and attributes as rows.</step>
+        <step>Populate cells with summaries indicating presence, default values, or notes (theme vs catalog).</step>
+        <step>Add narrative context on how to use the table when authoring style presets.</step>
+      </steps>
+      <deliverables>
+        <deliverable>reports/table_matrix/style_report.md</deliverable>
+      </deliverables>
+      <acceptance>
+        <criterion>Report is human-readable and ready to share with designers.</criterion>
+        <criterion>Includes legend explaining cell annotations (e.g., theme default, catalog observed only).</criterion>
+        <criterion>Highlights gaps or conflicts between theme and scan data.</criterion>
+      </acceptance>
+    </milestone>
+  </milestones>
+  <constraints>
+    <constraint>Read existing artifacts without modifying them; only write to new outputs listed.</constraint>
+    <constraint>Ensure attribute names follow schema casing and pointer conventions.</constraint>
+    <constraint>Document data sources within the report for transparency.</constraint>
+  </constraints>
+  <tools>
+    <tool name="json_parser">Parse and traverse theme JSON and schema definitions.</tool>
+    <tool name="csv_io">Read and write CSV datasets for intermediate aggregations.</tool>
+    <tool name="markdown_writer">Generate structured markdown tables and narrative.</tool>
+  </tools>
+  <outputs>
+    <path>reports/table_matrix/style_report.md</path>
+    <path>reports/table_matrix/style_styles.json</path>
+    <path>reports/table_matrix/style_attributes.csv</path>
+  </outputs>
+  <successCriteria>
+    <criterion>Report enables quick comparison of table/matrix styles and their configurable attributes.</criterion>
+    <criterion>Intermediate data artifacts support reproducibility for future automation.</criterion>
+  </successCriteria>
+</prompt>
