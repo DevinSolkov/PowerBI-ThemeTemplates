@@ -1367,38 +1367,33 @@
             "wordWrap": true
           }
         ],
-        "values": [
-          {
-            "fontFamily": "Calibri",
-            "fontSize": 11,
-            "fontColor": {
-              "solid": {
-                "color": "#0C2340"
-              }
-            },
-            "backColor": {
-              "solid": {
-                "color": "#FFFFFF"
-              }
-            }
-          }
-        ],
-        "grid": [
-          {
-            "gridHorizontal": true,
-            "gridHorizontalColor": {
-              "solid": {
-                "color": "#B0C4D4"
-              }
-            },
-            "gridVertical": false,
-            "gridVerticalColor": {
-              "solid": {
-                "color": "#B0C7D4"
+          "values": [
+            {
+              "fontFamily": "Calibri",
+              "fontSize": 11,
+              "fontColor": {
+                "solid": {
+                  "color": "#2E2E2E"
+                }
+              },
+              "backColor": {
+                "solid": {
+                  "color": "#FFFFFF"
+                }
+              },
+              "alternateBackColor": {
+                "solid": {
+                  "color": "#FFFFFF"
+                }
               }
             }
-          }
-        ],
+          ],
+          "grid": [
+            {
+              "gridHorizontal": false,
+              "gridVertical": false
+            }
+          ],
         "total": [
           {
             "fontFamily": "Calibri",
