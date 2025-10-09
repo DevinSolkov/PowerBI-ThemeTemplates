@@ -1213,7 +1213,7 @@
         ],
         "background": [
           {
-            "show": true,
+            "show": false,
             "transparency": 10,
             "color": {
               "solid": {
@@ -1350,7 +1350,7 @@
         ],
         "background": [
           {
-            "show": true,
+            "show": false,
             "transparency": 10,
             "color": {
               "solid": {
