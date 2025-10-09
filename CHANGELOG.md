@@ -8,9 +8,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 - `docs/theme_properties.md` cataloging general theme colors, borders, and fonts from the License Cost Analysis report.
 - `themes/outputs/general-theme.json` providing the reusable Power BI general theme.
 - `docs/theme_readme.md` documenting theme properties, usage guidance, and repository inventories.
+- `docs/theme_properties_v3_4_3.md` capturing Rainwater 3.4.3 table/matrix observations from the AI Narrative screenshot.
+- `docs/theme_mapping_v3_4_3.md` aligning those observations to pivotTable and tableEx JSON paths.
+- `themes/outputs/rainwater/v3_4_3/rainwater_theme_v3_4_3.json` delivering the updated Rainwater theme without style presets.
 
 ### Changed
 - Updated root `README.md` with a Themes section referencing the new assets.
+- Updated `docs/theme_readme.md` with Rainwater 3.4.3 notes and asset links.
 
 ## [2025-10-09]
 ### Added

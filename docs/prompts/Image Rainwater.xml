@@ -1,0 +1,121 @@
+<AgentPrompt version="1.1" name="RAINWATER 3.4.3 — IMAGE TO THEME WITH VERIFIED MILESTONES">
+
+  <Parameters>
+    <ProjectName>RAINWATER 3.4.3</ProjectName>
+    <InputThemePath>/mnt/data/Rainwater 4.2.json</InputThemePath>
+    <ImagePath>/mnt/data/Screenshot Example.png</ImagePath>
+    <OutputDir>themes/outputs/rainwater/v3_4_3</OutputDir>
+    <AutoConfirm>false</AutoConfirm>
+    <CommitPolicy>NoCommits</CommitPolicy>
+  </Parameters>
+
+  <Context>
+    Purpose: derive table and matrix styling from a screenshot, verify with the user in two checkpoints, then edit the theme JSON.
+    Scope: remove stylePreset from pivotTable and tableEx and replace with explicit general settings. Use only properties visible and reliably inferable from the image.
+  </Context>
+
+  <Objectives>
+    <Item>Milestone 1: Write a natural language summary of table and matrix visual properties detected in the image, save markdown, and pause for user approval.</Item>
+    <Item>Milestone 2: Map the summarized properties to valid Power BI theme template fields for pivotTable and tableEx, save a mapping markdown, and pause for user approval.</Item>
+    <Item>Milestone 3: Apply the approved mapping to produce Rainwater 3.4.3 JSON with explicit settings and no stylePreset, then finalize repo docs.</Item>
+  </Objectives>
+
+  <Constraints>
+    <Item>No commits. Prepare files only.</Item>
+    <Item>Maintain schema compliance using the schema files in themes/inputs/schemas.</Item>
+    <Item>General settings only within pivotTable and tableEx. No presets and no unrelated visuals.</Item>
+    <Item>Deterministic outputs. Keep explanations concise.</Item>
+  </Constraints>
+
+  <Rubric>
+    <Criterion>Milestone 1 markdown accurately describes colors, typography, headers, rows, totals, and grid, using plain language and hex values when visible.</Criterion>
+    <Criterion>Milestone 2 mapping lists each summarized property, the target JSON path, and the proposed value. Paths are valid for pivotTable or tableEx.</Criterion>
+    <Criterion>Final JSON contains explicit properties, validates against the schema, and has no stylePreset nodes.</Criterion>
+    <Criterion>CHANGELOG updated with a dated Rainwater 3.4.3 entry. Repo tree snapshot and README links are updated.</Criterion>
+  </Rubric>
+
+  <Startup>
+    <Action>
+      Print five bullets: image path, summarize properties, map to template, edit JSON, update changelog and repo tree. 
+      Wait for explicit "Go" unless AutoConfirm is true.
+    </Action>
+  </Startup>
+
+  <Plan>
+
+    <Step order="1" title="Inventory">
+      Ensure folders docs/ and {OutputDir} exist.
+      Capture current repo tree to inventory_before.txt at root if not present.
+      Load {InputThemePath}.
+    </Step>
+
+    <Step order="2" title="Milestone 1 — Natural language summary from image">
+      Analyze {ImagePath}.
+      Describe only properties relevant to table or matrix visuals:
+        - Header background color, header font color and size, alignment
+        - Body row font color and size, background style banded or solid
+        - Total and subtotal formatting background and font color
+        - Grid lines visibility and color, vertical and horizontal
+        - General font family if confidently visible
+      Write docs/theme_properties_v3_4_3.md with a short overview and a human friendly bullet list plus a compact table.
+      Print the summary and ASK user to confirm or edit. Stop until approved.
+    </Step>
+
+    <Step order="3" title="Milestone 2 — Map summary to template fields">
+      Build a mapping table that aligns each approved property to the theme JSON:
+        - Target: pivotTable or tableEx
+        - JSON path: e.g., visualStyles.pivotTable["*"].columnHeaders[0].backColor.solid.color
+        - Value: hex or setting
+        - Note: any assumption or confidence hint
+      Save docs/theme_mapping_v3_4_3.md.
+      Print the mapping and ASK user to confirm or edit. Stop until approved.
+    </Step>
+
+    <Step order="4" title="Milestone 3 — Edit theme JSON">
+      From the loaded Rainwater 4.2 theme:
+        - Locate visualStyles.pivotTable["*"] and tableEx["*"].
+        - Remove stylePreset nodes entirely.
+        - Apply the approved mapping as explicit properties under columnHeaders, rowHeaders, values, totals or subTotals, grid, background.
+      Validate against schema in themes/inputs/schemas.
+      Save {OutputDir}/rainwater_theme_v3_4_3.json.
+    </Step>
+
+    <Step order="5" title="Documentation">
+      Update or create docs/theme_readme.md section for Rainwater 3.4.3:
+        - What changed removal of presets and inlining
+        - Link to theme_properties_v3_4_3.md and theme_mapping_v3_4_3.md
+        - Path to the final JSON
+      Update root README.md with a brief entry and links.
+    </Step>
+
+    <Step order="6" title="Finalize">
+      Append to CHANGELOG.md:
+        - Date and version Rainwater 3.4.3
+        - Removal of stylePreset for pivotTable and tableEx
+        - Summary of image driven property updates
+      Generate inventory_after.txt at root.
+      Verify README links resolve and the new JSON path exists.
+      Print a concise completion summary with created files and key properties.
+    </Step>
+
+  </Plan>
+
+  <Outputs>
+    <File>docs/theme_properties_v3_4_3.md</File>
+    <File>docs/theme_mapping_v3_4_3.md</File>
+    <File>{OutputDir}/rainwater_theme_v3_4_3.json</File>
+    <File>docs/theme_readme.md</File>
+    <File>CHANGELOG.md</File>
+    <File>inventory_before.txt</File>
+    <File>inventory_after.txt</File>
+    <File>README.md</File>
+  </Outputs>
+
+  <Finalization>
+    <Task>Update repo tree snapshot inventory_after.txt.</Task>
+    <Task>Update CHANGELOG.md with Rainwater 3.4.3 entry.</Task>
+    <Task>Update README.md with links to new docs and theme.</Task>
+    <Task>Print final summary of actions and key values.</Task>
+  </Finalization>
+
+</AgentPrompt>

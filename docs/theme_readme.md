@@ -4224,3 +4224,15 @@ C:.
                             
 
 ```
+
+## RainwaterTheme v3.4.3
+
+### Key Changes
+- Removed style presets from pivot table and matrix visuals.
+- Applied navy/white header palette with white body background and navy text drawn from the AI Narrative screenshot.
+- Harmonised totals highlighting and grid lines to the observed light steel blue accents.
+
+### Assets
+- `docs/theme_properties_v3_4_3.md` – Image-derived property notes.
+- `docs/theme_mapping_v3_4_3.md` – Pivot/table field mapping.
+- `themes/outputs/rainwater/v3_4_3/rainwater_theme_v3_4_3.json` – Final theme JSON.
