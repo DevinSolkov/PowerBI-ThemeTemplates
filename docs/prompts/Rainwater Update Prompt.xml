@@ -1,0 +1,151 @@
+<MetaPrompt version="1.0">
+  <Title>Map “totals-on-top.json” Matrix settings into “rainwater 4.5.json”</Title>
+
+  <Context>
+    You are an expert Power BI theme engineer working inside a VS Code workspace that contains both:
+    - A sample visual-extract JSON: totals-on-top.json
+    - The main theme: rainwater 4.5.json
+    Goal: Compare Matrix-related settings in totals-on-top.json to those in rainwater 4.5.json, summarize the differences, then (upon approval) replace the Matrix section in the main theme with an adapted Matrix block derived from the sample.
+  </Context>
+
+  <Assumptions>
+    - totals-on-top.json may use visual extract structure (objects → general, rowTotal, subTotals, etc.).
+    - rainwater 4.5.json follows theme schema under visualStyles → pivotTable.
+    - Theme schema does not accept certain visual-only properties like general.layout. If present in the sample, translate or omit as needed while preserving intent.
+  </Assumptions>
+
+  <SuccessCriteria>
+    - Clear step-by-step plan is shown first and paused for confirmation.
+    - A concise diff-style summary of values is produced that contrasts the Matrix settings between files.
+    - On approval, the Matrix block in rainwater 4.5.json is replaced with a schema-valid Matrix section constructed from the sample values and brand fonts/colors from the main theme.
+    - Output includes the updated Matrix JSON snippet and a patch-ready diff.
+    - No other visuals are modified.
+  </SuccessCriteria>
+
+  <Guardrails>
+    - Do not apply unsupported properties in the theme schema.
+    - Preserve existing fonts and brand colors from the main theme when the sample lacks them.
+    - Keep JSON valid and minimal. Arrays and property names must match Power BI theme conventions.
+  </Guardrails>
+
+  <Inputs>
+    <File>totals-on-top.json</File>
+    <File>rainwater 4.5.json</File>
+  </Inputs>
+
+  <Plan>
+    <Step id="0">Read both files. Detect whether totals-on-top.json is a visual-extract format.</Step>
+    <Step id="1">Extract Matrix-relevant fields from totals-on-top.json:
+      objects.general.layout,
+      objects.rowTotal.backColor,
+      objects.rowTotal.applyToHeaders,
+      objects.subTotals[*] where selector.id == "Row" → backColor and any flags such as perRowLevel, rowSubtotalsPosition.
+    </Step>
+    <Step id="2">Extract Matrix block from rainwater 4.5.json:
+      visualStyles.pivotTable["*"] including totals, subTotals, headers, values, fonts.
+    </Step>
+    <Step id="3">Normalize values:
+      - Convert Literal color values to hex strings.
+      - If ThemeDataColor is used, either map to an existing brand hex in rainwater 4.5.json or keep the main theme color.
+      - Omit unsupported properties in theme schema (e.g., general.layout) or translate to nearest supported equivalents.
+    </Step>
+    <Step id="4">Produce a human-readable comparison:
+      - Show “main theme” vs “sample” for each Matrix property that differs or is missing.
+      - End with a yes/no question asking to proceed with replacement.
+    </Step>
+    <Step id="5" dependsOn="approval">Construct a new Matrix theme block:
+      visualStyles.pivotTable["*"] with:
+        • general safe properties (responsive, keepLayerOrder),
+        • columnHeaders/rowHeaders/values fonts taken from rainwater 4.5 unless sample overrides,
+        • totals.backgroundColor and totals.applyToHeaders from sample (fallback to rainwater),
+        • subTotals row settings from sample (rowSubtotals, perRowLevel, rowSubtotalsPosition, applyToHeaders, backColor).
+    </Step>
+    <Step id="6">Output a single JSON snippet for the Matrix block and a unified diff against rainwater 4.5.json.</Step>
+  </Plan>
+
+  <Procedure>
+    <Phase name="ClarifyAndConfirm">
+      <Action>
+        Print:
+        1) A bulleted step list (the Plan above).
+        2) Any assumptions about color mapping or unsupported properties detected.
+        Then ask: “Proceed with comparison?” and wait.
+      </Action>
+      <Pause signal="USER_CONFIRMATION"/>
+    </Phase>
+
+    <Phase name="Compare">
+      <Action>
+        - Parse totals-on-top.json and rainwater 4.5.json.
+        - Build a table of key Matrix properties with paths and values:
+          • Sample: objects.general[0].properties.layout
+          • Sample: objects.rowTotal[0].properties.backColor, applyToHeaders
+          • Sample: objects.subTotals[*] where selector.id == 'Row' → backColor, perRowLevel, rowSubtotalsPosition, applyToHeaders if present
+          • Theme: visualStyles.pivotTable["*"].totals[0].backgroundColor, applyToHeaders
+          • Theme: visualStyles.pivotTable["*"].subTotals[0] properties
+          • Theme fonts: columnHeaders/rowHeaders/values/totals fontFamily/fontSize
+        - Emit a compact JSON “differences” object with { path: { main: value, sample: value } } for only the differing or missing properties.
+        Then ask: “Proceed with replacement using sample settings mapped into theme schema?” and wait.
+      </Action>
+      <Pause signal="USER_CONFIRMATION"/>
+    </Phase>
+
+    <Phase name="Replace">
+      <Action>
+        - Create a new Matrix block for the theme:
+          {
+            "visualStyles": {
+              "pivotTable": {
+                "*": {
+                  "general": [ { "responsive": true, "keepLayerOrder": true } ],
+                  "columnHeaders": [ { "fontFamily": <from theme>, "fontSize": <from theme> } ],
+                  "rowHeaders":    [ { "fontFamily": <from theme>, "fontSize": <from theme> } ],
+                  "values":        [ { "fontFamily": <from theme>, "fontSize": <from theme> } ],
+                  "totals": [
+                    {
+                      "applyToHeaders": <from sample or theme>,
+                      "backgroundColor": { "solid": { "color": <from sample or theme> } },
+                      "fontFamily": <from theme>,
+                      "fontSize": <from theme>
+                    }
+                  ],
+                  "subTotals": [
+                    {
+                      "rowSubtotals": true,
+                      "perRowLevel": <from sample or true>,
+                      "rowSubtotalsPosition": <from sample or "Top">,
+                      "applyToHeaders": <from sample or true>,
+                      "backColor": { "solid": { "color": <from sample or theme> } }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        - Validate JSON.
+        - Produce:
+          1) A standalone JSON snippet for the Matrix block only.
+          2) A unified diff showing the removal of the old Matrix block and insertion of the new one in rainwater 4.5.json.
+      </Action>
+    </Phase>
+  </Procedure>
+
+  <Outputs>
+    <Output name="PlanConfirmation">Readable step list with a yes/no question.</Output>
+    <Output name="DiffSummary">A single JSON object of differences keyed by property path.</Output>
+    <Output name="MatrixSnippet">Schema-valid Matrix-only theme JSON block.</Output>
+    <Output name="UnifiedDiff">Patch-ready diff to apply to rainwater 4.5.json.</Output>
+  </Outputs>
+
+  <SelfCheck>
+    - Is the final JSON valid and minimal.
+    - Are unsupported properties omitted.
+    - Do color values resolve to hex strings.
+    - Do fonts default to main theme when the sample is silent.
+    - Did you pause for confirmation at both checkpoints.
+  </SelfCheck>
+
+  <NextAction>
+    Present the “ClarifyAndConfirm” phase output and wait for user confirmation before proceeding.
+  </NextAction>
+</MetaPrompt>

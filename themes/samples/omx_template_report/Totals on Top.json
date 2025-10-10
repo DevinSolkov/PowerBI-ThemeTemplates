@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "17c590f9b94d308a737c",
   "position": {
-    "x": 487.55905511811028,
-    "y": 57.952755905511815,
-    "z": 2,
-    "height": 783.62204724409457,
-    "width": 541.732283464567
+    "x": 43.765586034912722,
+    "y": 41.5211970074813,
+    "z": 2000,
+    "height": 783.29177057356617,
+    "width": 540.89775561097258
   },
   "visual": {
     "visualType": "pivotTable",
@@ -42,7 +42,7 @@
               },
               "queryRef": "DIM Product.Model",
               "nativeQueryRef": "Model",
-              "active": false
+              "active": true
             }
           ]
         },
@@ -90,7 +90,6 @@
             "queryRefs": [
               "DIM Product.Category"
             ],
-            "isCollapsed": true,
             "isPinned": true
           },
           {
@@ -105,19 +104,6 @@
       }
     ],
     "objects": {
-      "general": [
-        {
-          "properties": {
-            "layout": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Outline'"
-                }
-              }
-            }
-          }
-        }
-      ],
       "rowTotal": [
         {
           "properties": {
@@ -125,9 +111,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 5,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#BADCED'"
                     }
                   }
                 }
@@ -172,26 +157,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Totals on Top'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "20D"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 3,
-                      "Percent": 0
-                    }
-                  }
+                  "Value": "'Total on Top'"
                 }
               }
             }

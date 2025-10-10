@@ -1208,6 +1208,7 @@
       "*": {
         "general": [
           {
+            "layout": "Outline",
             "responsive": true,
             "keepLayerOrder": true
           }
@@ -1329,22 +1330,7 @@
             "wrapText": true
           }
         ],
-        "subTotals": [
-          {
-            "rowSubtotals": true,
-            "columnSubtotals": false,
-            "applyToHeaders": true,
-            "perRowLevel": true,
-            "rowSubtotalsPosition": "Top",
-            "applyToLabels": true,
-            "backColor": {
-              "solid": {
-                "color": "#BADCED"
-              }
-            }
-          }
-        ],
-        "totals": [
+        "rowTotal": [
           {
             "show": true,
             "fontColor": {
@@ -1357,9 +1343,9 @@
                 "color": "#0C2340"
               }
             },
-            "backgroundColor": {
+            "backColor": {
               "solid": {
-                "color": "#C9D9E8"
+                "color": "#BADCED"
               }
             },
             "fontFamily": "Calibri",

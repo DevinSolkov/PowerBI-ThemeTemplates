@@ -5,7 +5,8 @@
       "*": {
         "general": [
           {
-            "layout": "Outline"
+            "responsive": true,
+            "keepLayerOrder": true
           }
         ],
         "columnHeaders": [
