@@ -13,10 +13,12 @@
 | `CHANGELOG.md` | Keep a Changelog log of repository activity. | Updated with every structural change. |
 
 ## Themes
-- `docs/theme_readme.md` – License Cost Analysis general theme notes and usage guide.
-- `themes/outputs/general-theme.json` – Power BI import file generated from the analysis.
-- `docs/theme_properties_v3_4_3.md` / `docs/theme_mapping_v3_4_3.md` – Rainwater 3.4.3 table and matrix extraction docs.
-- `themes/outputs/rainwater/v3_4_3/rainwater_theme_v3_4_3.json` – Rainwater theme without style presets aligned to AI Narrative screenshot.
+- `docs/theme_readme.md` - License Cost Analysis general theme notes and usage guide.
+- `themes/outputs/general-theme.json` - Power BI import file generated from the analysis.
+- `docs/theme_properties_v3_4_3.md` / `docs/theme_mapping_v3_4_3.md` - Rainwater 3.4.3 table and matrix extraction docs.
+- `themes/outputs/rainwater/v3_4_3/rainwater_theme_v3_4_3.json` - Rainwater theme without style presets aligned to AI Narrative screenshot.
+- `themes/outputs/rainwater/Rainwater 4.4.json` - Latest Rainwater theme with refreshed totals and Calibri typography.
+- `themes/inputs/visual_templates/rainwater matrix template.json` / `themes/inputs/visual_templates/rainwater table template.json` - Templates aligned to the Rainwater 4.4 styling.
 
 ## Working With Themes
 - Raw Power BI visual templates live in `themes/inputs/visual_templates/` and follow lower_snake_case naming.

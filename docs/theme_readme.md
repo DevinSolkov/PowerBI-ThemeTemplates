@@ -4233,6 +4233,19 @@ C:.
 - Harmonised totals highlighting and grid lines to the observed light steel blue accents.
 
 ### Assets
-- `docs/theme_properties_v3_4_3.md` – Image-derived property notes.
-- `docs/theme_mapping_v3_4_3.md` – Pivot/table field mapping.
-- `themes/outputs/rainwater/v3_4_3/rainwater_theme_v3_4_3.json` – Final theme JSON.
+- `docs/theme_properties_v3_4_3.md` ï¿½ Image-derived property notes.
+- `docs/theme_mapping_v3_4_3.md` ï¿½ Pivot/table field mapping.
+- `themes/outputs/rainwater/v3_4_3/rainwater_theme_v3_4_3.json` ï¿½ Final theme JSON.
+
+## RainwaterTheme v4.4
+
+### Key Changes
+- Introduced Rainwater 4.4 general theme with updated Calibri typography and navy/white palette.
+- Synced pivot table and table visuals with refreshed subtotal/totals styling and balanced white row backgrounds.
+- Published reusable Rainwater matrix/table templates for future automation.
+
+### Assets
+- 	hemes/outputs/rainwater/Rainwater 4.4.json - Latest Rainwater theme build.
+- 	hemes/inputs/visual_templates/rainwater matrix template.json - Matrix template exported from 4.4.
+- 	hemes/inputs/visual_templates/rainwater table template.json - Table template exported from 4.4.
+
