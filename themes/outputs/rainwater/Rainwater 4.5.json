@@ -1234,7 +1234,7 @@
             "show": true,
             "fontColor": {
               "solid": {
-                "color": "#0C2340"
+                "color": "#005598"
               }
             },
             "background": {
@@ -1243,7 +1243,7 @@
               }
             },
             "fontFamily": "Calibri",
-            "fontSize": 16,
+            "fontSize": 20 ,
             "alignment": "left"
           }
         ],

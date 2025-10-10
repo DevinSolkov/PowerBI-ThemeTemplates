@@ -1,0 +1,57 @@
+{
+  "name": "Matrix Outline Seed",
+  "visualStyles": {
+    "pivotTable": {
+      "*": {
+        "general": [
+          {
+            "layout": "Outline"
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "Calibri",
+            "fontSize": 12
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontFamily": "Calibri",
+            "fontSize": 12
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Calibri",
+            "fontSize": 11
+          }
+        ],
+        "totals": [
+          {
+            "applyToHeaders": true,
+            "backgroundColor": {
+              "solid": {
+                "color": "#BADCED"
+              }
+            },
+            "fontFamily": "Calibri",
+            "fontSize": 12
+          }
+        ],
+        "subTotals": [
+          {
+            "rowSubtotals": true,
+            "perRowLevel": true,
+            "rowSubtotalsPosition": "Top",
+            "applyToHeaders": true,
+            "backColor": {
+              "solid": {
+                "color": "#BADCED"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
