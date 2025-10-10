@@ -13,11 +13,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 - `themes/outputs/rainwater/v3_4_3/rainwater_theme_v3_4_3.json` delivering the updated Rainwater theme without style presets.
 - `themes/outputs/rainwater/Rainwater 4.4.json` reflecting refreshed Rainwater totals, subtotals, and Calibri styling.
 - `themes/inputs/visual_templates/rainwater matrix template.json` and `themes/inputs/visual_templates/rainwater table template.json` for reusable Rainwater 4.4 visuals.
+- `repo_tree.txt` consolidating the workspace inventory snapshot.
 
 ### Changed
 - Updated root `README.md` with a Themes section referencing the new assets.
 - Updated `docs/theme_readme.md` with Rainwater 3.4.3 notes and asset links.
 - Extended documentation to cover Rainwater 4.4 outputs and templates.
+- Replaced legacy inventory files with the unified `repo_tree.txt`.
 
 ## [2025-10-09]
 ### Added

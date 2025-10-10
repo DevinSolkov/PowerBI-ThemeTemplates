@@ -11,6 +11,7 @@
 | `themes/` | Authoritative inputs, generated outputs, and PBIP samples. | `themes/MANIFEST.json` tracks active assets. |
 | `README.machine.md` | Machine-friendly quick spec for automations. | Pairs with this human overview. |
 | `CHANGELOG.md` | Keep a Changelog log of repository activity. | Updated with every structural change. |
+| `repo_tree.txt` | Snapshot of the current repository tree. | Regenerate with `tree /F > repo_tree.txt`. |
 
 ## Themes
 - `docs/theme_readme.md` - License Cost Analysis general theme notes and usage guide.
