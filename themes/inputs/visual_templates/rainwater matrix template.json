@@ -128,7 +128,7 @@
         ],
         "subTotals": [
           {
-            "rowSubtotals": false,
+            "rowSubtotals": true,
             "columnSubtotals": false,
             "applyToHeaders": false
           }
